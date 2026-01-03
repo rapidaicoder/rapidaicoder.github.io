@@ -22,7 +22,7 @@
 - [x] Task: Implement `support.md` (6eae35b) with contact information cards.
 - [x] Task: Conductor - User Manual Verification 'Content & Pages Implementation (MVP)' (Protocol in workflow.md)
 
-## Phase 4: Bilingual Support & Final Polish
+## Phase 4: Bilingual Support & Final Polish [checkpoint: 57fd799]
 - [x] Task: Implement language switching logic (77d60a2) (JavaScript or Liquid-based) to toggle between EN and CN content.
 - [x] Task: Create Chinese versions of all pages (6238199) (`index-cn.md`, etc., or subdirectory structure `cn/`).
 - [x] Task: Add placeholder assets (c558650) (abstract blue backgrounds, UI mockups) to `assets/images/`.
