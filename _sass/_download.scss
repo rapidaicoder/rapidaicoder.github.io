@@ -1,0 +1,35 @@
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.download-card {
+  background-color: $blue-primary;
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba($blue-light, 0.3);
+  text-align: left;
+  h3 {
+    color: $white;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  p {
+    color: $text-secondary;
+    margin-bottom: 25px;
+  }
+}
+
+.code-block {
+  background-color: $blue-dark;
+  padding: 15px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  border: 1px solid rgba($blue-light, 0.5);
+  code {
+    color: $blue-accent;
+  }
+}
