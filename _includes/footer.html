@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="container footer-container">
+    <p class="copyright">
+      {{ site.data.locales[lang].copyright }}
+    </p>
+    <div class="footer-links">
+      <a href="https://github.com/rapidai/aicoder" class="footer-link">GitHub</a>
+      <a href="{{ site.baseurl }}/{% if lang == 'zh-cn' %}zh-cn/{% endif %}support/" class="footer-link">{{ site.data.locales[lang].support }}</a>
+    </div>
+  </div>
+</footer>
