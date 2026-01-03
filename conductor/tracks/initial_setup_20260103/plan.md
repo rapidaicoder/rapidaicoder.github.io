@@ -26,4 +26,4 @@
 - [x] Task: Implement language switching logic (77d60a2) (JavaScript or Liquid-based) to toggle between EN and CN content.
 - [x] Task: Create Chinese versions of all pages (6238199) (`index-cn.md`, etc., or subdirectory structure `cn/`).
 - [x] Task: Add placeholder assets (c558650) (abstract blue backgrounds, UI mockups) to `assets/images/`.
-- [ ] Task: Conductor - User Manual Verification 'Bilingual Support & Final Polish' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Bilingual Support & Final Polish' (Protocol in workflow.md)
