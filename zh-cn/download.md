@@ -16,28 +16,19 @@ permalink: /zh-cn/download/
   <div class="container">
     <div class="download-grid">
       <div class="download-card">
-        <h3>macOS / Linux</h3>
-        <p>通过终端使用我们的一键安装脚本进行安装。</p>
-        <div class="code-block">
-          <code>curl -fsSL https://aicoder.com/install.sh | bash</code>
-        </div>
+        <h3>macOS</h3>
+        <p>适用于 Apple Silicon 和 Intel 处理器的最新版本。</p>
+        <a href="https://github.com/RapidAI/aicoder/releases" class="btn-primary" target="_blank">下载 macOS 版</a>
       </div>
 
       <div class="download-card">
         <h3>Windows</h3>
-        <p>通过 PowerShell 使用以下命令进行安装。</p>
-        <div class="code-block">
-          <code>iwr https://aicoder.com/install.ps1 | iex</code>
-        </div>
+        <p>适用于 Windows 10 和 11 的最新版本。</p>
+        <a href="https://github.com/RapidAI/aicoder/releases" class="btn-primary" target="_blank">下载 Windows 版</a>
       </div>
-
-      <div class="download-card">
-        <h3>Python / PIP</h3>
-        <p>如果您已经安装了 Python，可以使用 pip 进行安装。</p>
-        <div class="code-block">
-          <code>pip install aicoder-cli</code>
-        </div>
-      </div>
+    </div>
+    <div class="download-note">
+      <p>注意：目前 AICoder 仅支持 Windows 和 macOS 系统。</p>
     </div>
   </div>
 </section>

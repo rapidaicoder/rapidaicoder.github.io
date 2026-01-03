@@ -16,28 +16,19 @@ permalink: /download/
   <div class="container">
     <div class="download-grid">
       <div class="download-card">
-        <h3>macOS / Linux</h3>
-        <p>Install via terminal using our one-line installer script.</p>
-        <div class="code-block">
-          <code>curl -fsSL https://aicoder.com/install.sh | bash</code>
-        </div>
+        <h3>macOS</h3>
+        <p>Latest version for Apple Silicon and Intel Macs.</p>
+        <a href="https://github.com/RapidAI/aicoder/releases" class="btn-primary" target="_blank">Download for macOS</a>
       </div>
 
       <div class="download-card">
         <h3>Windows</h3>
-        <p>Install via PowerShell using the following command.</p>
-        <div class="code-block">
-          <code>iwr https://aicoder.com/install.ps1 | iex</code>
-        </div>
+        <p>Latest version for Windows 10 and 11.</p>
+        <a href="https://github.com/RapidAI/aicoder/releases" class="btn-primary" target="_blank">Download for Windows</a>
       </div>
-
-      <div class="download-card">
-        <h3>Python / PIP</h3>
-        <p>If you already have Python installed, you can use pip.</p>
-        <div class="code-block">
-          <code>pip install aicoder-cli</code>
-        </div>
-      </div>
+    </div>
+    <div class="download-note">
+      <p>Note: Currently, AICoder supports Windows and macOS only.</p>
     </div>
   </div>
 </section>
