@@ -23,7 +23,7 @@
 - [x] Task: Conductor - User Manual Verification 'Content & Pages Implementation (MVP)' (Protocol in workflow.md)
 
 ## Phase 4: Bilingual Support & Final Polish
-- [ ] Task: Implement language switching logic (JavaScript or Liquid-based) to toggle between EN and CN content.
+- [x] Task: Implement language switching logic (77d60a2) (JavaScript or Liquid-based) to toggle between EN and CN content.
 - [ ] Task: Create Chinese versions of all pages (`index-cn.md`, etc., or subdirectory structure `cn/`).
 - [ ] Task: Add placeholder assets (abstract blue backgrounds, UI mockups) to `assets/images/`.
 - [ ] Task: Conductor - User Manual Verification 'Bilingual Support & Final Polish' (Protocol in workflow.md)
