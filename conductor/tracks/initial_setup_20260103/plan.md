@@ -19,7 +19,7 @@
 - [x] Task: Implement `features.md` (4b74040) with alternating feature blocks.
 - [x] Task: Implement `download.md` (4b03413) with tabbed or grid layout for OS-specific instructions.
 - [x] Task: Implement `tutorials.md` (379489a) as a list layout for documentation entries.
-- [ ] Task: Implement `support.md` with contact information cards.
+- [x] Task: Implement `support.md` (6eae35b) with contact information cards.
 - [ ] Task: Conductor - User Manual Verification 'Content & Pages Implementation (MVP)' (Protocol in workflow.md)
 
 ## Phase 4: Bilingual Support & Final Polish
