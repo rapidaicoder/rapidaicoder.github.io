@@ -15,7 +15,7 @@
 - [ ] Task: Conductor - User Manual Verification 'Design System & Layouts' (Protocol in workflow.md)
 
 ## Phase 3: Content & Pages Implementation (MVP)
-- [ ] Task: Implement `index.md` (Home) with Hero section and "Why AICoder" grid.
+- [x] Task: Implement `index.md` (c0a048b) (Home) with Hero section and "Why AICoder" grid.
 - [ ] Task: Implement `features.md` with alternating feature blocks.
 - [ ] Task: Implement `download.md` with tabbed or grid layout for OS-specific instructions.
 - [ ] Task: Implement `tutorials.md` as a list layout for documentation entries.
