@@ -1,7 +1,7 @@
 # Track Plan: Initial Website Structure & Design
 
 ## Phase 1: Infrastructure & Configuration
-- [ ] Task: Initialize Jekyll project structure and configure `_config.yml` for GitHub Pages (including plugins).
+- [x] Task: Initialize Jekyll project structure (85b1672) and configure `_config.yml` for GitHub Pages (including plugins).
 - [ ] Task: Create `_data/navigation.yml` for data-driven navigation menus (bilingual structure).
 - [ ] Task: Create `_data/locales.yml` or similar mechanism for string localization (UI labels).
 - [ ] Task: Conductor - User Manual Verification 'Infrastructure & Configuration' (Protocol in workflow.md)
