@@ -11,7 +11,7 @@
 - [x] Task: Create specific mixins and utility classes (3ba83c7) for typography and layout grids.
 - [x] Task: Create `_layouts/default.html` (3ef0a38) base layout with HTML5 boilerplate, meta tags, and favicon.
 - [x] Task: Implement `_includes/header.html` (d694573) with sticky navbar and language switcher logic.
-- [ ] Task: Implement `_includes/footer.html` with copyright and links.
+- [x] Task: Implement `_includes/footer.html` (8724d6b) with copyright and links.
 - [ ] Task: Conductor - User Manual Verification 'Design System & Layouts' (Protocol in workflow.md)
 
 ## Phase 3: Content & Pages Implementation (MVP)
