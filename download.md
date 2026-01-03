@@ -2,6 +2,7 @@
 layout: default
 title: Download
 lang: en
+permalink: /download/
 ---
 
 <section class="page-header section">

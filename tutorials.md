@@ -2,6 +2,7 @@
 layout: default
 title: Tutorials
 lang: en
+permalink: /tutorials/
 ---
 
 <section class="page-header section">

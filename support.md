@@ -2,6 +2,7 @@
 layout: default
 title: Support
 lang: en
+permalink: /support/
 ---
 
 <section class="page-header section">

@@ -2,6 +2,7 @@
 layout: default
 title: Features
 lang: en
+permalink: /features/
 ---
 
 <section class="page-header section">
