@@ -2,6 +2,7 @@
 ---
 
 @import "variables";
+@import "mixins";
 
 body {
   background-color: $blue-dark;
@@ -10,6 +11,36 @@ body {
   margin: 0;
   line-height: 1.6;
 }
+
+.container {
+  @include container;
+}
+
+.section {
+  @include section-padding;
+}
+
+.btn-primary {
+  @include button-base;
+  background-color: $blue-accent;
+  color: $blue-dark;
+  border: 1px solid $blue-accent;
+  &:hover {
+    background-color: transparent;
+    color: $blue-accent;
+  }
+}
+
+.btn-secondary {
+  @include button-base;
+  background-color: transparent;
+  color: $blue-accent;
+  border: 1px solid $blue-accent;
+  &:hover {
+    background-color: rgba($blue-accent, 0.1);
+  }
+}
+
 
 a {
   color: $blue-accent;
