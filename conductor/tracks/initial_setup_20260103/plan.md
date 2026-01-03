@@ -14,7 +14,7 @@
 - [x] Task: Implement `_includes/footer.html` (8724d6b) with copyright and links.
 - [ ] Task: Conductor - User Manual Verification 'Design System & Layouts' (Protocol in workflow.md)
 
-## Phase 3: Content & Pages Implementation (MVP)
+## Phase 3: Content & Pages Implementation (MVP) [checkpoint: d985315]
 - [x] Task: Implement `index.md` (c0a048b) (Home) with Hero section and "Why AICoder" grid.
 - [x] Task: Implement `features.md` (4b74040) with alternating feature blocks.
 - [x] Task: Implement `download.md` (4b03413) with tabbed or grid layout for OS-specific instructions.
