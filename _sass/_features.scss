@@ -1,0 +1,53 @@
+.page-header {
+  background-color: $blue-primary;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.feature-block {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 100px;
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.feature-text {
+  flex: 1;
+  h2 {
+    color: $white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  p {
+    color: $text-secondary;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  ul {
+    color: $text-primary;
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 10px;
+      &:before {
+        content: "▹";
+        color: $blue-accent;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.feature-image-placeholder {
+  flex: 1;
+  background-color: $blue-light;
+  height: 300px;
+  border-radius: 8px;
+  @include flex-center;
+  color: $text-secondary;
+  font-weight: 700;
+  border: 1px dashed rgba($blue-accent, 0.3);
+}
