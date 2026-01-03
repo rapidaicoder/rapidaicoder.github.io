@@ -18,9 +18,18 @@
 
     <div class="lang-switcher">
       {% for l in site.locales %}
-        <a href="{% if l == 'en' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/{{ l }}/{% endif %}" class="lang-link {% if l == lang %}active{% endif %}">
-          {{ l | upcase }}
-        </a>
+        {% if l == lang %}
+          <span class="lang-link active">{{ l | upcase }}</span>
+        {% else %}
+          {% if l == 'en' %}
+            {% assign target_url = page.url | replace_first: '/zh-cn/', '/' %}
+          {% else %}
+            {% assign target_url = '/zh-cn' | append: page.url %}
+          {% endif %}
+          <a href="{{ target_url | relative_url }}" class="lang-link">
+            {{ l | upcase }}
+          </a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
