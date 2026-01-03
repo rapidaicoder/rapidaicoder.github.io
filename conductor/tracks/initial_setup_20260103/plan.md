@@ -16,7 +16,7 @@
 
 ## Phase 3: Content & Pages Implementation (MVP)
 - [x] Task: Implement `index.md` (c0a048b) (Home) with Hero section and "Why AICoder" grid.
-- [ ] Task: Implement `features.md` with alternating feature blocks.
+- [x] Task: Implement `features.md` (4b74040) with alternating feature blocks.
 - [ ] Task: Implement `download.md` with tabbed or grid layout for OS-specific instructions.
 - [ ] Task: Implement `tutorials.md` as a list layout for documentation entries.
 - [ ] Task: Implement `support.md` with contact information cards.
