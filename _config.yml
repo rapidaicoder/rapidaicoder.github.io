@@ -1,0 +1,19 @@
+title: AICoder
+email: support@aicoder.com
+description: >-
+  AICoder: A product website for an integrated vibe coding tool CLI configuration utility.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rapidaicoder.github.io" # the base hostname & protocol for your site
+github_username: rapidai
+github_repo: aicoder
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Custom settings
+locales: ["en", "zh-cn"]
+default_locale: "en"
