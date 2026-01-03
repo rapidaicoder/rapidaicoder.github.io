@@ -1,0 +1,56 @@
+.hero {
+  text-align: center;
+  background: radial-gradient(circle at 50% 50%, $blue-primary 0%, $blue-dark 100%);
+  min-height: 60vh;
+  @include flex-center;
+}
+
+.hero-title {
+  @include heading-lg;
+  color: $white;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: $text-secondary;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: $white;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background-color: $blue-primary;
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba($blue-light, 0.3);
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: translateY(-10px);
+    border-color: $blue-accent;
+  }
+  h3 {
+    color: $blue-accent;
+    margin-bottom: 15px;
+  }
+  p {
+    color: $text-secondary;
+  }
+}
