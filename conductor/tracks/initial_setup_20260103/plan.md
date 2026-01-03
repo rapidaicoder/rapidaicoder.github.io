@@ -18,7 +18,7 @@
 - [x] Task: Implement `index.md` (c0a048b) (Home) with Hero section and "Why AICoder" grid.
 - [x] Task: Implement `features.md` (4b74040) with alternating feature blocks.
 - [x] Task: Implement `download.md` (4b03413) with tabbed or grid layout for OS-specific instructions.
-- [ ] Task: Implement `tutorials.md` as a list layout for documentation entries.
+- [x] Task: Implement `tutorials.md` (379489a) as a list layout for documentation entries.
 - [ ] Task: Implement `support.md` with contact information cards.
 - [ ] Task: Conductor - User Manual Verification 'Content & Pages Implementation (MVP)' (Protocol in workflow.md)
 
