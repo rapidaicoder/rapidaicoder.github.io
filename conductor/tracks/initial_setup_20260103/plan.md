@@ -6,7 +6,7 @@
 - [x] Task: Create `_data/locales.yml` (f06c3bc) or similar mechanism for string localization (UI labels).
 - [ ] Task: Conductor - User Manual Verification 'Infrastructure & Configuration' (Protocol in workflow.md)
 
-## Phase 2: Design System & Layouts
+## Phase 2: Design System & Layouts [checkpoint: 7638195]
 - [x] Task: Set up SASS/SCSS directory structure (9514033) (`_sass/`, `assets/css/style.scss`) and define color variables (Modern Blue palette).
 - [x] Task: Create specific mixins and utility classes (3ba83c7) for typography and layout grids.
 - [x] Task: Create `_layouts/default.html` (3ef0a38) base layout with HTML5 boilerplate, meta tags, and favicon.
