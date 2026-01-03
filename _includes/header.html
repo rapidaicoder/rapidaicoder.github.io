@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="container header-container">
+    <a class="site-logo" href="{{ site.baseurl }}/{% if lang != 'en' %}{{ lang }}/{% endif %}">
+      AICoder
+    </a>
+
+    <nav class="site-nav">
+      <ul class="nav-list">
+        {% for item in site.data.navigation[lang].main %}
+          <li class="nav-item">
+            <a href="{{ item.url | relative_url }}" class="nav-link {% if item.external %}external{% endif %}">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="lang-switcher">
+      {% for l in site.locales %}
+        <a href="{% if l == 'en' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/{{ l }}/{% endif %}" class="lang-link {% if l == lang %}active{% endif %}">
+          {{ l | upcase }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</header>
