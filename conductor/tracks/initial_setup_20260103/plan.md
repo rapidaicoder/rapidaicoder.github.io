@@ -8,7 +8,7 @@
 
 ## Phase 2: Design System & Layouts
 - [x] Task: Set up SASS/SCSS directory structure (9514033) (`_sass/`, `assets/css/style.scss`) and define color variables (Modern Blue palette).
-- [ ] Task: Create specific mixins and utility classes for typography and layout grids.
+- [x] Task: Create specific mixins and utility classes (3ba83c7) for typography and layout grids.
 - [ ] Task: Create `_layouts/default.html` base layout with HTML5 boilerplate, meta tags, and favicon.
 - [ ] Task: Implement `_includes/header.html` with sticky navbar and language switcher logic.
 - [ ] Task: Implement `_includes/footer.html` with copyright and links.
