@@ -1,0 +1,26 @@
+en:
+  main:
+    - title: Features
+      url: /features/
+    - title: Download
+      url: /download/
+    - title: Tutorials
+      url: /tutorials/
+    - title: Support
+      url: /support/
+    - title: GitHub
+      url: https://github.com/rapidai/aicoder
+      external: true
+zh-cn:
+  main:
+    - title: 功能
+      url: /zh-cn/features/
+    - title: 下载
+      url: /zh-cn/download/
+    - title: 教程
+      url: /zh-cn/tutorials/
+    - title: 支持
+      url: /zh-cn/support/
+    - title: GitHub
+      url: https://github.com/rapidai/aicoder
+      external: true
