@@ -1,0 +1,38 @@
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.support-card {
+  background-color: $blue-primary;
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba($blue-light, 0.3);
+  text-align: center;
+  h3 {
+    color: $white;
+    margin-bottom: 15px;
+  }
+  p {
+    color: $text-secondary;
+    margin-bottom: 25px;
+  }
+}
+
+.support-link {
+  color: $blue-accent;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.qr-placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: $white;
+  margin: 0 auto;
+  @include flex-center;
+  color: $blue-dark;
+  font-weight: 700;
+  border-radius: 4px;
+}
