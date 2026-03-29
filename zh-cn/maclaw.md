@@ -21,9 +21,15 @@ permalink: /zh-cn/maclaw/
         <span class="btn-icon">&#x1F4BB;</span>
         <span class="btn-text">macOS</span>
       </a>
+    </div>
+    <div class="download-buttons">
       <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64.AppImage" class="btn-download" target="_blank">
         <span class="btn-icon">&#x1F4BB;</span>
-        <span class="btn-text">Linux</span>
+        <span class="btn-text">Linux x86_64</span>
+      </a>
+      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-aarch64.AppImage" class="btn-download" target="_blank">
+        <span class="btn-icon">&#x1F4BB;</span>
+        <span class="btn-text">Linux aarch64</span>
       </a>
     </div>
 
