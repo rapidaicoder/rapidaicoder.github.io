@@ -1,42 +1,30 @@
-// MaClaw 页面样式 - 桔红色/龙虾系风格
-// 桔红龙虾色调
-$lobster-dark:    #1a0a05;
-$lobster-primary: #2d1810;
-$lobster-light:  #4a2a1f;
-$lobster-accent: #ff6b35;
-$lobster-glow:  rgba(255, 107, 53, 0.2);
-$text-primary: #fff5f0;
-$text-secondary: #cca;
+// MaClaw 页面样式 - 清新淡雅风格
+// 清新淡雅色调 - 更浅的背景
+$bg-white:      #ffffff;
+$bg-light:     #f5f9f7;
+$bg-mint:     #eaf4ef;
+$border-mint:  #d8ebe5;
+$accent-teal:  #2d9b78;
+$text-dark:    #1a3530;
+$text-muted:   #6b8280;
 
-/// Hero 区域
+// Hero 区域
 .hero-maclaw {
   text-align: center;
-  background: linear-gradient(135deg, $lobster-dark 0%, $lobster-primary 50%, darken($lobster-dark, 8%) 100%);
-  min-height: 65vh;
+  background: linear-gradient(180deg, $bg-white 0%, $bg-light 100%);
+  min-height: 60vh;
   position: relative;
   overflow: hidden;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background:
-      radial-gradient(circle at 20% 80%, $lobster-glow 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, rgba(255, 107, 53, 0.1) 0%, transparent 40%);
-    pointer-events: none;
-  }
+  border-bottom: 1px solid $border-mint;
 }
 
 .maclaw-badge {
   display: inline-block;
   padding: 10px 24px;
-  background: rgba($lobster-accent, 0.15);
-  border: 1px solid rgba($lobster-accent, 0.35);
+  background: rgba($accent-teal, 0.08);
+  border: 1px solid rgba($accent-teal, 0.15);
   border-radius: 30px;
-  color: $lobster-accent;
+  color: $accent-teal;
   font-size: 0.85rem;
   letter-spacing: 3px;
   margin-bottom: 24px;
@@ -44,17 +32,17 @@ $text-secondary: #cca;
 }
 
 .hero-title {
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   font-weight: 700;
-  color: $text-primary;
+  color: $text-dark;
   margin-bottom: 20px;
   letter-spacing: -1px;
 
   .title-en {
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    color: $lobster-accent;
+    color: $accent-teal;
     margin-top: 12px;
     font-family: 'Courier New', monospace;
     letter-spacing: 4px;
@@ -62,10 +50,10 @@ $text-secondary: #cca;
 }
 
 .hero-subtitle {
-  font-size: 1.35rem;
-  color: $text-secondary;
-  max-width: 600px;
-  margin: 0 auto 45px;
+  font-size: 1.25rem;
+  color: $text-muted;
+  max-width: 580px;
+  margin: 0 auto 40px;
   line-height: 1.7;
 }
 
@@ -73,44 +61,45 @@ $text-secondary: #cca;
 .download-buttons {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin-bottom: 50px;
+  gap: 14px;
+  margin-bottom: 45px;
   flex-wrap: wrap;
 }
 
 .btn-download {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 14px 28px;
-  background: rgba($lobster-accent, 0.12);
-  border: 1px solid rgba($lobster-accent, 0.45);
+  gap: 8px;
+  padding: 12px 24px;
+  background: $accent-teal;
+  border: 1px solid $accent-teal;
   border-radius: 8px;
-  color: $lobster-accent;
+  color: #ffffff;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   transition: all 0.3s ease;
   text-decoration: none;
 
   &:hover {
-    background: $lobster-accent;
-    color: $lobster-dark;
+    background: $text-dark;
+    border-color: $text-dark;
+    color: #ffffff;
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 6px 16px rgba(45, 155, 120, 0.2);
   }
 
   .btn-icon {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
 .hero-stats {
   display: flex;
   justify-content: center;
-  gap: 60px;
-  margin-top: 50px;
-  padding-top: 45px;
-  border-top: 1px solid rgba($lobster-light, 0.3);
+  gap: 50px;
+  margin-top: 45px;
+  padding-top: 40px;
+  border-top: 1px solid $border-mint;
 }
 
 .stat-item {
@@ -119,15 +108,15 @@ $text-secondary: #cca;
   align-items: center;
 
   .stat-value {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    color: $lobster-accent;
+    color: $accent-teal;
   }
 
   .stat-label {
-    font-size: 0.8rem;
-    color: $text-secondary;
-    margin-top: 6px;
+    font-size: 0.75rem;
+    color: $text-muted;
+    margin-top: 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
@@ -135,13 +124,13 @@ $text-secondary: #cca;
 
 // 三态编程架构
 .modes-section {
-  background: $lobster-dark;
+  background: $bg-white;
 }
 
 .modes-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 26px;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -149,56 +138,56 @@ $text-secondary: #cca;
 }
 
 .mode-card {
-  background: linear-gradient(145deg, $lobster-primary, darken($lobster-primary, 3%));
-  padding: 45px 35px;
-  border-radius: 16px;
+  background: $bg-light;
+  padding: 40px 30px;
+  border-radius: 14px;
   text-align: center;
-  border: 1px solid rgba($lobster-light, 0.4);
+  border: 1px solid $border-mint;
   transition: all 0.35s ease;
 
   &:hover {
-    transform: translateY(-8px);
-    border-color: $lobster-accent;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 0 40px $lobster-glow;
+    transform: translateY(-6px);
+    border-color: $accent-teal;
+    box-shadow: 0 20px 40px rgba(45, 155, 120, 0.08);
   }
 
   .mode-icon {
-    font-size: 2.8rem;
-    margin-bottom: 22px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
     display: block;
   }
 
   h3 {
-    color: $text-primary;
-    font-size: 1.35rem;
-    margin-bottom: 16px;
+    color: $text-dark;
+    font-size: 1.25rem;
+    margin-bottom: 14px;
     font-weight: 600;
   }
 
   p {
-    color: $text-secondary;
-    line-height: 1.7;
-    font-size: 0.95rem;
+    color: $text-muted;
+    line-height: 1.65;
+    font-size: 0.9rem;
   }
 }
 
 // 核心特性
 .features-section {
-  background: linear-gradient(180deg, $lobster-dark 0%, darken($lobster-dark, 5%) 100%);
+  background: $bg-light;
 }
 
 .section-title {
   text-align: center;
-  font-size: 2.4rem;
-  margin-bottom: 55px;
-  color: $text-primary;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  color: $text-dark;
   font-weight: 600;
 }
 
 .features-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
+  gap: 24px;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -206,41 +195,42 @@ $text-secondary: #cca;
 }
 
 .feature-item {
-  background: rgba($lobster-primary, 0.5);
-  padding: 32px 36px;
-  border-radius: 14px;
-  border-left: 4px solid $lobster-accent;
+  background: $bg-white;
+  padding: 28px 32px;
+  border-radius: 12px;
+  border-left: 4px solid $accent-teal;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 
   &:hover {
-    background: rgba($lobster-primary, 0.8);
-    transform: translateX(10px);
+    transform: translateX(8px);
+    box-shadow: 0 4px 16px rgba(45, 155, 120, 0.1);
   }
 
   h3 {
-    color: $lobster-accent;
-    font-size: 1.2rem;
-    margin-bottom: 14px;
+    color: $accent-teal;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
     font-weight: 600;
   }
 
   p {
-    color: $text-secondary;
-    line-height: 1.75;
-    font-size: 0.95rem;
+    color: $text-muted;
+    line-height: 1.7;
+    font-size: 0.9rem;
   }
 }
 
 // 技术栈
 .tech-section {
-  background: $lobster-dark;
+  background: $bg-white;
 }
 
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  max-width: 750px;
+  gap: 16px;
+  max-width: 700px;
   margin: 0 auto;
 
   @media (max-width: 768px) {
@@ -249,35 +239,35 @@ $text-secondary: #cca;
 }
 
 .tech-item {
-  background: $lobster-primary;
-  padding: 28px;
-  border-radius: 12px;
+  background: $bg-light;
+  padding: 24px;
+  border-radius: 10px;
   text-align: center;
-  border: 1px solid rgba($lobster-light, 0.35);
+  border: 1px solid $border-mint;
   transition: all 0.3s ease;
 
   &:hover {
-    border-color: $lobster-accent;
-    transform: translateY(-4px);
+    border-color: $accent-teal;
+    transform: translateY(-3px);
   }
 
   .tech-name {
     display: block;
-    color: $text-primary;
+    color: $text-dark;
     font-weight: 600;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 8px;
   }
 
   .tech-percent {
-    color: $lobster-accent;
-    font-size: 0.85rem;
+    color: $accent-teal;
+    font-size: 0.8rem;
   }
 }
 
 // 快速开始
 .quickstart-section {
-  background: linear-gradient(135deg, $lobster-primary 0%, $lobster-dark 100%);
+  background: $bg-light;
   text-align: center;
 }
 
@@ -285,25 +275,25 @@ $text-secondary: #cca;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 40px;
+  gap: 20px;
+  margin-bottom: 35px;
 }
 
 .step-item {
-  background: rgba($lobster-dark, 0.5);
-  padding: 24px 36px;
-  border-radius: 14px;
-  border: 1px solid rgba($lobster-light, 0.35);
-  color: $text-secondary;
-  font-size: 0.95rem;
-  min-width: 140px;
+  background: $bg-white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 1px solid $border-mint;
+  color: $text-muted;
+  font-size: 0.9rem;
+  min-width: 120px;
 
   .step-num {
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
-    color: $lobster-accent;
-    margin-bottom: 10px;
+    color: $accent-teal;
+    margin-bottom: 8px;
   }
 }
 
@@ -311,27 +301,28 @@ $text-secondary: #cca;
 body.maclaw-page {
   .btn-primary {
     @include button-base;
-    background-color: $lobster-accent;
-    color: $lobster-dark;
-    border: 1px solid $lobster-accent;
+    background-color: $accent-teal;
+    color: #ffffff;
+    border: 1px solid $accent-teal;
     &:hover {
-      background-color: transparent;
-      color: $lobster-accent;
+      background-color: $text-dark;
+      border-color: $text-dark;
+      color: #ffffff;
     }
   }
 
   .btn-secondary {
     @include button-base;
     background-color: transparent;
-    color: $lobster-accent;
-    border: 1px solid $lobster-accent;
+    color: $accent-teal;
+    border: 1px solid $accent-teal;
     &:hover {
-      background-color: rgba($lobster-accent, 0.1);
+      background-color: rgba($accent-teal, 0.08);
     }
   }
 
   a {
-    color: $lobster-accent;
+    color: $accent-teal;
     text-decoration: none;
     &:hover {
       text-decoration: underline;

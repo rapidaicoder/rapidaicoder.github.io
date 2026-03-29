@@ -1,11 +1,20 @@
-// Modern Blue Palette
-$blue-dark:    #0a192f;
-$blue-primary: #172a45;
-$blue-light:   #303c55;
-$blue-accent:  #64ffda; // A bright accent for CTAs
-$text-primary: #ccd6f6;
-$text-secondary: #8892b0;
-$white:        #e6f1ff;
+// MaClaw 清新淡雅风格变量
+$bg-white:      #ffffff;
+$bg-light:     #f5f9f7;
+$bg-mint:     #eaf4ef;
+$border-mint:  #d8ebe5;
+$accent-teal:  #2d9b78;
+$text-dark:    #1a3530;
+$text-muted:   #6b8280;
+
+// 覆盖全局变量
+$blue-dark:    $bg-white;
+$blue-primary: $bg-light;
+$blue-light:   $border-mint;
+$blue-accent:  $accent-teal;
+$text-primary: $text-dark;
+$text-secondary: $text-muted;
+$white:        #ffffff;
 
 // Spacing
 $spacing-unit: 1rem;

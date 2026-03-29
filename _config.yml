@@ -1,11 +1,11 @@
-title: AICoder
-email: support@aicoder.com
+title: MaClaw
+email: support@maclaw.top
 description: >-
-  AICoder: A product website for an integrated vibe coding tool CLI configuration utility.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rapidaicoder.github.io" # the base hostname & protocol for your site
+  MaClaw: 三态智能体研发平台 - 程序员的AI编程伙伴
+baseurl: ""
+url: "https://rapidaicoder.github.io"
 github_username: rapidai
-github_repo: aicoder
+github_repo: maclaw
 
 # Build settings
 theme: minima

@@ -1,8 +1,8 @@
 .site-footer {
-  background-color: $blue-dark;
-  border-top: 1px solid rgba($blue-light, 0.3);
+  background-color: #e8f0ec;
+  border-top: 1px solid #d0ddd6;
   padding: 3rem 0;
-  color: $text-secondary;
+  color: #5a7268;
   font-size: 0.9rem;
 }
 
@@ -18,8 +18,8 @@
 }
 
 .footer-link {
-  color: $text-secondary;
+  color: #5a7268;
   &:hover {
-    color: $blue-accent;
+    color: #2d9b78;
   }
 }

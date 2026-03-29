@@ -6,11 +6,6 @@
 @import "maclaw";
 @import "header";
 @import "footer";
-@import "home";
-@import "features";
-@import "download";
-@import "tutorials";
-@import "support";
 
 body {
   background-color: $blue-dark;
@@ -31,11 +26,11 @@ body {
 .btn-primary {
   @include button-base;
   background-color: $blue-accent;
-  color: $blue-dark;
+  color: #ffffff;
   border: 1px solid $blue-accent;
   &:hover {
-    background-color: transparent;
-    color: $blue-accent;
+    background-color: $text-primary;
+    color: #ffffff;
   }
 }
 
@@ -45,10 +40,9 @@ body {
   color: $blue-accent;
   border: 1px solid $blue-accent;
   &:hover {
-    background-color: rgba($blue-accent, 0.1);
+    background-color: rgba($blue-accent, 0.08);
   }
 }
-
 
 a {
   color: $blue-accent;
