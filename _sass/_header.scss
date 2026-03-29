@@ -1,10 +1,10 @@
 .site-header {
-  background-color: rgba(248, 250, 249, 0.95);
+  background-color: rgba(255, 252, 249, 0.95);
   backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid #d0ddd6;
+  border-bottom: 1px solid #ffdcc8;
   padding: 1rem 0;
 }
 
@@ -17,7 +17,7 @@
 .site-logo {
   font-size: 1.5rem;
   font-weight: 800;
-  color: #2d9b78;
+  color: #ff6b35;
 }
 
 .nav-list {
@@ -32,10 +32,10 @@
 }
 
 .nav-link {
-  color: #1a3530;
+  color: #3d2314;
   font-weight: 500;
   &:hover {
-    color: #2d9b78;
+    color: #ff6b35;
   }
 }
 
@@ -46,10 +46,10 @@
 }
 
 .lang-link {
-  color: #5a7268;
+  color: #8b6b5a;
   font-size: 0.8rem;
   font-weight: 700;
   &.active {
-    color: #2d9b78;
+    color: #ff6b35;
   }
 }

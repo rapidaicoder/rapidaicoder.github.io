@@ -1,17 +1,17 @@
-// MaClaw 清新淡雅风格变量
-$bg-white:      #ffffff;
-$bg-light:     #f5f9f7;
-$bg-mint:     #eaf4ef;
-$border-mint:  #d8ebe5;
-$accent-teal:  #2d9b78;
-$text-dark:    #1a3530;
-$text-muted:   #6b8280;
+// MaClaw 桔红龙虾色调
+$bg-white:      #fffcf9;
+$bg-light:     #fff5ed;
+$bg-peach:     #ffe8d6;
+$border-mint:  #ffdcc8;
+$accent-lobster: #ff6b35;
+$text-dark:    #3d2314;
+$text-muted:   #8b6b5a;
 
 // 覆盖全局变量
 $blue-dark:    $bg-white;
 $blue-primary: $bg-light;
 $blue-light:   $border-mint;
-$blue-accent:  $accent-teal;
+$blue-accent:  $accent-lobster;
 $text-primary: $text-dark;
 $text-secondary: $text-muted;
 $white:        #ffffff;

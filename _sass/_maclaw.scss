@@ -1,30 +1,22 @@
-// MaClaw 页面样式 - 清新淡雅风格
-// 清新淡雅色调 - 更浅的背景
-$bg-white:      #ffffff;
-$bg-light:     #f5f9f7;
-$bg-mint:     #eaf4ef;
-$border-mint:  #d8ebe5;
-$accent-teal:  #2d9b78;
-$text-dark:    #1a3530;
-$text-muted:   #6b8280;
+// MaClaw 桔红龙虾色调页面样式
 
 // Hero 区域
 .hero-maclaw {
   text-align: center;
-  background: linear-gradient(180deg, $bg-white 0%, $bg-light 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fff5ed 100%);
   min-height: 60vh;
   position: relative;
   overflow: hidden;
-  border-bottom: 1px solid $border-mint;
+  border-bottom: 1px solid #ffdcc8;
 }
 
 .maclaw-badge {
   display: inline-block;
   padding: 10px 24px;
-  background: rgba($accent-teal, 0.08);
-  border: 1px solid rgba($accent-teal, 0.15);
+  background: rgba(255, 107, 53, 0.1);
+  border: 1px solid rgba(255, 107, 53, 0.25);
   border-radius: 30px;
-  color: $accent-teal;
+  color: #ff6b35;
   font-size: 0.85rem;
   letter-spacing: 3px;
   margin-bottom: 24px;
@@ -34,7 +26,7 @@ $text-muted:   #6b8280;
 .hero-title {
   font-size: 4.2rem;
   font-weight: 700;
-  color: $text-dark;
+  color: #3d2314;
   margin-bottom: 20px;
   letter-spacing: -1px;
 
@@ -42,7 +34,7 @@ $text-muted:   #6b8280;
     display: block;
     font-size: 1.5rem;
     font-weight: 400;
-    color: $accent-teal;
+    color: #ff6b35;
     margin-top: 12px;
     font-family: 'Courier New', monospace;
     letter-spacing: 4px;
@@ -51,13 +43,13 @@ $text-muted:   #6b8280;
 
 .hero-subtitle {
   font-size: 1.25rem;
-  color: $text-muted;
+  color: #8b6b5a;
   max-width: 580px;
   margin: 0 auto 40px;
   line-height: 1.7;
 }
 
-// 下载按钮组
+// 下载按钮组 - 修复文字颜色
 .download-buttons {
   display: flex;
   justify-content: center;
@@ -71,21 +63,21 @@ $text-muted:   #6b8280;
   align-items: center;
   gap: 8px;
   padding: 12px 24px;
-  background: $accent-teal;
-  border: 1px solid $accent-teal;
+  background: #ff6b35;
+  border: 1px solid #ff6b35;
   border-radius: 8px;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 600;
   font-size: 0.9rem;
   transition: all 0.3s ease;
   text-decoration: none;
 
   &:hover {
-    background: $text-dark;
-    border-color: $text-dark;
-    color: #ffffff;
+    background: #e55a25;
+    border-color: #e55a25;
+    color: #ffffff !important;
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(45, 155, 120, 0.2);
+    box-shadow: 0 6px 16px rgba(255, 107, 53, 0.25);
   }
 
   .btn-icon {
@@ -99,7 +91,7 @@ $text-muted:   #6b8280;
   gap: 50px;
   margin-top: 45px;
   padding-top: 40px;
-  border-top: 1px solid $border-mint;
+  border-top: 1px solid #ffdcc8;
 }
 
 .stat-item {
@@ -110,12 +102,12 @@ $text-muted:   #6b8280;
   .stat-value {
     font-size: 1.8rem;
     font-weight: 700;
-    color: $accent-teal;
+    color: #ff6b35;
   }
 
   .stat-label {
     font-size: 0.75rem;
-    color: $text-muted;
+    color: #8b6b5a;
     margin-top: 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -124,7 +116,7 @@ $text-muted:   #6b8280;
 
 // 三态编程架构
 .modes-section {
-  background: $bg-white;
+  background: #ffffff;
 }
 
 .modes-grid {
@@ -138,17 +130,17 @@ $text-muted:   #6b8280;
 }
 
 .mode-card {
-  background: $bg-light;
+  background: #fff5ed;
   padding: 40px 30px;
   border-radius: 14px;
   text-align: center;
-  border: 1px solid $border-mint;
+  border: 1px solid #ffdcc8;
   transition: all 0.35s ease;
 
   &:hover {
     transform: translateY(-6px);
-    border-color: $accent-teal;
-    box-shadow: 0 20px 40px rgba(45, 155, 120, 0.08);
+    border-color: #ff6b35;
+    box-shadow: 0 20px 40px rgba(255, 107, 53, 0.1);
   }
 
   .mode-icon {
@@ -158,14 +150,14 @@ $text-muted:   #6b8280;
   }
 
   h3 {
-    color: $text-dark;
+    color: #3d2314;
     font-size: 1.25rem;
     margin-bottom: 14px;
     font-weight: 600;
   }
 
   p {
-    color: $text-muted;
+    color: #8b6b5a;
     line-height: 1.65;
     font-size: 0.9rem;
   }
@@ -173,14 +165,14 @@ $text-muted:   #6b8280;
 
 // 核心特性
 .features-section {
-  background: $bg-light;
+  background: #fff5ed;
 }
 
 .section-title {
   text-align: center;
   font-size: 2.2rem;
   margin-bottom: 50px;
-  color: $text-dark;
+  color: #3d2314;
   font-weight: 600;
 }
 
@@ -195,27 +187,27 @@ $text-muted:   #6b8280;
 }
 
 .feature-item {
-  background: $bg-white;
+  background: #ffffff;
   padding: 28px 32px;
   border-radius: 12px;
-  border-left: 4px solid $accent-teal;
+  border-left: 4px solid #ff6b35;
   transition: all 0.3s ease;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 
   &:hover {
     transform: translateX(8px);
-    box-shadow: 0 4px 16px rgba(45, 155, 120, 0.1);
+    box-shadow: 0 4px 16px rgba(255, 107, 53, 0.1);
   }
 
   h3 {
-    color: $accent-teal;
+    color: #ff6b35;
     font-size: 1.1rem;
     margin-bottom: 12px;
     font-weight: 600;
   }
 
   p {
-    color: $text-muted;
+    color: #8b6b5a;
     line-height: 1.7;
     font-size: 0.9rem;
   }
@@ -223,7 +215,7 @@ $text-muted:   #6b8280;
 
 // 技术栈
 .tech-section {
-  background: $bg-white;
+  background: #ffffff;
 }
 
 .tech-grid {
@@ -239,35 +231,35 @@ $text-muted:   #6b8280;
 }
 
 .tech-item {
-  background: $bg-light;
+  background: #fff5ed;
   padding: 24px;
   border-radius: 10px;
   text-align: center;
-  border: 1px solid $border-mint;
+  border: 1px solid #ffdcc8;
   transition: all 0.3s ease;
 
   &:hover {
-    border-color: $accent-teal;
+    border-color: #ff6b35;
     transform: translateY(-3px);
   }
 
   .tech-name {
     display: block;
-    color: $text-dark;
+    color: #3d2314;
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 8px;
   }
 
   .tech-percent {
-    color: $accent-teal;
+    color: #ff6b35;
     font-size: 0.8rem;
   }
 }
 
 // 快速开始
 .quickstart-section {
-  background: $bg-light;
+  background: #fff5ed;
   text-align: center;
 }
 
@@ -280,11 +272,11 @@ $text-muted:   #6b8280;
 }
 
 .step-item {
-  background: $bg-white;
+  background: #ffffff;
   padding: 20px 30px;
   border-radius: 12px;
-  border: 1px solid $border-mint;
-  color: $text-muted;
+  border: 1px solid #ffdcc8;
+  color: #8b6b5a;
   font-size: 0.9rem;
   min-width: 120px;
 
@@ -292,7 +284,7 @@ $text-muted:   #6b8280;
     display: block;
     font-size: 1.6rem;
     font-weight: 700;
-    color: $accent-teal;
+    color: #ff6b35;
     margin-bottom: 8px;
   }
 }
@@ -301,12 +293,12 @@ $text-muted:   #6b8280;
 body.maclaw-page {
   .btn-primary {
     @include button-base;
-    background-color: $accent-teal;
+    background-color: #ff6b35;
     color: #ffffff;
-    border: 1px solid $accent-teal;
+    border: 1px solid #ff6b35;
     &:hover {
-      background-color: $text-dark;
-      border-color: $text-dark;
+      background-color: #e55a25;
+      border-color: #e55a25;
       color: #ffffff;
     }
   }
@@ -314,15 +306,15 @@ body.maclaw-page {
   .btn-secondary {
     @include button-base;
     background-color: transparent;
-    color: $accent-teal;
-    border: 1px solid $accent-teal;
+    color: #ff6b35;
+    border: 1px solid #ff6b35;
     &:hover {
-      background-color: rgba($accent-teal, 0.08);
+      background-color: rgba(255, 107, 53, 0.1);
     }
   }
 
   a {
-    color: $accent-teal;
+    color: #ff6b35;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
