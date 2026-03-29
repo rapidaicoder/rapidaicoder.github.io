@@ -1,0 +1,293 @@
+// MaClaw 页面样式 - 专业/清新/AI范风格
+// 清新青蓝色调变量，区别于 AICoder 的深蓝色调
+$teal-dark:    #0d2928;
+$teal-primary: #0f3d3b;
+$teal-light:   #1a5c57;
+$teal-accent: #00d4aa;
+$teal-glow:   rgba(0, 212, 170, 0.15);
+$text-primary: #e8f4f2;
+$text-secondary: #8fa39e;
+
+// Hero 区域
+.hero-maclaw {
+  text-align: center;
+  background: linear-gradient(135deg, $teal-dark 0%, $teal-primary 50%, darken($teal-dark, 5%) 100%);
+  min-height: 70vh;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+      radial-gradient(circle at 20% 80%, $teal-glow 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(0, 212, 170, 0.08) 0%, transparent 40%);
+    pointer-events: none;
+  }
+}
+
+.maclaw-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  background: rgba($teal-accent, 0.15);
+  border: 1px solid rgba($teal-accent, 0.3);
+  border-radius: 30px;
+  color: $teal-accent;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: $text-primary;
+  margin-bottom: 20px;
+
+  .title-en {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $teal-accent;
+    margin-top: 8px;
+    font-family: 'Courier New', monospace;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: $text-secondary;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid rgba($teal-light, 0.3);
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .stat-value {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $teal-accent;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+    color: $text-secondary;
+    margin-top: 4px;
+  }
+}
+
+// 三态编程架构
+.modes-section {
+  background: $teal-dark;
+}
+
+.modes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mode-card {
+  background: linear-gradient(145deg, $teal-primary, darken($teal-primary, 3%));
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid rgba($teal-light, 0.4);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    border-color: $teal-accent;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 30px $teal-glow;
+  }
+
+  .mode-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    color: $text-primary;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+}
+
+// 核心特性
+.features-section {
+  background: linear-gradient(180deg, $teal-dark 0%, darken($teal-dark, 3%) 100%);
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature-item {
+  background: rgba($teal-primary, 0.5);
+  padding: 30px 35px;
+  border-radius: 12px;
+  border-left: 4px solid $teal-accent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba($teal-primary, 0.8);
+    transform: translateX(8px);
+  }
+
+  h3 {
+    color: $teal-accent;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.7;
+  }
+}
+
+// 技术栈
+.tech-section {
+  background: $teal-dark;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.tech-item {
+  background: $teal-primary;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid rgba($teal-light, 0.3);
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $teal-accent;
+  }
+
+  .tech-name {
+    display: block;
+    color: $text-primary;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+
+  .tech-percent {
+    color: $teal-accent;
+    font-size: 0.9rem;
+  }
+}
+
+// 快速开始
+.quickstart-section {
+  background: linear-gradient(135deg, $teal-primary 0%, $teal-dark 100%);
+  text-align: center;
+}
+
+.quickstart-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.step-item {
+  background: rgba($teal-dark, 0.5);
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba($teal-light, 0.3);
+  color: $text-secondary;
+  font-size: 1rem;
+
+  .step-num {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $teal-accent;
+    margin-bottom: 8px;
+  }
+}
+
+// maclaw 页面按钮覆盖全局样式
+body.maclaw-page {
+  .btn-primary {
+    @include button-base;
+    background-color: $teal-accent;
+    color: $teal-dark;
+    border: 1px solid $teal-accent;
+    &:hover {
+      background-color: transparent;
+      color: $teal-accent;
+    }
+  }
+
+  .btn-secondary {
+    @include button-base;
+    background-color: transparent;
+    color: $teal-accent;
+    border: 1px solid $teal-accent;
+    &:hover {
+      background-color: rgba($teal-accent, 0.1);
+    }
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    color: $text-primary;
+  }
+
+  a {
+    color: $teal-accent;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
