@@ -1,95 +1,110 @@
 ---
 layout: default
-title: MaClaw - 三态智能体研发平台
+title: MaClaw - AI-Powered Development Platform
 lang: en
 permalink: /maclaw/
 ---
 
+<!-- Hero Section -->
 <section class="hero-maclaw section">
-  <div class="container hero-container" style="text-align: center; padding-top: 80px;">
-    <div class="maclaw-badge">三态智能体研发平台</div>
-    <h1 class="hero-title">码卡龙 <span class="title-en">MaClaw</span></h1>
-    <p class="hero-subtitle">程序员的「编程小龙虾」——集本地AI编程、远程浏览器编程、AI自动编排于一体的智能研发平台</p>
-    <div class="hero-btns" style="display: flex; justify-content: center; gap: 20px; margin-bottom: 40px;">
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Setup.exe" class="btn-primary" target="_blank">Download for Windows</a>
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Universal.pkg" class="btn-primary" target="_blank">Download for macOS</a>
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64.AppImage" class="btn-primary" target="_blank">Download for Linux</a>
+  <div class="container" style="text-align: center; padding-top: 60px;">
+    <span class="maclaw-badge">Next-Gen AI Agent Platform</span>
+    <h1 class="hero-title">MaClaw <span class="title-en">码卡龙</span></h1>
+    <p class="hero-subtitle">The intelligent development companion for programmers.<br/>Three-mode AI programming: Local, Remote & Auto-Orchestrated</p>
+
+    <div class="download-buttons">
+      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Setup.exe" class="btn-download" target="_blank">
+        <span class="btn-icon">&#x1F4BB;</span>
+        <span class="btn-text">Windows</span>
+      </a>
+      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Universal.pkg" class="btn-download" target="_blank">
+        <span class="btn-icon">&#x1F4BB;</span>
+        <span class="btn-text">macOS</span>
+      </a>
+      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64.AppImage" class="btn-download" target="_blank">
+        <span class="btn-icon">&#x1F4BB;</span>
+        <span class="btn-text">Linux</span>
+      </a>
     </div>
+
     <div class="hero-stats">
       <div class="stat-item">
         <span class="stat-value">68</span>
-        <span class="stat-label">Stars</span>
+        <span class="stat-label">GitHub Stars</span>
       </div>
       <div class="stat-item">
         <span class="stat-value">V5.2.2</span>
-        <span class="stat-label">Latest</span>
+        <span class="stat-label">Current Version</span>
       </div>
       <div class="stat-item">
-        <span class="stat-value">Go + React</span>
-        <span class="stat-label">Tech Stack</span>
+        <span class="stat-value">2</span>
+        <span class="stat-label">Contributors</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Three Programming Modes -->
 <section class="modes-section section">
   <div class="container">
-    <h2 class="section-title">三态编程架构</h2>
+    <h2 class="section-title">Three-Mode Architecture</h2>
     <div class="modes-grid">
       <div class="mode-card">
-        <div class="mode-icon">💻</div>
-        <h3>本地AI编程</h3>
-        <p>AI CLI工具本地运行，完整访问文件系统，适合日常编码、调试、重构</p>
+        <div class="mode-icon">&#x1F4BB;</div>
+        <h3>Local AI Programming</h3>
+        <p>Run AI assistants locally with full filesystem access. Ideal for coding, debugging, and refactoring tasks.</p>
       </div>
       <div class="mode-card">
-        <div class="mode-icon">🌐</div>
-        <h3>远程浏览器编程</h3>
-        <p>MaClaw Hub浏览器访问，支持PWA/移动端，跨设备协作</p>
+        <div class="mode-icon">&#x1F310;</div>
+        <h3>Remote Browser Programming</h3>
+        <p>Access via MaClaw Hub browser interface. Supports PWA and mobile devices for cross-device collaboration.</p>
       </div>
       <div class="mode-card">
-        <div class="mode-icon">🔄</div>
-        <h3>AI自动编排</h3>
-        <p>Swarm编排器智能拆分任务，多智能体并行执行大型需求</p>
+        <div class="mode-icon">&#x1F9EE;</div>
+        <h3>AI Auto-Orchestration</h3>
+        <p>Swarm orchestrator intelligently splits tasks. Multiple AI agents work in parallel for complex requirements.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Key Features -->
 <section class="features-section section">
   <div class="container">
-    <h2 class="section-title">核心特性</h2>
+    <h2 class="section-title">Powerful Features</h2>
     <div class="features-list">
       <div class="feature-item">
-        <h3>多智能体系统</h3>
-        <p>支持最多5个AI开发者并行执行，智能冲突检测与自动合并，每任务最多5轮自动反馈迭代</p>
+        <h3>Multi-Agent System</h3>
+        <p>Up to 5 AI developers working in parallel with intelligent conflict detection andauto-merging. 5 feedback iterations per task.</p>
       </div>
       <div class="feature-item">
-        <h3>人格系统</h3>
-        <p>可定制智能体身份和性格行为风格，对话中动态角色切换，精神陪伴模式</p>
+        <h3>Personality System</h3>
+        <p>Customizable AI agent identities and behavioral styles. Dynamic role switching during conversations.</p>
       </div>
       <div class="feature-item">
-        <h3>记忆管理系统</h3>
-        <p>基于BM25 + 向量语义索引的持久化记忆，六类记忆分类 + 知识图谱</p>
+        <h3>Long-term Memory</h3>
+        <p>BM25 + vector semantic indexing for persistent memory. Six memory categories with knowledge graph.</p>
       </div>
       <div class="feature-item">
-        <h3>SSH/浏览器监管</h3>
-        <p>最多10个并发远程会话，Chrome DevTools流程录制回放，OCR集成</p>
+        <h3>SSH/Browser Control</h3>
+        <p>Up to 10 concurrent remote sessions. Chrome DevTools recording & playback with OCR integration.</p>
       </div>
       <div class="feature-item">
-        <h3>工具路由与MCP</h3>
-        <p>混合检索路由，本地/远程MCP服务器支持，每请求最多30个工具</p>
+        <h3>Tool Routing & MCP</h3>
+        <p>Hybrid search routing with local/remote MCP server support. Up to 30 tools per request.</p>
       </div>
       <div class="feature-item">
-        <h3>双模式体验</h3>
-        <p>专业模式(Pro)面向开发者，简洁模式(Simple)面向白领用户</p>
+        <h3>Dual Modes</h3>
+        <p>Pro mode for developers, Simple mode for business users. Zero门槛 experience.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Tech Stack -->
 <section class="tech-section section">
   <div class="container">
-    <h2 class="section-title">技术栈</h2>
+    <h2 class="section-title">Built With</h2>
     <div class="tech-grid">
       <div class="tech-item">
         <span class="tech-name">Go</span>
@@ -111,30 +126,31 @@ permalink: /maclaw/
   </div>
 </section>
 
+<!-- Quick Start -->
 <section class="quickstart-section section">
   <div class="container">
-    <h2 class="section-title">Get Started</h2>
+    <h2 class="section-title">Quick Start</h2>
     <div class="quickstart-steps">
       <div class="step-item">
         <span class="step-num">1</span>
-        Register
+        Create Account
       </div>
       <div class="step-item">
         <span class="step-num">2</span>
-        Choose Mode (Pro/Simple)
+        Select Mode
       </div>
       <div class="step-item">
         <span class="step-num">3</span>
-        Configure AI Provider
+        Configure AI
       </div>
       <div class="step-item">
         <span class="step-num">4</span>
-        Bind WeChat (Optional)
+        Start Building
       </div>
     </div>
-    <div class="hero-btns" style="display: flex; justify-content: center; gap: 20px;">
-      <a href="https://maclaw.top" target="_blank">Official Website</a>
-      <a href="https://github.com/rapidai/maclaw" target="_blank">GitHub</a>
+    <div class="hero-btns" style="display: flex; justify-content: center; gap: 20px; margin-top: 30px;">
+      <a href="https://maclaw.top" class="btn-primary" target="_blank">Visit Website</a>
+      <a href="https://github.com/rapidai/maclaw" class="btn-secondary" target="_blank">View on GitHub</a>
     </div>
   </div>
 </section>

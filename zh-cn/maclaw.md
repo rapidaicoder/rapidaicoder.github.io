@@ -1,53 +1,66 @@
 ---
 layout: default
-title: 码卡龙 - 三态智能体研发平台
+title: 码卡龙 - AI智能体研发平台
 lang: zh-cn
 permalink: /zh-cn/maclaw/
 ---
 
+<!-- Hero Section -->
 <section class="hero-maclaw section">
-  <div class="container hero-container" style="text-align: center; padding-top: 80px;">
-    <div class="maclaw-badge">三态智能体研发平台</div>
+  <div class="container" style="text-align: center; padding-top: 60px;">
+    <span class="maclaw-badge">新一代AI智能体研发平台</span>
     <h1 class="hero-title">码卡龙 <span class="title-en">MaClaw</span></h1>
-    <p class="hero-subtitle">程序员的「编程小龙虾」——集本地AI编程、远程浏览器编程、AI自动编排于一体的智能研发平台</p>
-    <div class="hero-btns" style="display: flex; justify-content: center; gap: 20px; margin-bottom: 40px;">
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Setup.exe" class="btn-primary" target="_blank">Windows 下载</a>
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Universal.pkg" class="btn-primary" target="_blank">macOS 下载</a>
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64.AppImage" class="btn-primary" target="_blank">Linux 下载</a>
+    <p class="hero-subtitle">程序员的智能编程伙伴<br/>三态AI编程：本地 / 远程 / 自动编排</p>
+
+    <div class="download-buttons">
+      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Setup.exe" class="btn-download" target="_blank">
+        <span class="btn-icon">&#x1F4BB;</span>
+        <span class="btn-text">Windows</span>
+      </a>
+      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Universal.pkg" class="btn-download" target="_blank">
+        <span class="btn-icon">&#x1F4BB;</span>
+        <span class="btn-text">macOS</span>
+      </a>
+      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64.AppImage" class="btn-download" target="_blank">
+        <span class="btn-icon">&#x1F4BB;</span>
+        <span class="btn-text">Linux</span>
+      </a>
     </div>
+
     <div class="hero-stats">
       <div class="stat-item">
         <span class="stat-value">68</span>
-        <span class="stat-label">Stars</span>
+        <span class="stat-label">GitHub Stars</span>
       </div>
       <div class="stat-item">
         <span class="stat-value">V5.2.2</span>
-        <span class="stat-label">最新版本</span>
+        <span class="stat-label">当前版本</span>
       </div>
       <div class="stat-item">
-        <span class="stat-value">Go + React</span>
-        <span class="stat-label">技术栈</span>
+        <span class="stat-value">2</span>
+        <span class="stat-label">贡献者</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- 三态编程架构 -->
 <section class="modes-section section">
   <div class="container">
     <h2 class="section-title">三态编程架构</h2>
     <div class="modes-grid">
       <div class="mode-card">
-        <div class="mode-icon">💻</div>
+        <div class="mode-icon">&#x1F4BB;</div>
         <h3>本地AI编程</h3>
         <p>AI CLI工具本地运行，完整访问文件系统，适合日常编码、调试、重构</p>
       </div>
       <div class="mode-card">
-        <div class="mode-icon">🌐</div>
+        <div class="mode-icon">&#x1F310;</div>
         <h3>远程浏览器编程</h3>
         <p>MaClaw Hub浏览器访问，支持PWA/移动端，跨设备协作</p>
       </div>
       <div class="mode-card">
-        <div class="mode-icon">🔄</div>
+        <div class="mode-icon">&#x1F9EE;</div>
         <h3>AI自动编排</h3>
         <p>Swarm编排器智能拆分任务，多智能体并行执行大型需求</p>
       </div>
@@ -55,6 +68,7 @@ permalink: /zh-cn/maclaw/
   </div>
 </section>
 
+<!-- 核心特性 -->
 <section class="features-section section">
   <div class="container">
     <h2 class="section-title">核心特性</h2>
@@ -65,7 +79,7 @@ permalink: /zh-cn/maclaw/
       </div>
       <div class="feature-item">
         <h3>人格系统</h3>
-        <p>可定制智能体身份和性格行为风格，对话中动态角色切换，精神陪伴模式</p>
+        <p>可定制智能体身份和性格行为风格，对话中动态角色切换，打造专属AI伙伴</p>
       </div>
       <div class="feature-item">
         <h3>记忆管理系统</h3>
@@ -81,12 +95,13 @@ permalink: /zh-cn/maclaw/
       </div>
       <div class="feature-item">
         <h3>双模式体验</h3>
-        <p>专业模式(Pro)面向开发者，简洁模式(Simple)面向白领用户</p>
+        <p>专业模式(Pro)面向开发者，简洁模式(Simple)面向白领用户，零门槛</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- 技术栈 -->
 <section class="tech-section section">
   <div class="container">
     <h2 class="section-title">技术栈</h2>
@@ -111,6 +126,7 @@ permalink: /zh-cn/maclaw/
   </div>
 </section>
 
+<!-- 快速开始 -->
 <section class="quickstart-section section">
   <div class="container">
     <h2 class="section-title">快速开始</h2>
@@ -121,7 +137,7 @@ permalink: /zh-cn/maclaw/
       </div>
       <div class="step-item">
         <span class="step-num">2</span>
-        选择模式 (Pro/Simple)
+        选择模式
       </div>
       <div class="step-item">
         <span class="step-num">3</span>
@@ -129,9 +145,12 @@ permalink: /zh-cn/maclaw/
       </div>
       <div class="step-item">
         <span class="step-num">4</span>
-        绑定微信 (可选)
+        开始使用
       </div>
     </div>
-    <a href="https://maclaw.top" class="btn-primary" target="_blank">立即访问</a>
+    <div class="hero-btns" style="display: flex; justify-content: center; gap: 20px; margin-top: 30px;">
+      <a href="https://maclaw.top" class="btn-primary" target="_blank">访问官网</a>
+      <a href="https://github.com/rapidai/maclaw" class="btn-secondary" target="_blank">GitHub</a>
+    </div>
   </div>
 </section>
