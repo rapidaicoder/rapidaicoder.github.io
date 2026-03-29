@@ -1,17 +1,17 @@
-// MaClaw 页面样式 - 专业/清新/AI范风格
-// 清新青蓝色调变量，区别于 AICoder 的深蓝色调
-$teal-dark:    #0d2928;
-$teal-primary: #0f3d3b;
-$teal-light:   #1a5c57;
-$teal-accent: #00d4aa;
-$teal-glow:   rgba(0, 212, 170, 0.15);
-$text-primary: #e8f4f2;
-$text-secondary: #8fa39e;
+// MaClaw 页面样式 - 桔红色/龙虾系风格
+// 桔红龙虾色调
+$lobster-dark:    #1a0a05;
+$lobster-primary: #2d1810;
+$lobster-light:  #4a2a1f;
+$lobster-accent: #ff6b35;
+$lobster-glow:  rgba(255, 107, 53, 0.2);
+$text-primary: #fff5f0;
+$text-secondary: #cca;
 
-// Hero 区域
+/// Hero 区域
 .hero-maclaw {
   text-align: center;
-  background: linear-gradient(135deg, $teal-dark 0%, $teal-primary 50%, darken($teal-dark, 5%) 100%);
+  background: linear-gradient(135deg, $lobster-dark 0%, $lobster-primary 50%, darken($lobster-dark, 8%) 100%);
   min-height: 65vh;
   position: relative;
   overflow: hidden;
@@ -24,8 +24,8 @@ $text-secondary: #8fa39e;
     right: 0;
     bottom: 0;
     background:
-      radial-gradient(circle at 20% 80%, $teal-glow 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, rgba(0, 212, 170, 0.08) 0%, transparent 40%);
+      radial-gradient(circle at 20% 80%, $lobster-glow 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(255, 107, 53, 0.1) 0%, transparent 40%);
     pointer-events: none;
   }
 }
@@ -33,10 +33,10 @@ $text-secondary: #8fa39e;
 .maclaw-badge {
   display: inline-block;
   padding: 10px 24px;
-  background: rgba($teal-accent, 0.12);
-  border: 1px solid rgba($teal-accent, 0.25);
+  background: rgba($lobster-accent, 0.15);
+  border: 1px solid rgba($lobster-accent, 0.35);
   border-radius: 30px;
-  color: $teal-accent;
+  color: $lobster-accent;
   font-size: 0.85rem;
   letter-spacing: 3px;
   margin-bottom: 24px;
@@ -54,7 +54,7 @@ $text-secondary: #8fa39e;
     display: block;
     font-size: 1.6rem;
     font-weight: 400;
-    color: $teal-accent;
+    color: $lobster-accent;
     margin-top: 12px;
     font-family: 'Courier New', monospace;
     letter-spacing: 4px;
@@ -83,20 +83,20 @@ $text-secondary: #8fa39e;
   align-items: center;
   gap: 10px;
   padding: 14px 28px;
-  background: rgba($teal-accent, 0.1);
-  border: 1px solid rgba($teal-accent, 0.4);
+  background: rgba($lobster-accent, 0.12);
+  border: 1px solid rgba($lobster-accent, 0.45);
   border-radius: 8px;
-  color: $teal-accent;
+  color: $lobster-accent;
   font-weight: 600;
   font-size: 0.95rem;
   transition: all 0.3s ease;
   text-decoration: none;
 
   &:hover {
-    background: $teal-accent;
-    color: $teal-dark;
+    background: $lobster-accent;
+    color: $lobster-dark;
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 212, 170, 0.25);
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
   }
 
   .btn-icon {
@@ -110,7 +110,7 @@ $text-secondary: #8fa39e;
   gap: 60px;
   margin-top: 50px;
   padding-top: 45px;
-  border-top: 1px solid rgba($teal-light, 0.25);
+  border-top: 1px solid rgba($lobster-light, 0.3);
 }
 
 .stat-item {
@@ -121,7 +121,7 @@ $text-secondary: #8fa39e;
   .stat-value {
     font-size: 2rem;
     font-weight: 700;
-    color: $teal-accent;
+    color: $lobster-accent;
   }
 
   .stat-label {
@@ -135,7 +135,7 @@ $text-secondary: #8fa39e;
 
 // 三态编程架构
 .modes-section {
-  background: $teal-dark;
+  background: $lobster-dark;
 }
 
 .modes-grid {
@@ -149,17 +149,17 @@ $text-secondary: #8fa39e;
 }
 
 .mode-card {
-  background: linear-gradient(145deg, $teal-primary, darken($teal-primary, 3%));
+  background: linear-gradient(145deg, $lobster-primary, darken($lobster-primary, 3%));
   padding: 45px 35px;
   border-radius: 16px;
   text-align: center;
-  border: 1px solid rgba($teal-light, 0.35);
+  border: 1px solid rgba($lobster-light, 0.4);
   transition: all 0.35s ease;
 
   &:hover {
     transform: translateY(-8px);
-    border-color: $teal-accent;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35), 0 0 40px $teal-glow;
+    border-color: $lobster-accent;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 0 40px $lobster-glow;
   }
 
   .mode-icon {
@@ -184,7 +184,7 @@ $text-secondary: #8fa39e;
 
 // 核心特性
 .features-section {
-  background: linear-gradient(180deg, $teal-dark 0%, darken($teal-dark, 4%) 100%);
+  background: linear-gradient(180deg, $lobster-dark 0%, darken($lobster-dark, 5%) 100%);
 }
 
 .section-title {
@@ -206,19 +206,19 @@ $text-secondary: #8fa39e;
 }
 
 .feature-item {
-  background: rgba($teal-primary, 0.45);
+  background: rgba($lobster-primary, 0.5);
   padding: 32px 36px;
   border-radius: 14px;
-  border-left: 4px solid $teal-accent;
+  border-left: 4px solid $lobster-accent;
   transition: all 0.3s ease;
 
   &:hover {
-    background: rgba($teal-primary, 0.75);
+    background: rgba($lobster-primary, 0.8);
     transform: translateX(10px);
   }
 
   h3 {
-    color: $teal-accent;
+    color: $lobster-accent;
     font-size: 1.2rem;
     margin-bottom: 14px;
     font-weight: 600;
@@ -233,7 +233,7 @@ $text-secondary: #8fa39e;
 
 // 技术栈
 .tech-section {
-  background: $teal-dark;
+  background: $lobster-dark;
 }
 
 .tech-grid {
@@ -249,15 +249,15 @@ $text-secondary: #8fa39e;
 }
 
 .tech-item {
-  background: $teal-primary;
+  background: $lobster-primary;
   padding: 28px;
   border-radius: 12px;
   text-align: center;
-  border: 1px solid rgba($teal-light, 0.3);
+  border: 1px solid rgba($lobster-light, 0.35);
   transition: all 0.3s ease;
 
   &:hover {
-    border-color: $teal-accent;
+    border-color: $lobster-accent;
     transform: translateY(-4px);
   }
 
@@ -270,14 +270,14 @@ $text-secondary: #8fa39e;
   }
 
   .tech-percent {
-    color: $teal-accent;
+    color: $lobster-accent;
     font-size: 0.85rem;
   }
 }
 
 // 快速开始
 .quickstart-section {
-  background: linear-gradient(135deg, $teal-primary 0%, $teal-dark 100%);
+  background: linear-gradient(135deg, $lobster-primary 0%, $lobster-dark 100%);
   text-align: center;
 }
 
@@ -290,10 +290,10 @@ $text-secondary: #8fa39e;
 }
 
 .step-item {
-  background: rgba($teal-dark, 0.5);
+  background: rgba($lobster-dark, 0.5);
   padding: 24px 36px;
   border-radius: 14px;
-  border: 1px solid rgba($teal-light, 0.3);
+  border: 1px solid rgba($lobster-light, 0.35);
   color: $text-secondary;
   font-size: 0.95rem;
   min-width: 140px;
@@ -302,36 +302,36 @@ $text-secondary: #8fa39e;
     display: block;
     font-size: 1.8rem;
     font-weight: 700;
-    color: $teal-accent;
+    color: $lobster-accent;
     margin-bottom: 10px;
   }
 }
 
-// maclaw 页面按钮覆盖全局样式
+// 页面样式覆盖
 body.maclaw-page {
   .btn-primary {
     @include button-base;
-    background-color: $teal-accent;
-    color: $teal-dark;
-    border: 1px solid $teal-accent;
+    background-color: $lobster-accent;
+    color: $lobster-dark;
+    border: 1px solid $lobster-accent;
     &:hover {
       background-color: transparent;
-      color: $teal-accent;
+      color: $lobster-accent;
     }
   }
 
   .btn-secondary {
     @include button-base;
     background-color: transparent;
-    color: $teal-accent;
-    border: 1px solid $teal-accent;
+    color: $lobster-accent;
+    border: 1px solid $lobster-accent;
     &:hover {
-      background-color: rgba($teal-accent, 0.1);
+      background-color: rgba($lobster-accent, 0.1);
     }
   }
 
   a {
-    color: $teal-accent;
+    color: $lobster-accent;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
