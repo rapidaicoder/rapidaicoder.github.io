@@ -107,31 +107,6 @@ permalink: /zh-cn/
   </div>
 </section>
 
-<!-- 技术栈 -->
-<section class="tech-section section">
-  <div class="container">
-    <h2 class="section-title">技术栈</h2>
-    <div class="tech-grid">
-      <div class="tech-item">
-        <span class="tech-name">Go</span>
-        <span class="tech-percent">67.4%</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">TypeScript</span>
-        <span class="tech-percent">13.2%</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">Wails</span>
-        <span class="tech-percent">框架</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">React</span>
-        <span class="tech-percent">UI</span>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- 快速开始 -->
 <section class="quickstart-section section">
   <div class="container">

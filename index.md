@@ -107,31 +107,6 @@ permalink: /
   </div>
 </section>
 
-<!-- Tech Stack -->
-<section class="tech-section section">
-  <div class="container">
-    <h2 class="section-title">Built With</h2>
-    <div class="tech-grid">
-      <div class="tech-item">
-        <span class="tech-name">Go</span>
-        <span class="tech-percent">67.4%</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">TypeScript</span>
-        <span class="tech-percent">13.2%</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">Wails</span>
-        <span class="tech-percent">Framework</span>
-      </div>
-      <div class="tech-item">
-        <span class="tech-name">React</span>
-        <span class="tech-percent">UI</span>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Quick Start -->
 <section class="quickstart-section section">
   <div class="container">
