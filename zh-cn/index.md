@@ -32,21 +32,6 @@ permalink: /zh-cn/
         <span class="btn-text">Linux aarch64</span>
       </a>
     </div>
-
-    <div class="hero-stats">
-      <div class="stat-item">
-        <span class="stat-value">68</span>
-        <span class="stat-label">GitHub Stars</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value">V5.2.2</span>
-        <span class="stat-label">当前版本</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value">2</span>
-        <span class="stat-label">贡献者</span>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -57,9 +42,39 @@ permalink: /zh-cn/
     <p class="section-subtitle">AI驱动的生产力工具，助力企业数字化转型</p>
     <div class="enterprise-grid">
       <div class="enterprise-card">
+        <div class="enterprise-icon">&#x1F9E0;</div>
+        <h3>高级记忆系统</h3>
+        <p>多层记忆架构，智能召回与遗忘机制。</p>
+        <ul class="feature-list">
+          <li>BM25 + 向量语义混合检索</li>
+          <li>艾宾浩斯遗忘曲线优化</li>
+          <li>知识图谱关系链接</li>
+        </ul>
+      </div>
+      <div class="enterprise-card">
+        <div class="enterprise-icon">&#x1F527;</div>
+        <h3>可扩展工具系统</h3>
+        <p>动态工具注册表，支持MCP协议集成。</p>
+        <ul class="feature-list">
+          <li>本地/远程MCP服务器支持</li>
+          <li>自动发现与健康监控</li>
+          <li>每请求最多30个工具</li>
+        </ul>
+      </div>
+      <div class="enterprise-card">
+        <div class="enterprise-icon">&#x1F916;</div>
+        <h3>多智能体编排</h3>
+        <p>Swarm编排器协调多个AI智能体并行工作。</p>
+        <ul class="feature-list">
+          <li>最多5个并发AI智能体</li>
+          <li>智能冲突检测</li>
+          <li>自动合并与5轮反馈迭代</li>
+        </ul>
+      </div>
+      <div class="enterprise-card">
         <div class="enterprise-icon">&#x1F4CA;</div>
         <h3>智能数据分析</h3>
-        <p>将原始数据转化为可执行的洞察。支持Excel、CSV、数据库的一键报表生成、图表制作和数据看板。</p>
+        <p>将原始数据转化为可执行洞察，支持Excel/CSV。</p>
         <ul class="feature-list">
           <li>一键生成报表</li>
           <li>智能数据可视化</li>
@@ -69,51 +84,21 @@ permalink: /zh-cn/
       <div class="enterprise-card">
         <div class="enterprise-icon">&#x1F4DD;</div>
         <h3>文档智能处理</h3>
-        <p>自动化文档创建、摘要生成和多语言翻译。支持合同、报告、商务信函等各类文档。</p>
+        <p>自动化文档创建、PDF生成，支持多格式。</p>
         <ul class="feature-list">
           <li>自动排版与模板</li>
-          <li>多语言翻译</li>
+          <li>PDF/Word/PowerPoint支持</li>
           <li>智能内容建议</li>
         </ul>
       </div>
       <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F4AC;</div>
-        <h3>会议智能助手</h3>
-        <p>实时会议转录、待办事项提取、自动生成会议纪要。重要决策不再遗漏。</p>
+        <div class="enterprise-icon">&#x1F310;</div>
+        <h3>网络与研究工具</h3>
+        <p>集成网络搜索和内容获取，支持研究工作流。</p>
         <ul class="feature-list">
-          <li>语音转文字</li>
-          <li>待办事项追踪</li>
-          <li>跟进提醒</li>
-        </ul>
-      </div>
-      <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F4E7;</div>
-        <h3>沟通协作中心</h3>
-        <p>智能邮件撰写、回复建议、收件箱管理。集成企业微信、钉钉、飞书等办公平台。</p>
-        <ul class="feature-list">
-          <li>专业邮件模板</li>
-          <li>语气调整</li>
-          <li>多平台集成</li>
-        </ul>
-      </div>
-      <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F4C5;</div>
-        <h3>项目管理助手</h3>
-        <p>AI辅助项目规划、时间线生成、资源分配。智能提醒确保项目按时推进。</p>
-        <ul class="feature-list">
-          <li>甘特图生成</li>
-          <li>风险评估</li>
-          <li>资源优化</li>
-        </ul>
-      </div>
-      <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F50D;</div>
-        <h3>知识管理</h3>
-        <p>构建和维护企业知识库。快速搜索文档、Wiki和内部资源。</p>
-        <ul class="feature-list">
-          <li>语义搜索</li>
-          <li>自动分类</li>
-          <li>知识图谱</li>
+          <li>实时网络搜索</li>
+          <li>内容提取与摘要</li>
+          <li>多源聚合</li>
         </ul>
       </div>
     </div>
@@ -199,20 +184,36 @@ permalink: /zh-cn/
     <p class="section-subtitle">技术团队的高级功能</p>
     <div class="developer-grid">
       <div class="developer-card">
-        <h3>多智能体系统</h3>
-        <p>最多5个AI智能体并行工作，智能冲突检测与自动合并。</p>
+        <h3>记忆架构</h3>
+        <p>8类记忆分类，语义/情景双层，时序层级，受保护条目</p>
       </div>
       <div class="developer-card">
-        <h3>三态架构</h3>
-        <p>本地CLI、远程浏览器、自动编排三种模式灵活切换。</p>
+        <h3>混合检索</h3>
+        <p>BM25关键词 + 向量相似度，SIMD加速余弦计算</p>
       </div>
       <div class="developer-card">
-        <h3>长期记忆</h3>
-        <p>BM25 + 向量语义索引，跨会话持久化记忆。</p>
+        <h3>知识图谱</h3>
+        <p>双向加权边，BFS扩展，多种关系类型</p>
+      </div>
+      <div class="developer-card">
+        <h3>遗忘曲线</h3>
+        <p>艾宾浩斯衰减，可配置半衰期（约9.6天），休眠阈值</p>
+      </div>
+      <div class="developer-card">
+        <h3>Swarm编排器</h3>
+        <p>任务拆分、冲突检测、自动合并、反馈循环协调</p>
       </div>
       <div class="developer-card">
         <h3>MCP集成</h3>
-        <p>支持本地/远程MCP服务器，每请求最多30个工具。</p>
+        <p>本地stdio和远程HTTP MCP服务器，自动发现与健康状态</p>
+      </div>
+      <div class="developer-card">
+        <h3>工具注册表</h3>
+        <p>线程安全动态注册，分类过滤，平台检查</p>
+      </div>
+      <div class="developer-card">
+        <h3>工作流引擎</h3>
+        <p>阶段执行，工具策略，双重确认，持久化存储</p>
       </div>
     </div>
   </div>

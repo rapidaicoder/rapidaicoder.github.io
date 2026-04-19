@@ -32,21 +32,6 @@ permalink: /
         <span class="btn-text">Linux aarch64</span>
       </a>
     </div>
-
-    <div class="hero-stats">
-      <div class="stat-item">
-        <span class="stat-value">68</span>
-        <span class="stat-label">GitHub Stars</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value">V5.2.2</span>
-        <span class="stat-label">Current Version</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value">2</span>
-        <span class="stat-label">Contributors</span>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -57,9 +42,39 @@ permalink: /
     <p class="section-subtitle">Transform your workplace with AI-powered productivity tools</p>
     <div class="enterprise-grid">
       <div class="enterprise-card">
+        <div class="enterprise-icon">&#x1F9E0;</div>
+        <h3>Advanced Memory System</h3>
+        <p>Multi-tier memory architecture with intelligent recall and forgetting mechanisms.</p>
+        <ul class="feature-list">
+          <li>BM25 + Vector semantic hybrid search</li>
+          <li>Ebbinghaus forgetting curve optimization</li>
+          <li>Knowledge graph with relationship linking</li>
+        </ul>
+      </div>
+      <div class="enterprise-card">
+        <div class="enterprise-icon">&#x1F527;</div>
+        <h3>Extensible Tool System</h3>
+        <p>Dynamic tool registry with MCP (Model Context Protocol) integration.</p>
+        <ul class="feature-list">
+          <li>Local & remote MCP server support</li>
+          <li>Auto-discovery and health monitoring</li>
+          <li>Up to 30 tools per request</li>
+        </ul>
+      </div>
+      <div class="enterprise-card">
+        <div class="enterprise-icon">&#x1F916;</div>
+        <h3>Multi-Agent Orchestration</h3>
+        <p>Swarm orchestrator for parallel AI agent coordination.</p>
+        <ul class="feature-list">
+          <li>Up to 5 concurrent AI agents</li>
+          <li>Intelligent conflict detection</li>
+          <li>Auto-merge with 5 feedback iterations</li>
+        </ul>
+      </div>
+      <div class="enterprise-card">
         <div class="enterprise-icon">&#x1F4CA;</div>
         <h3>Intelligent Data Analysis</h3>
-        <p>Transform raw data into actionable insights. Auto-generate reports, charts, and dashboards from Excel, CSV, and databases.</p>
+        <p>Transform raw data into actionable insights with Excel/CSV support.</p>
         <ul class="feature-list">
           <li>One-click report generation</li>
           <li>Smart data visualization</li>
@@ -69,51 +84,21 @@ permalink: /
       <div class="enterprise-card">
         <div class="enterprise-icon">&#x1F4DD;</div>
         <h3>Document Intelligence</h3>
-        <p>Automate document creation, summarization, and translation. Support for contracts, reports, and business correspondence.</p>
+        <p>Automate document creation, PDF generation, and multi-format support.</p>
         <ul class="feature-list">
           <li>Auto-formatting & templates</li>
-          <li>Multi-language translation</li>
+          <li>PDF/Word/PowerPoint support</li>
           <li>Smart content suggestions</li>
         </ul>
       </div>
       <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F4AC;</div>
-        <h3>Meeting Assistant</h3>
-        <p>Real-time meeting transcription, action item extraction, and automatic summary generation. Never miss important decisions.</p>
+        <div class="enterprise-icon">&#x1F310;</div>
+        <h3>Web & Research Tools</h3>
+        <p>Integrated web search and content fetching for research workflows.</p>
         <ul class="feature-list">
-          <li>Voice-to-text transcription</li>
-          <li>Action item tracking</li>
-          <li>Follow-up reminders</li>
-        </ul>
-      </div>
-      <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F4E7;</div>
-        <h3>Communication Hub</h3>
-        <p>Smart email drafting, reply suggestions, and inbox management. Integrate with Slack, Teams, and enterprise email systems.</p>
-        <ul class="feature-list">
-          <li>Professional email templates</li>
-          <li>Tone adjustment</li>
-          <li>Multi-platform integration</li>
-        </ul>
-      </div>
-      <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F4C5;</div>
-        <h3>Project Management</h3>
-        <p>AI-assisted project planning, timeline generation, and resource allocation. Keep projects on track with smart reminders.</p>
-        <ul class="feature-list">
-          <li>Gantt chart generation</li>
-          <li>Risk assessment</li>
-          <li>Resource optimization</li>
-        </ul>
-      </div>
-      <div class="enterprise-card">
-        <div class="enterprise-icon">&#x1F50D;</div>
-        <h3>Knowledge Management</h3>
-        <p>Build and maintain enterprise knowledge base. Quick search across documents, wikis, and internal resources.</p>
-        <ul class="feature-list">
-          <li>Semantic search</li>
-          <li>Auto-categorization</li>
-          <li>Knowledge graph</li>
+          <li>Real-time web search</li>
+          <li>Content extraction & summarization</li>
+          <li>Multi-source aggregation</li>
         </ul>
       </div>
     </div>
@@ -199,20 +184,36 @@ permalink: /
     <p class="section-subtitle">Advanced features for technical teams</p>
     <div class="developer-grid">
       <div class="developer-card">
-        <h3>Multi-Agent System</h3>
-        <p>Up to 5 AI agents working in parallel with intelligent conflict detection and auto-merging.</p>
+        <h3>Memory Architecture</h3>
+        <p>8 memory categories with semantic/episodic tiers, temporal hierarchy, and protected entries.</p>
       </div>
       <div class="developer-card">
-        <h3>Three-Mode Architecture</h3>
-        <p>Local CLI, Remote Browser, and Auto-Orchestration modes for flexible development workflows.</p>
+        <h3>Hybrid Search</h3>
+        <p>BM25 keyword search + vector similarity with SIMD-accelerated cosine scoring.</p>
       </div>
       <div class="developer-card">
-        <h3>Long-term Memory</h3>
-        <p>BM25 + vector semantic indexing for persistent memory across sessions.</p>
+        <h3>Knowledge Graph</h3>
+        <p>Bidirectional weighted edges with BFS expansion and relationship types.</p>
+      </div>
+      <div class="developer-card">
+        <h3>Forgetting Curve</h3>
+        <p>Ebbinghaus decay with configurable half-life (~9.6 days) and dormant threshold.</p>
+      </div>
+      <div class="developer-card">
+        <h3>Swarm Orchestrator</h3>
+        <p>Task splitting, conflict detection, auto-merge, and feedback loop coordination.</p>
       </div>
       <div class="developer-card">
         <h3>MCP Integration</h3>
-        <p>Support for local/remote MCP servers with up to 30 tools per request.</p>
+        <p>Local stdio and remote HTTP MCP servers with auto-discovery and health status.</p>
+      </div>
+      <div class="developer-card">
+        <h3>Tool Registry</h3>
+        <p>Thread-safe dynamic registration with category filtering and platform checks.</p>
+      </div>
+      <div class="developer-card">
+        <h3>Workflow Engine</h3>
+        <p>Phase-based execution with tool policies, double-confirm, and persistence.</p>
       </div>
     </div>
   </div>
