@@ -1,25 +1,46 @@
+// Footer 现代简洁风格
 .site-footer {
-  background-color: #fff5ed;
-  border-top: 1px solid #ffdcc8;
-  padding: 3rem 0;
-  color: #8b6b5a;
-  font-size: 0.9rem;
+  background: #1a1a2e;
+  padding: 40px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  margin: 0;
 }
 
 .footer-links {
   display: flex;
-  gap: 2rem;
+  gap: 24px;
 }
 
 .footer-link {
-  color: #8b6b5a;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
   &:hover {
     color: #ff6b35;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
   }
 }

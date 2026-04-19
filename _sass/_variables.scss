@@ -1,20 +1,23 @@
-// MaClaw 桔红龙虾色调
-$bg-white:      #fffcf9;
-$bg-light:     #fff5ed;
-$bg-peach:     #ffe8d6;
-$border-mint:  #ffdcc8;
-$accent-lobster: #ff6b35;
-$text-dark:    #3d2314;
-$text-muted:   #8b6b5a;
+// MaClaw 现代简洁配色
+$color-primary: #ff6b35;
+$color-dark: #1a1a2e;
+$color-gray-900: #1a1a2e;
+$color-gray-700: #4b5563;
+$color-gray-500: #6b7280;
+$color-gray-400: #9ca3af;
+$color-gray-200: #e5e7eb;
+$color-gray-100: #f3f4f6;
+$color-gray-50: #fafbfc;
+$color-white: #ffffff;
 
 // 覆盖全局变量
-$blue-dark:    $bg-white;
-$blue-primary: $bg-light;
-$blue-light:   $border-mint;
-$blue-accent:  $accent-lobster;
-$text-primary: $text-dark;
-$text-secondary: $text-muted;
-$white:        #ffffff;
+$blue-dark: $color-white;
+$blue-primary: $color-gray-50;
+$blue-light: $color-gray-200;
+$blue-accent: $color-primary;
+$text-primary: $color-dark;
+$text-secondary: $color-gray-500;
+$white: $color-white;
 
 // Spacing
 $spacing-unit: 1rem;
