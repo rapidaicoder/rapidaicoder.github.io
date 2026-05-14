@@ -1,0 +1,8 @@
+# Jekyll / build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local preview (no-Jekyll renderer)
+_preview/
