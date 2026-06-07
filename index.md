@@ -12,26 +12,122 @@ permalink: /
     <h1 class="hero-title">MaClaw <span class="title-en">码卡龙</span></h1>
     <p class="hero-subtitle">A governable AI capability foundation for enterprises, and a personal AI work partner for individuals.<br/>An AI that truly remembers you, understands your business, and follows your enterprise rules.</p>
 
-    <div class="download-buttons">
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Setup.exe" class="btn-download btn-windows" target="_blank">
-        <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
-        <span class="btn-text">Windows</span>
-      </a>
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Universal.pkg" class="btn-download btn-macos" target="_blank">
-        <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-        <span class="btn-text">macOS</span>
-      </a>
-    </div>
-    <div class="download-buttons">
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64-u2404.AppImage" class="btn-download btn-linux" target="_blank">
-        <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
-        <span class="btn-text">Linux x86_64</span>
-      </a>
-      <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-aarch64-u2404.AppImage" class="btn-download btn-linux" target="_blank">
-        <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
-        <span class="btn-text">Linux aarch64</span>
-      </a>
-    </div>
+    <!-- Download Zone -->
+    <div class="download-zone">
+      <div class="download-tabs" role="tablist">
+        <button class="download-tab active" role="tab" aria-selected="true" data-target="dl-gui">🖥️ GUI App</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-tui">⌨️ TUI App</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-data">🗄️ Data Server</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-cloud">☁️ Cloud Platform</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-installer">📦 Installer</button>
+      </div>
+
+      <div id="dl-gui" class="download-panel active" role="tabpanel">
+        <div class="download-buttons">
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Setup.exe" class="btn-download btn-windows" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span class="btn-text">Windows</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-Universal.pkg" class="btn-download btn-macos" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="btn-text">macOS</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64-u2404.AppImage" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux x86_64</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-aarch64-u2404.AppImage" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux aarch64</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="dl-tui" class="download-panel" role="tabpanel" hidden>
+        <div class="download-buttons">
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_amd64.exe" class="btn-download btn-windows" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span class="btn-text">Windows</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_amd64_darwin" class="btn-download btn-macos" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="btn-text">macOS AMD64</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_arm64_darwin" class="btn-download btn-macos" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="btn-text">macOS Apple Silicon</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_amd64_linux" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="dl-data" class="download-panel" role="tabpanel" hidden>
+        <div class="download-buttons">
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-data-srv-Setup.exe" class="btn-download btn-windows" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span class="btn-text">Windows</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-data-srv-Universal.pkg" class="btn-download btn-macos" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="btn-text">macOS</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-data-srv_amd64_linux" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="dl-cloud" class="download-panel" role="tabpanel" hidden>
+        <div class="download-buttons">
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclawsrv-Setup.exe" class="btn-download btn-windows" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span class="btn-text">Windows</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclawsrv-Universal.pkg" class="btn-download btn-macos" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="btn-text">macOS</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclawsrv_amd64_linux" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="dl-installer" class="download-panel" role="tabpanel" hidden>
+        <div class="download-buttons">
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-windows-amd64.exe" class="btn-download btn-windows" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span class="btn-text">Windows AMD64</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-windows-arm64.exe" class="btn-download btn-windows" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span class="btn-text">Windows ARM64</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-darwin-amd64" class="btn-download btn-macos" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="btn-text">macOS AMD64</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-darwin-arm64" class="btn-download btn-macos" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span class="btn-text">macOS Apple Silicon</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-linux-amd64" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux AMD64</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-linux-arm64" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux ARM64</span>
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /.download-zone -->
   </div>
 </section>
 
@@ -56,6 +152,13 @@ permalink: /
           <span class="tab-label">
             <span class="tab-title">Personal Companion</span>
             <span class="tab-desc">Your private AI work partner</span>
+          </span>
+        </button>
+        <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-digital-employee">
+          <span class="tab-icon">&#x1F916;</span>
+          <span class="tab-label">
+            <span class="tab-title">Digital Employee</span>
+            <span class="tab-desc">Cost-saving AI workforce</span>
           </span>
         </button>
       </div>
@@ -449,6 +552,131 @@ permalink: /
           <div class="panel-cta">
             <a href="https://github.com/RapidAI/MaClaw/releases/latest" class="btn-primary" target="_blank">Download Now</a>
             <a href="#workflows" class="btn-secondary">View Workflow Templates</a>
+          </div>
+        </div>
+
+        <!-- Digital Employee -->
+        <div id="tab-digital-employee" class="companion-panel" role="tabpanel" hidden>
+          <h3 class="panel-headline">Digital Employees — 7×24 workforce with zero salary cost</h3>
+          <p class="panel-lead">Digital Employees are a new workforce model built by MaClaw for enterprises: digital avatars for existing employees, and cloud-based virtual employees that fill roles without physical hires. Together they dramatically boost operational efficiency and service coverage — without adding to the payroll.</p>
+
+          <!-- Digital Avatars -->
+          <div class="scenario-banner">
+            <span class="scenario-label">Digital Avatars for Physical Employees</span>
+            <h4 class="scenario-headline">Give every employee a personal AI twin to handle routine tasks</h4>
+          </div>
+
+          <div class="scenario-grid">
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x2615;</span>
+                <h3>Daily Task Automation</h3>
+              </div>
+              <p>Automatically handles email triage and reply suggestions, meeting minutes generation, schedule coordination, expense report filing and other repetitive chores — freeing employees to focus on high-value work.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">Email Processing</span>
+                <span class="scenario-tag">Schedule Management</span>
+                <span class="scenario-tag">Expense Automation</span>
+              </div>
+            </div>
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x1F4AC;</span>
+                <h3>Information Concierge</h3>
+              </div>
+              <p>The digital avatar continuously learns the employee's domain knowledge and answers common questions, policy lookups, and regulation interpretations on their behalf — routing only complex issues that require human judgment.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">Smart Q&A</span>
+                <span class="scenario-tag">Policy Lookup</span>
+                <span class="scenario-tag">7×24 Online</span>
+              </div>
+            </div>
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x1F4DD;</span>
+                <h3>Document & Report Generation</h3>
+              </div>
+              <p>Auto-generates weekly and monthly reports, project progress summaries, analysis documents with charts. Drafts contracts and proposals, drastically reducing time spent on document creation.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">Weekly/Monthly Reports</span>
+                <span class="scenario-tag">Data Analysis</span>
+                <span class="scenario-tag">Document Drafting</span>
+              </div>
+            </div>
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x1F517;</span>
+                <h3>Cross-System Delegation</h3>
+              </div>
+              <p>Connects OA, ERP, CRM and other enterprise systems. One natural language command triggers multi-step cross-system operations — "Send last week's quote to Zhang for approval" — no more switching between apps.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">OA/ERP/CRM</span>
+                <span class="scenario-tag">One-Command Action</span>
+                <span class="scenario-tag">Natural Language</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloud Virtual Employees -->
+          <div class="scenario-banner" style="margin-top: 40px;">
+            <span class="scenario-label">Cloud Virtual Employees</span>
+            <h4 class="scenario-headline">Virtual staff on duty instantly — no physical desk required</h4>
+          </div>
+
+          <div class="scenario-grid">
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x1F3E2;</span>
+                <h3>Virtual Receptionist & Customer Service</h3>
+              </div>
+              <p>7×24 visitor reception, customer support, and product introductions across multiple languages and channels. Replaces basic customer service roles with faster response, consistent service quality, and zero training cost.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">Round-the-Clock</span>
+                <span class="scenario-tag">Multilingual</span>
+                <span class="scenario-tag">Zero Training Cost</span>
+              </div>
+            </div>
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x2705;</span>
+                <h3>Process Approval Assistant</h3>
+              </div>
+              <p>Auto-approves standard business workflows (leave requests, procurement, reimbursements, contracts) in seconds; escalates exceptions to human reviewers. Reduces approval turnaround from hours to seconds.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">Smart Approval</span>
+                <span class="scenario-tag">Exception Escalation</span>
+                <span class="scenario-tag">Second-Level Routing</span>
+              </div>
+            </div>
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x1F4CA;</span>
+                <h3>Data Entry & Validation</h3>
+              </div>
+              <p>Automatically extracts structured data from emails, PDFs, images, and web pages, then performs entry, comparison, and validation — eliminating manual errors and freeing data-entry staff for higher-value work.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">Multi-Source Extraction</span>
+                <span class="scenario-tag">Zero Error</span>
+                <span class="scenario-tag">Auto-Validation</span>
+              </div>
+            </div>
+            <div class="scenario-card scenario-office">
+              <div class="scenario-head">
+                <span class="scenario-icon">&#x1F4DA;</span>
+                <h3>Knowledge Base Curator</h3>
+              </div>
+              <p>Continuously ingests company documents, manuals, and product specs. Auto-updates knowledge base entries, flags outdated content, and suggests revisions — keeping your corporate knowledge assets fresh and reliable.</p>
+              <div class="scenario-tags">
+                <span class="scenario-tag">Continuous Learning</span>
+                <span class="scenario-tag">Auto-Update</span>
+                <span class="scenario-tag">Knowledge Assets</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-cta">
+            <a href="https://github.com/RapidAI/MaClaw/releases/latest" class="btn-primary" target="_blank">Download Now</a>
+            <a href="#capability-tiers" class="btn-secondary">Learn About Capability Tiers</a>
           </div>
         </div>
       </div>
