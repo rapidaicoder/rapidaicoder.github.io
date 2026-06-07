@@ -4,7 +4,6 @@
 .hero-maclaw {
   text-align: center;
   background: linear-gradient(180deg, #ffffff 0%, #fafbfc 100%);
-  min-height: 70vh;
   position: relative;
   overflow: hidden;
 }
@@ -45,7 +44,7 @@
   font-size: 1.15rem;
   color: #6b7280;
   max-width: 520px;
-  margin: 0 auto 48px;
+  margin: 0 auto 20px;
   line-height: 1.7;
   font-weight: 400;
 }
@@ -696,7 +695,7 @@
 // ===== 数智伴侣 · 纵向 Tab 切换 =====
 .companion-section {
   background: #ffffff;
-  padding: 100px 0;
+  padding: 48px 0 100px;
 }
 
 .companion-tabs {
