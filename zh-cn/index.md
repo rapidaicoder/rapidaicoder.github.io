@@ -7,7 +7,7 @@ permalink: /zh-cn/
 
 <!-- Hero Section -->
 <section class="hero-maclaw section">
-  <div class="container" style="text-align: center; padding-top: 60px;">
+  <div class="container" style="text-align: center; padding-top: 20px;">
     <span class="maclaw-badge">企业与个人的数智伴侣</span>
     <h1 class="hero-title">码卡龙 <span class="title-en">MaClaw</span></h1>
     <p class="hero-subtitle">企业有可治理的 AI 能力底座，个人有专属的 AI 工作搭档<br/>让 AI 真正记住你、懂你的业务、按企业规矩办事</p>

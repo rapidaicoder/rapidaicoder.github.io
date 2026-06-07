@@ -7,7 +7,7 @@ permalink: /
 
 <!-- Hero Section -->
 <section class="hero-maclaw section">
-  <div class="container" style="text-align: center; padding-top: 60px;">
+  <div class="container" style="text-align: center; padding-top: 20px;">
     <span class="maclaw-badge">Digital Intelligence Companion · Enterprise & Personal</span>
     <h1 class="hero-title">MaClaw <span class="title-en">码卡龙</span></h1>
     <p class="hero-subtitle">A governable AI capability foundation for enterprises, and a personal AI work partner for individuals.<br/>An AI that truly remembers you, understands your business, and follows your enterprise rules.</p>
