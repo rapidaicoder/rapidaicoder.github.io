@@ -16,11 +16,11 @@ permalink: /
     <!-- Download Zone -->
     <div class="download-zone">
       <div class="download-tabs" role="tablist">
-        <button class="download-tab active" role="tab" aria-selected="true" data-target="dl-gui">🖥️ GUI App</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-tui">⌨️ TUI App</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-data">🗄️ Data Server</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-cloud">☁️ Cloud Platform</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-installer">📦 Installer</button>
+        <button class="download-tab active" role="tab" aria-selected="true" data-target="dl-gui">{% include icon.html name="monitor" %} GUI App</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-tui">{% include icon.html name="keyboard" %} TUI App</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-data">{% include icon.html name="database" %} Data Server</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-cloud">{% include icon.html name="cloud" %} Cloud Platform</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-installer">{% include icon.html name="package" %} Installer</button>
       </div>
 
       <div id="dl-gui" class="download-panel active" role="tabpanel">
@@ -137,7 +137,7 @@ permalink: /
     <div class="scenario-grid">
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F9ED;</span>
+          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
           <h3>Research direction planning</h3>
         </div>
         <p class="scenario-desc">Start with a literature review: define the topic, set the search, screen papers, and synthesize the gap. Grant and talent workflows then turn that gap into a research plan — the core question, feasibility, and a direction you can defend.</p>
@@ -149,7 +149,7 @@ permalink: /
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x270D;&#xFE0F;</span>
+          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
           <h3>Academic paper writing</h3>
         </div>
         <p class="scenario-desc">The paper-writing workflow moves in phases you confirm: outline, literature, draft, figures, and polish. The paper-polish and academic-translation experts keep terminology stable. The LaTeX expert writes into your .tex template and sends you to compile preview.</p>
@@ -162,7 +162,7 @@ permalink: /
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F4D0;</span>
+          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
           <h3>Graduation thesis outline</h3>
         </div>
         <p class="scenario-desc">The outline phase of paper writing locks the chapter frame before prose is treated as final. The LaTeX expert reads the degree-thesis template — the main file and its included chapters — and keeps that structure.</p>
@@ -173,7 +173,7 @@ permalink: /
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F393;</span>
+          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
           <h3>Master's / PhD thesis writing</h3>
         </div>
         <p class="scenario-desc">Write on the degree-thesis template you already use. The LaTeX expert fills the .tex in place, chapter by chapter. The paper-writing workflow drafts the sections you confirm as you go.</p>
@@ -184,7 +184,7 @@ permalink: /
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F50E;</span>
+          <span class="scenario-icon">{% include icon.html name="search" %}</span>
           <h3>Academic paper review</h3>
         </div>
         <p class="scenario-desc">The paper-polish expert reviews academic language without changing the claim, and notes each edit. Open the PDF in the file companion to leave comments on the file. Changjiang Scholar and NSFC review workflows (Distinguished Youth, Excellent Youth, Youth, General, and Key) score completeness, achievements, the research plan, and writing quality, then write a combined report.</p>
@@ -196,7 +196,7 @@ permalink: /
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F4CB;</span>
+          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
           <h3>Master's / PhD thesis review</h3>
         </div>
         <p class="scenario-desc">Load the thesis into the file companion so comments stay on that file. The polish expert reads language and structure section by section. After you share it, the host approves or ignores each note before a reply is written back for the group.</p>
@@ -207,7 +207,7 @@ permalink: /
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F4DA;</span>
+          <span class="scenario-icon">{% include icon.html name="library" %}</span>
           <h3>Assisted reading and group sharing</h3>
         </div>
         <p class="scenario-desc">Paste an arXiv id or link. The file companion downloads the PDF into its own tab, and the chat discusses only that paper. Share it with classmates or a lab group: questions become annotations, the host approves or ignores them, and approved replies are visible to everyone on the share. Rewrites of a selection, reading notes, and paper explainers stay on your machine.</p>
@@ -219,7 +219,7 @@ permalink: /
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F310;</span>
+          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
           <h3>Remote paper review</h3>
         </div>
         <p class="scenario-desc">Reviewers do not have to sit at the author's computer. A shared companion document goes through Hub: participants comment from their own MaClaw, the host approves, and the reply is stored on the same share. A Hub remote session lets you continue that review away from the desk.</p>
@@ -242,21 +242,21 @@ permalink: /
       <!-- Vertical Tab Navigation -->
       <div class="companion-tabnav" role="tablist" aria-orientation="vertical">
         <button type="button" class="companion-tab active" role="tab" aria-selected="true" data-target="tab-enterprise">
-          <span class="tab-icon">&#x1F3E2;</span>
+          <span class="tab-icon">{% include icon.html name="building" %}</span>
           <span class="tab-label">
             <span class="tab-title">Enterprise Companion</span>
             <span class="tab-desc">A governable AI capability foundation</span>
           </span>
         </button>
         <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-personal">
-          <span class="tab-icon">&#x1F464;</span>
+          <span class="tab-icon">{% include icon.html name="user" %}</span>
           <span class="tab-label">
             <span class="tab-title">Personal Companion</span>
             <span class="tab-desc">Your private AI work partner</span>
           </span>
         </button>
         <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-digital-employee">
-          <span class="tab-icon">&#x1F916;</span>
+          <span class="tab-icon">{% include icon.html name="bot" %}</span>
           <span class="tab-label">
             <span class="tab-title">Digital Employee</span>
             <span class="tab-desc">Cost-saving AI workforce</span>
@@ -280,7 +280,7 @@ permalink: /
           <div class="scenario-grid">
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4BC;</span>
+                <span class="scenario-icon">{% include icon.html name="briefcase" %}</span>
                 <h3>Daily Office Work</h3>
               </div>
               <p class="scenario-desc">Package standard operating procedures as Skill packs and push them to employees' MaClaw. Documents, emails, expenses and approvals follow corporate standards automatically.</p>
@@ -299,7 +299,7 @@ permalink: /
 
             <div class="scenario-card scenario-it-sys">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F5C2;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="folders" %}</span>
                 <h3>Full Enterprise IT System</h3>
                 <span class="scenario-pill">Replaces legacy MIS</span>
               </div>
@@ -319,7 +319,7 @@ permalink: /
 
             <div class="scenario-card scenario-itops">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F6E0;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="wrench" %}</span>
                 <h3>IT Operations</h3>
               </div>
               <p class="scenario-desc">Wrap your ops SOPs as Skills / Passthrough Tasks and push them to engineers' machines. From routine inspection to emergency recovery — handled by conversation or a single command.</p>
@@ -338,7 +338,7 @@ permalink: /
 
             <div class="scenario-card scenario-factory">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F3ED;</span>
+                <span class="scenario-icon">{% include icon.html name="factory" %}</span>
                 <h3>Factory Production-Line Monitoring</h3>
               </div>
               <p class="scenario-desc">Connect PLC / SCADA / MES data via enterprise-managed MCP. MaClaw stays on the floor, collecting metrics, identifying anomalies, pushing alerts and producing shift reports automatically.</p>
@@ -364,7 +364,7 @@ permalink: /
 
           <div class="enterprise-grid">
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F3EA;</div>
+              <div class="enterprise-icon">{% include icon.html name="store" %}</div>
               <h3>Private Capability Market</h3>
               <p>Enterprise-managed Skill/MCP library. Employees' MaClaw prioritizes capabilities approved and stored here.</p>
               <ul class="feature-list">
@@ -374,7 +374,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F4E5;</div>
+              <div class="enterprise-icon">{% include icon.html name="inbox" %}</div>
               <h3>Deployment & Recommendation</h3>
               <p>Admins can force-deploy or simply recommend, scoped by department / role / device type.</p>
               <ul class="feature-list">
@@ -384,7 +384,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F4DD;</div>
+              <div class="enterprise-icon">{% include icon.html name="file-pen" %}</div>
               <h3>Source Verification & Revocation</h3>
               <p>Every capability pack carries provenance, version and checksum — and can be revoked in one click.</p>
               <ul class="feature-list">
@@ -394,7 +394,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F5C4;</div>
+              <div class="enterprise-icon">{% include icon.html name="archive" %}</div>
               <h3>Data Sovereignty & Multi-Tenancy</h3>
               <p>Enterprise data stays in your Hub; the cloud never reads enterprise business data.</p>
               <ul class="feature-list">
@@ -413,7 +413,7 @@ permalink: /
 
           <div class="enterprise-grid">
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F510;</div>
+              <div class="enterprise-icon">{% include icon.html name="lock" %}</div>
               <h3>Authentication & Credentials</h3>
               <p>Layered credential design — every key passes through strong hashing and full lifecycle management.</p>
               <ul class="feature-list">
@@ -424,7 +424,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F6E1;&#xFE0F;</div>
+              <div class="enterprise-icon">{% include icon.html name="shield" %}</div>
               <h3>Policy Engine</h3>
               <p>Effective-policy from a top-down user-group tree, with five actions and four presets.</p>
               <ul class="feature-list">
@@ -435,7 +435,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F511;</div>
+              <div class="enterprise-icon">{% include icon.html name="key" %}</div>
               <h3>End-to-End Encryption</h3>
               <p>Capability packs, licenses and transport — all encrypted; private keys stored separately from data keys.</p>
               <ul class="feature-list">
@@ -446,7 +446,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F9F1;</div>
+              <div class="enterprise-icon">{% include icon.html name="blocks" %}</div>
               <h3>Sandboxing & Isolation</h3>
               <p>Both execution context and network reach are configurable — tenants are separated at the physical layer.</p>
               <ul class="feature-list">
@@ -457,7 +457,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F4DC;</div>
+              <div class="enterprise-icon">{% include icon.html name="scroll" %}</div>
               <h3>Audit, Redaction & Injection Defense</h3>
               <p>Every call is structurally logged; sensitive data is auto-detected and masked.</p>
               <ul class="feature-list">
@@ -468,7 +468,7 @@ permalink: /
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x2696;&#xFE0F;</div>
+              <div class="enterprise-icon">{% include icon.html name="scale" %}</div>
               <h3>High-Risk Operation Approval</h3>
               <p>Risk tiering + double-confirm + smart review — important ops are stopped, routine ones don't get in the way.</p>
               <ul class="feature-list">
@@ -500,7 +500,7 @@ permalink: /
           <div class="scenario-grid">
             <div class="scenario-card scenario-doc">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4C4;</span>
+                <span class="scenario-icon">{% include icon.html name="file" %}</span>
                 <h3>Document Processing</h3>
               </div>
               <p class="scenario-desc">Word / Excel / PPT / PDF — generate, modify and convert across formats, following your style and templates.</p>
@@ -520,7 +520,7 @@ permalink: /
 
             <div class="scenario-card scenario-data">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4CA;</span>
+                <span class="scenario-icon">{% include icon.html name="chart" %}</span>
                 <h3>Data Analysis</h3>
               </div>
               <p class="scenario-desc">Hand over your raw Excel / CSV / DB exports — ask in natural language to get insights and charts.</p>
@@ -539,7 +539,7 @@ permalink: /
 
             <div class="scenario-card scenario-pcops">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F5A5;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="monitor" %}</span>
                 <h3>PC Maintenance</h3>
               </div>
               <p class="scenario-desc">Desktop GUI automation + command-line tasks — let MaClaw drive your computer: install software, clean disks, edit configs, run scripts.</p>
@@ -558,7 +558,7 @@ permalink: /
 
             <div class="scenario-card scenario-workflow">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4CB;</span>
+                <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
                 <h3>Workflow Templates</h3>
               </div>
               <p class="scenario-desc">38 structured workflow templates following "requirement → design → step-by-step execution" — pause, confirm and edit at every step.</p>
@@ -576,7 +576,7 @@ permalink: /
 
             <div class="scenario-card scenario-study">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F393;</span>
+                <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
                 <h3>Study Abroad</h3>
               </div>
               <p class="scenario-desc">From school selection and essays to timeline management — MaClaw walks the whole journey with you, remembering your background and preferences.</p>
@@ -595,7 +595,7 @@ permalink: /
 
             <div class="scenario-card scenario-research">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F52C;</span>
+                <span class="scenario-icon">{% include icon.html name="microscope" %}</span>
                 <h3>Research Assistant</h3>
               </div>
               <p class="scenario-desc">Import papers into the knowledge base, open them in the file companion, and walk the academic workflows from a research direction to a thesis chapter. <a href="#research">Open research assistance</a>.</p>
@@ -614,7 +614,7 @@ permalink: /
 
             <div class="scenario-card scenario-image">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F5BC;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="image" %}</span>
                 <h3>Image Processing</h3>
               </div>
               <p class="scenario-desc">Via Skills / MCP, drive image tools — from retouching to generation to recognition — all by conversation.</p>
@@ -633,7 +633,7 @@ permalink: /
 
             <div class="scenario-card scenario-memory">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F9E0;</span>
+                <span class="scenario-icon">{% include icon.html name="brain" %}</span>
                 <h3>Memory + Knowledge Base</h3>
               </div>
               <p class="scenario-desc">Long-term memory is the inner brain; the knowledge base is the outer brain. It remembers your preferences across sessions; import docs to inject domain knowledge.</p>
@@ -672,7 +672,7 @@ permalink: /
           <div class="scenario-grid">
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x2615;</span>
+                <span class="scenario-icon">{% include icon.html name="coffee" %}</span>
                 <h3>Daily Task Automation</h3>
               </div>
               <p>Automatically handles email triage and reply suggestions, meeting minutes generation, schedule coordination, expense report filing and other repetitive chores — freeing employees to focus on high-value work.</p>
@@ -684,7 +684,7 @@ permalink: /
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4AC;</span>
+                <span class="scenario-icon">{% include icon.html name="message" %}</span>
                 <h3>Information Concierge</h3>
               </div>
               <p>The digital avatar continuously learns the employee's domain knowledge and answers common questions, policy lookups, and regulation interpretations on their behalf — routing only complex issues that require human judgment.</p>
@@ -696,7 +696,7 @@ permalink: /
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4DD;</span>
+                <span class="scenario-icon">{% include icon.html name="file-pen" %}</span>
                 <h3>Document & Report Generation</h3>
               </div>
               <p>Auto-generates weekly and monthly reports, project progress summaries, analysis documents with charts. Drafts contracts and proposals, drastically reducing time spent on document creation.</p>
@@ -708,7 +708,7 @@ permalink: /
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F517;</span>
+                <span class="scenario-icon">{% include icon.html name="link" %}</span>
                 <h3>Cross-System Delegation</h3>
               </div>
               <p>Connects OA, ERP, CRM and other enterprise systems. One natural language command triggers multi-step cross-system operations — "Send last week's quote to Zhang for approval" — no more switching between apps.</p>
@@ -729,7 +729,7 @@ permalink: /
           <div class="scenario-grid">
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F3E2;</span>
+                <span class="scenario-icon">{% include icon.html name="building" %}</span>
                 <h3>Virtual Receptionist & Customer Service</h3>
               </div>
               <p>7×24 visitor reception, customer support, and product introductions across multiple languages and channels. Replaces basic customer service roles with faster response, consistent service quality, and zero training cost.</p>
@@ -741,7 +741,7 @@ permalink: /
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x2705;</span>
+                <span class="scenario-icon">{% include icon.html name="check" %}</span>
                 <h3>Process Approval Assistant</h3>
               </div>
               <p>Auto-approves standard business workflows (leave requests, procurement, reimbursements, contracts) in seconds; escalates exceptions to human reviewers. Reduces approval turnaround from hours to seconds.</p>
@@ -753,7 +753,7 @@ permalink: /
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4CA;</span>
+                <span class="scenario-icon">{% include icon.html name="chart" %}</span>
                 <h3>Data Entry & Validation</h3>
               </div>
               <p>Automatically extracts structured data from emails, PDFs, images, and web pages, then performs entry, comparison, and validation — eliminating manual errors and freeing data-entry staff for higher-value work.</p>
@@ -765,7 +765,7 @@ permalink: /
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4DA;</span>
+                <span class="scenario-icon">{% include icon.html name="library" %}</span>
                 <h3>Knowledge Base Curator</h3>
               </div>
               <p>Continuously ingests company documents, manuals, and product specs. Auto-updates knowledge base entries, flags outdated content, and suggests revisions — keeping your corporate knowledge assets fresh and reliable.</p>
@@ -798,7 +798,7 @@ permalink: /
         <div class="tier-rank">Priority 1</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x1F3E2;</span>
+            <span class="tier-icon">{% include icon.html name="building" %}</span>
             <div>
               <h3 class="tier-name">Private Capability Market</h3>
               <p class="tier-sub">Enterprise Hub Marketplace</p>
@@ -818,7 +818,7 @@ permalink: /
         <div class="tier-rank">Priority 2</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x2601;&#xFE0F;</span>
+            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
             <div>
               <h3 class="tier-name">Public Capability Market</h3>
               <p class="tier-sub">HubCenter Marketplace</p>
@@ -837,7 +837,7 @@ permalink: /
         <div class="tier-rank">Priority 3</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x1F30E;</span>
+            <span class="tier-icon">{% include icon.html name="globe" %}</span>
             <div>
               <h3 class="tier-name">ClawHub</h3>
               <p class="tier-sub">Community capabilities</p>
@@ -856,7 +856,7 @@ permalink: /
         <div class="tier-rank">Priority 4</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x1F419;</span>
+            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
             <div>
               <h3 class="tier-name">GitHub</h3>
               <p class="tier-sub">Open-source ecosystem</p>
@@ -873,7 +873,7 @@ permalink: /
     </div>
 
     <div class="capability-routing">
-      <h3 class="routing-title">&#x1F50D; Smart Routing in Enterprise Mode</h3>
+      <h3 class="routing-title">{% include icon.html name="search" %} Smart Routing in Enterprise Mode</h3>
       <p>When MaClaw is in enterprise mode, capability lookup order is: <strong>Private Market → Public Market → ClawHub → GitHub</strong>. Capabilities published in the enterprise Hub always win; whether external sources can be searched, trialed or imported is decided by enterprise policy.</p>
       <ul class="routing-rules">
         <li><strong>Free capabilities</strong>: configurable as "trial-then-adopt" — validated capabilities are auto-archived into the enterprise market.</li>
@@ -893,28 +893,28 @@ permalink: /
     <div class="buildflow-steps">
       <div class="buildflow-step">
         <div class="bf-num">01</div>
-        <div class="bf-icon">&#x1F50D;</div>
+        <div class="bf-icon">{% include icon.html name="search" %}</div>
         <h3>Discover</h3>
         <p>Admins search public market, ClawHub, GitHub for matching Skills/MCPs — or employees raise an intake request.</p>
       </div>
       <div class="bf-arrow">&rarr;</div>
       <div class="buildflow-step">
         <div class="bf-num">02</div>
-        <div class="bf-icon">&#x2705;</div>
+        <div class="bf-icon">{% include icon.html name="check" %}</div>
         <h3>Approve / Purchase</h3>
         <p>Free capabilities follow trial or approval policy; paid ones go through procurement — license centrally held by the enterprise Hub.</p>
       </div>
       <div class="bf-arrow">&rarr;</div>
       <div class="buildflow-step">
         <div class="bf-num">03</div>
-        <div class="bf-icon">&#x1F4E6;</div>
+        <div class="bf-icon">{% include icon.html name="package" %}</div>
         <h3>Intake & Publish</h3>
         <p>Approved capabilities enter the private market with version, permission allowlist and source-provenance metadata.</p>
       </div>
       <div class="bf-arrow">&rarr;</div>
       <div class="buildflow-step">
         <div class="bf-num">04</div>
-        <div class="bf-icon">&#x1F4E4;</div>
+        <div class="bf-icon">{% include icon.html name="send" %}</div>
         <h3>Deploy & Install</h3>
         <p>Push to employees' MaClaw by department/role/project — force-install or recommend, with auto-retry on failure.</p>
       </div>
@@ -935,124 +935,124 @@ permalink: /
     <p class="section-subtitle">38 structured workflows. Highlights below — academic writing and review are in Research assistance</p>
     <div class="workflow-grid">
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DD;</div>
+        <div class="workflow-icon">{% include icon.html name="file-pen" %}</div>
         <h3>Bid Response</h3>
         <p>Tender parsing, qualification response, technical proposal, bid assembly — end to end</p>
         <span class="workflow-tag">Enterprise</span>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DC;</div>
+        <div class="workflow-icon">{% include icon.html name="scroll" %}</div>
         <h3>Contract Review</h3>
         <p>Clause-by-clause risk analysis, compliance check, edit suggestions for all contract types</p>
         <span class="workflow-tag">Enterprise</span>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F50D;</div>
+        <div class="workflow-icon">{% include icon.html name="search" %}</div>
         <h3>Due Diligence</h3>
         <p>Business, financial, legal, technical multi-angle DD with a complete report</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4CA;</div>
+        <div class="workflow-icon">{% include icon.html name="chart" %}</div>
         <h3>Compliance Audit</h3>
         <p>Regulatory compliance assessment, risk rating, remediation planning</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4C4;</div>
+        <div class="workflow-icon">{% include icon.html name="file" %}</div>
         <h3>Patent Analysis</h3>
         <p>Prior-art search, infringement risk, patent-strategy recommendations</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4B0;</div>
+        <div class="workflow-icon">{% include icon.html name="coins" %}</div>
         <h3>Business Plan</h3>
         <p>Market analysis, financial projections, strategic planning docs</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F3AF;</div>
+        <div class="workflow-icon">{% include icon.html name="target" %}</div>
         <h3>Competitive Analysis</h3>
         <p>Market landscape, competitor profiling, strategic positioning</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4A1;</div>
+        <div class="workflow-icon">{% include icon.html name="lightbulb" %}</div>
         <h3>Innovation Plan</h3>
         <p>Tech-trend analysis, innovation-opportunity identification, R&D planning</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4C5;</div>
+        <div class="workflow-icon">{% include icon.html name="calendar" %}</div>
         <h3>Event Planning</h3>
         <p>End-to-end event organization workflow from concept to execution checklist</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4BB;</div>
+        <div class="workflow-icon">{% include icon.html name="laptop" %}</div>
         <h3>Project Proposal</h3>
         <p>Scope definition, resource planning, timeline generation</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DA;</div>
+        <div class="workflow-icon">{% include icon.html name="library" %}</div>
         <h3>Research Report</h3>
         <p>Literature review, data synthesis, academic writing</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F3A8;</div>
+        <div class="workflow-icon">{% include icon.html name="palette" %}</div>
         <h3>Presentation Design</h3>
         <p>Slide structure, content organization, visual-design guidance</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DA;</div>
+        <div class="workflow-icon">{% include icon.html name="library" %}</div>
         <h3>Literature Review</h3>
         <p>Topic, search strategy, screening, analysis, and a synthesis you confirm</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x270D;&#xFE0F;</div>
+        <div class="workflow-icon">{% include icon.html name="pen" %}</div>
         <h3>Paper Writing</h3>
         <p>Outline, literature, draft, figures, and polish — one confirmed phase at a time</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F9EA;</div>
+        <div class="workflow-icon">{% include icon.html name="flask" %}</div>
         <h3>Experiment Design</h3>
         <p>Research question, hypothesis, method comparison, and an experiment plan</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F504;</div>
+        <div class="workflow-icon">{% include icon.html name="refresh" %}</div>
         <h3>Paper Reproduction</h3>
         <p>Read the paper, locate code and data, reproduce a baseline, and write the report</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4B3;</div>
+        <div class="workflow-icon">{% include icon.html name="card" %}</div>
         <h3>Grant Proposal</h3>
         <p>Research basis, plan, and a proposal assembled for the fund you name</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F3DB;&#xFE0F;</div>
+        <div class="workflow-icon">{% include icon.html name="landmark" %}</div>
         <h3>Academic Applications</h3>
         <p>Changjiang Scholar and NSFC Distinguished Youth, Excellent Youth, Youth, General, and Key</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F50E;</div>
+        <div class="workflow-icon">{% include icon.html name="search" %}</div>
         <h3>Academic Review</h3>
         <p>Matching review templates: completeness, achievements, plan, writing quality, report</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DC;</div>
+        <div class="workflow-icon">{% include icon.html name="scroll" %}</div>
         <h3>Patent Filing</h3>
         <p>China patent application and US Patent (USPTO) application workflows</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F393;</div>
+        <div class="workflow-icon">{% include icon.html name="graduation" %}</div>
         <h3>Gaokao Planning</h3>
         <p>College-application reference from scores, interests, and constraints</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4BB;</div>
+        <div class="workflow-icon">{% include icon.html name="laptop" %}</div>
         <h3>Coding Project</h3>
         <p>MaClaw's own path: requirements, design, tasks, implementation, and acceptance</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F527;</div>
+        <div class="workflow-icon">{% include icon.html name="wrench" %}</div>
         <h3>Maintenance</h3>
         <p>Impact analysis, refactor, and verification — or a controlled ops change</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x2705;</div>
+        <div class="workflow-icon">{% include icon.html name="check" %}</div>
         <h3>Bid Review</h3>
         <p>Check a finished bid against the tender and produce a revision report</p>
       </div>

@@ -346,6 +346,57 @@ body.maclaw-page {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
+.icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.scenario-icon,
+.enterprise-icon,
+.workflow-icon,
+.bf-icon,
+.tier-icon,
+.tab-icon,
+.routing-title .icon {
+  color: #2a74ad;
+}
+
+.workflow-icon .icon,
+.bf-icon .icon {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.enterprise-card .enterprise-icon .icon {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.download-tab .icon,
+.routing-title .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: -3px;
+}
+
+.routing-title .icon {
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+}
+
+.companion-tab.active,
+.companion-tab.active .tab-icon,
+.companion-tab.active .icon,
+.download-tab.active,
+.download-tab.active .icon {
+  color: #ffffff;
+}
+
 @media (max-width: 640px) {
   .hero-title {
     font-size: 2.6rem;

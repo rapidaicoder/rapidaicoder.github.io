@@ -17,11 +17,11 @@ permalink: /mn/
     <!-- Download Zone -->
     <div class="download-zone">
       <div class="download-tabs" role="tablist">
-        <button class="download-tab active" role="tab" aria-selected="true" data-target="dl-gui">🖥️ GUI програм</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-tui">⌨️ TUI програм</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-data">🗄️ Өгөгдлийн сервер</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-cloud">☁️ Үүлэн платформ</button>
-        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-installer">📦 Суулгагч</button>
+        <button class="download-tab active" role="tab" aria-selected="true" data-target="dl-gui">{% include icon.html name="monitor" %} GUI програм</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-tui">{% include icon.html name="keyboard" %} TUI програм</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-data">{% include icon.html name="database" %} Өгөгдлийн сервер</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-cloud">{% include icon.html name="cloud" %} Үүлэн платформ</button>
+        <button class="download-tab" role="tab" aria-selected="false" data-target="dl-installer">{% include icon.html name="package" %} Суулгагч</button>
       </div>
 
       <div id="dl-gui" class="download-panel active" role="tabpanel">
@@ -138,7 +138,7 @@ permalink: /mn/
     <div class="scenario-grid">
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F9ED;</span>
+          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
           <h3>Судалгааны чиглэл тодорхойлох</h3>
         </div>
         <p class="scenario-desc">Ном зүйн тоймоос эхэлнэ: сэдвийг зааглаж, хайлтыг тохируулж, өгүүллүүдийг шүүж, хоосон зайг нэгтгэнэ. Санхүүжилт ба авьяастны ажлын урсгал тэр зайг судалгааны төлөвлөгөө болгоно — гол асуулт, боломж, хамгаалж чадах чиглэл.</p>
@@ -150,7 +150,7 @@ permalink: /mn/
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x270D;&#xFE0F;</span>
+          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
           <h3>Эрдэм шинжилгээний өгүүлэл бичих</h3>
         </div>
         <p class="scenario-desc">Өгүүлэл бичих ажлын урсгал таны баталгаажуулсан үе шатаар явна: бүтэц, ном зүй, ноорог, зураг, хялбар найруулга. Өгүүлэл найруулах ба эрдмийн орчуулгын шинжээч нэр томьёог тогтвортой байлгана. LaTeX шинжээч таны .tex загвар луу бичиж, эмхэтгэн урьдчилан харахыг заана.</p>
@@ -163,7 +163,7 @@ permalink: /mn/
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F4D0;</span>
+          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
           <h3>Дипломын ажлын бүтэц цэгцлэх</h3>
         </div>
         <p class="scenario-desc">Өгүүлэл бичих ажлын бүтцийн үе шат эх бичвэрийг эцсийнх гэж үзэхээс өмнө бүлгийн хүрээг түгжинэ. LaTeX шинжээч дипломын загварын үндсэн файл ба оруулсан бүлгүүдийг уншаад тэр бүтцийг хэвээр үлдээнэ.</p>
@@ -174,7 +174,7 @@ permalink: /mn/
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F393;</span>
+          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
           <h3>Магистр, докторын дипломын ажил бичих</h3>
         </div>
         <p class="scenario-desc">Таны аль хэдийн ашигладаг дипломын загвар дээр бичнэ. LaTeX шинжээч .tex файлыг бүлэг бүлгээр нь байранд нь бөглөнө. Өгүүлэл бичих ажлын урсгал таны баталгаажуулах хэсгүүдийн нооргийг гаргана.</p>
@@ -185,7 +185,7 @@ permalink: /mn/
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F50E;</span>
+          <span class="scenario-icon">{% include icon.html name="search" %}</span>
           <h3>Эрдэм шинжилгээний өгүүлэл хянан магадлах</h3>
         </div>
         <p class="scenario-desc">Өгүүлэл найруулах шинжээч нэхэмжлэлийг өөрчлөхгүйгээр эрдмийн хэлийг хянаж, засвар бүрт тэмдэглэл үлдээнэ. PDF-ээ файл хамтрагч дээр нээгээд тэмдэглэлээ файл дээр үлдээнэ. Changjiang Scholar болон NSFC-ийн хяналтын ажлын урсгал (Онцгой залуу, Шилдэг залуу, Залуу, Ерөнхий, Түлхүүр) бүрэн бүтэн байдал, амжилт, судалгааны төлөвлөгөө, бичлэгийн чанарыг үнэлээд нэгдсэн тайлан бичнэ.</p>
@@ -197,7 +197,7 @@ permalink: /mn/
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F4CB;</span>
+          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
           <h3>Магистр, докторын ажлыг хянан магадлах</h3>
         </div>
         <p class="scenario-desc">Дипломын ажлыг файл хамтрагч руу ачаалж, тэмдэглэл тухайн файл дээр үлдэнэ. Найруулгын шинжээч хэл ба бүтцийг хэсэг хэсгээр уншина. Хуваалцсаны дараа хөтлөгч тэмдэглэл бүрийг зөвшөөрөх эсвэл үл хэрэгсэх бөгөөд дараа нь хариу бүлэгт бичигдэнэ.</p>
@@ -208,7 +208,7 @@ permalink: /mn/
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F4DA;</span>
+          <span class="scenario-icon">{% include icon.html name="library" %}</span>
           <h3>Өгүүлэл уншихад туслах, бүлгээр хуваалцах</h3>
         </div>
         <p class="scenario-desc">arXiv дугаар эсвэл холбоос наана. Файл хамтрагч PDF-ээ өөрийн таб руу татаж, чат зөвхөн тэр өгүүллийг хэлэлцэнэ. Ангийнхан эсвэл лабораторийн бүлэгтээ хуваалцана: асуулт тэмдэглэл болж, хөтлөгч зөвшөөрөх эсвэл үл хэрэгсэнэ, зөвшөөрсөн хариуг хуваалцалт харж буй хүн бүр уншина. Сонгосон хэсгийн дахин бичилт, уншлагын тэмдэглэл, өгүүллийн тайлбар таны машин дээр үлдэнэ.</p>
@@ -220,7 +220,7 @@ permalink: /mn/
       </div>
       <div class="scenario-card scenario-research">
         <div class="scenario-head">
-          <span class="scenario-icon">&#x1F310;</span>
+          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
           <h3>Өгүүллийг алсаас хянан магадлах</h3>
         </div>
         <p class="scenario-desc">Хянагч зохиогчийн компьютер дээр суух албагүй. Хуваалцсан хамтрагч баримт Hub-аар явна: оролцогч өөрийн MaClaw дээрээс тэмдэглэл бичнэ, хөтлөгч зөвшөөрнө, хариу нь тухайн хуваалцалт дээр хадгалагдана. Hub-ын алсын сесс энэ хяналтыг ширээнээс хол үргэлжлүүлнэ.</p>
@@ -243,21 +243,21 @@ permalink: /mn/
       <!-- Vertical Tab Navigation -->
       <div class="companion-tabnav" role="tablist" aria-orientation="vertical">
         <button type="button" class="companion-tab active" role="tab" aria-selected="true" data-target="tab-enterprise">
-          <span class="tab-icon">&#x1F3E2;</span>
+          <span class="tab-icon">{% include icon.html name="building" %}</span>
           <span class="tab-label">
             <span class="tab-title">Аж ахуйн нэгжийн хамтрагч</span>
             <span class="tab-desc">Засаглагдах AI чадварын суурь</span>
           </span>
         </button>
         <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-personal">
-          <span class="tab-icon">&#x1F464;</span>
+          <span class="tab-icon">{% include icon.html name="user" %}</span>
           <span class="tab-label">
             <span class="tab-title">Хувь хүний хамтрагч</span>
             <span class="tab-desc">Таны хувийн AI ажлын хамтрагч</span>
           </span>
         </button>
         <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-digital-employee">
-          <span class="tab-icon">&#x1F916;</span>
+          <span class="tab-icon">{% include icon.html name="bot" %}</span>
           <span class="tab-label">
             <span class="tab-title">Тоон ажилтан</span>
             <span class="tab-desc">Зардал хэмнэх AI ажиллах хүч</span>
@@ -281,7 +281,7 @@ permalink: /mn/
           <div class="scenario-grid">
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4BC;</span>
+                <span class="scenario-icon">{% include icon.html name="briefcase" %}</span>
                 <h3>Өдөр тутмын оффис</h3>
               </div>
               <p class="scenario-desc">Стандарт ажиллагааг Skill багц болгон ажилтны MaClaw руу түгээнэ. Баримт, имэйл, зардал, баталгаажуулалт компанийн стандартыг автоматаар дагана.</p>
@@ -300,7 +300,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-it-sys">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F5C2;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="folders" %}</span>
                 <h3>Байгууллагын бүрэн IT систем</h3>
                 <span class="scenario-pill">Хуучин MIS-ийг орлоно</span>
               </div>
@@ -320,7 +320,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-itops">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F6E0;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="wrench" %}</span>
                 <h3>IT ашиглалт</h3>
               </div>
               <p class="scenario-desc">Ашиглалтын SOP-оо Skill / шууд даалгавар болгон инженерийн машин руу түгээнэ. Ээлжит үзлэгээс яаралтай сэргээлт хүртэл яриа эсвэл нэг командаар.</p>
@@ -339,7 +339,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-factory">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F3ED;</span>
+                <span class="scenario-icon">{% include icon.html name="factory" %}</span>
                 <h3>Үйлдвэрийн шугамын хяналт</h3>
               </div>
               <p class="scenario-desc">Байгууллагын MCP-ээр PLC / SCADA / MES өгөгдлийг холбоно. MaClaw талбай дээр үлдэж, үзүүлэлт цуглуулж, гажиг олж, анхааруулга илгээж, ээлжийн тайлан гаргана.</p>
@@ -365,7 +365,7 @@ permalink: /mn/
 
           <div class="enterprise-grid">
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F3EA;</div>
+              <div class="enterprise-icon">{% include icon.html name="store" %}</div>
               <h3>Хувийн чадварын зах</h3>
               <p>Байгууллага удирддаг Skill/MCP сан. Ажилтны MaClaw энд батлагдаж хадгалагдсан чадварыг түрүүлж дуудна.</p>
               <ul class="feature-list">
@@ -375,7 +375,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F4E5;</div>
+              <div class="enterprise-icon">{% include icon.html name="inbox" %}</div>
               <h3>Түгээлт ба зөвлөмж</h3>
               <p>Админ албадан түгээж эсвэл зөвлөж болно. Хүрээ нь хэлтэс / үүрэг / төхөөрөмжийн төрөл.</p>
               <ul class="feature-list">
@@ -385,7 +385,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F4DD;</div>
+              <div class="enterprise-icon">{% include icon.html name="file-pen" %}</div>
               <h3>Эх сурвалжийн баталгаа ба цуцлалт</h3>
               <p>Чадварын багц бүр эх сурвалж, хувилбар, шалгах нийлбэртэй бөгөөд нэг товшилтоор цуцлагдана.</p>
               <ul class="feature-list">
@@ -395,7 +395,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F5C4;</div>
+              <div class="enterprise-icon">{% include icon.html name="archive" %}</div>
               <h3>Өгөгдлийн бүрэн эрх ба олон түрээслэгч</h3>
               <p>Байгууллагын өгөгдөл таны Hub дотор үлдэнэ; үүл бизнесийн өгөгдлийг уншихгүй.</p>
               <ul class="feature-list">
@@ -414,7 +414,7 @@ permalink: /mn/
 
           <div class="enterprise-grid">
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F510;</div>
+              <div class="enterprise-icon">{% include icon.html name="lock" %}</div>
               <h3>Баталгаажуулалт ба нэвтрэх эрх</h3>
               <p>Давхаргат нэвтрэх эрхийн загвар — түлхүүр бүр хүчтэй хэш ба бүрэн амьдралын мөчлөгөөр дамжина.</p>
               <ul class="feature-list">
@@ -425,7 +425,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F6E1;&#xFE0F;</div>
+              <div class="enterprise-icon">{% include icon.html name="shield" %}</div>
               <h3>Бодлогын хөдөлгүүр</h3>
               <p>Хэрэглэгчийн бүлгийн модноос дээрээс доош хүчин төгөлдөр бодлого, таван үйлдэл, дөрвөн урьдчилсан тохиргоо.</p>
               <ul class="feature-list">
@@ -436,7 +436,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F511;</div>
+              <div class="enterprise-icon">{% include icon.html name="key" %}</div>
               <h3>Төгсгөлөөс төгсгөлийн шифрлэлт</h3>
               <p>Чадварын багц, лиценз, дамжуулалт бүгд шифрлэгдэнэ; хувийн түлхүүр өгөгдлийн түлхүүрээс тусад нь хадгалагдана.</p>
               <ul class="feature-list">
@@ -447,7 +447,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F9F1;</div>
+              <div class="enterprise-icon">{% include icon.html name="blocks" %}</div>
               <h3>Sandbox ба тусгаарлалт</h3>
               <p>Гүйцэтгэлийн орчин ба сүлжээний хүрээ хоёуланг тохируулна — түрээслэгчид физик давхарга дээр тусгаарлагдана.</p>
               <ul class="feature-list">
@@ -458,7 +458,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x1F4DC;</div>
+              <div class="enterprise-icon">{% include icon.html name="scroll" %}</div>
               <h3>Аудит, далдлалт, тарилтын хамгаалалт</h3>
               <p>Дуудлага бүр бүтэцтэйгээр бүртгэгдэнэ; эмзэг өгөгдөл автоматаар олдож далдлагдана.</p>
               <ul class="feature-list">
@@ -469,7 +469,7 @@ permalink: /mn/
               </ul>
             </div>
             <div class="enterprise-card">
-              <div class="enterprise-icon">&#x2696;&#xFE0F;</div>
+              <div class="enterprise-icon">{% include icon.html name="scale" %}</div>
               <h3>Өндөр эрсдэлтэй үйлдлийн баталгаа</h3>
               <p>Эрсдэлийн түвшин + давхар баталгаа + ухаалаг хяналт — чухал үйлдлийг зогсоож, энгийн үйлдэл саад болохгүй.</p>
               <ul class="feature-list">
@@ -501,7 +501,7 @@ permalink: /mn/
           <div class="scenario-grid">
             <div class="scenario-card scenario-doc">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4C4;</span>
+                <span class="scenario-icon">{% include icon.html name="file" %}</span>
                 <h3>Баримт боловсруулалт</h3>
               </div>
               <p class="scenario-desc">Word / Excel / PPT / PDF — таны хэв маяг, загвараар үүсгэж, засаж, хөрвүүлнэ.</p>
@@ -521,7 +521,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-data">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4CA;</span>
+                <span class="scenario-icon">{% include icon.html name="chart" %}</span>
                 <h3>Өгөгдлийн шинжилгээ</h3>
               </div>
               <p class="scenario-desc">Түүхий Excel / CSV / DB экспортоо өгөөд, байгалийн хэлээр асуухад дүгнэлт ба график гарна.</p>
@@ -540,7 +540,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-pcops">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F5A5;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="monitor" %}</span>
                 <h3>Компьютерын арчилгаа</h3>
               </div>
               <p class="scenario-desc">Ширээний GUI автоматжуулалт + командын мөрийн даалгавар — MaClaw таны компьютерыг жолоодно: програм суулгах, диск цэвэрлэх, тохиргоо засах, скрипт ажиллуулах.</p>
@@ -559,7 +559,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-workflow">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4CB;</span>
+                <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
                 <h3>Ажлын урсгалын загвар</h3>
               </div>
               <p class="scenario-desc">38 бүтэцтэй ажлын урсгалын загвар «шаардлага → загвар → алхам алхмаар гүйцэтгэл»-ийг дагана — алхам бүрт зогсоож, баталгаажуулж, засаж болно.</p>
@@ -577,7 +577,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-study">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F393;</span>
+                <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
                 <h3>Гадаадад суралцах</h3>
               </div>
               <p class="scenario-desc">Сургууль сонгохоос эссэ, хугацааны удирдлага хүртэл — MaClaw таны суурь ба дуртай зүйлийг санаж бүх замыг хамт явна.</p>
@@ -596,7 +596,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-research">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F52C;</span>
+                <span class="scenario-icon">{% include icon.html name="microscope" %}</span>
                 <h3>Судалгааны туслах</h3>
               </div>
               <p class="scenario-desc">Өгүүллийг мэдлэгийн санд оруулж, файл хамтрагч дээр нээгээд, судалгааны чиглэлээс дипломын бүлэг хүртэл эрдмийн ажлын урсгалаар явна. <a href="#research">Судалгааны туслалцааг нээх</a>.</p>
@@ -615,7 +615,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-image">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F5BC;&#xFE0F;</span>
+                <span class="scenario-icon">{% include icon.html name="image" %}</span>
                 <h3>Зураг боловсруулалт</h3>
               </div>
               <p class="scenario-desc">Skill / MCP-ээр зургийн хэрэгслийг жолоодно — засвар, үүсгэлт, танилтаа яриагаар.</p>
@@ -634,7 +634,7 @@ permalink: /mn/
 
             <div class="scenario-card scenario-memory">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F9E0;</span>
+                <span class="scenario-icon">{% include icon.html name="brain" %}</span>
                 <h3>Санах ой + мэдлэгийн сан</h3>
               </div>
               <p class="scenario-desc">Урт хугацааны санах ой бол дотоод тархи; мэдлэгийн сан бол гадаад тархи. Сесс дамнан дуртай зүйлийг санана; баримт оруулж мэргэжлийн мэдлэг өгнө.</p>
@@ -673,7 +673,7 @@ permalink: /mn/
           <div class="scenario-grid">
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x2615;</span>
+                <span class="scenario-icon">{% include icon.html name="coffee" %}</span>
                 <h3>Өдөр тутмын ажлын автоматжуулалт</h3>
               </div>
               <p>Имэйл ялгах ба хариуны санал, хурлын тэмдэглэл, хуваарь, зардлын тайлан болон давтагдах ажлыг автоматаар хийж, ажилтныг өндөр үнэ цэнэтэй ажилд чөлөөлнө.</p>
@@ -685,7 +685,7 @@ permalink: /mn/
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4AC;</span>
+                <span class="scenario-icon">{% include icon.html name="message" %}</span>
                 <h3>Мэдээллийн зууч</h3>
               </div>
               <p>Тоон дүр ажилтны мэргэжлийн мэдлэгийг үргэлжлүүлэн сурч, нийтлэг асуулт, бодлого, журмын тайлбарыг түүний өмнөөс хариулна — зөвхөн хүний шийдвэр шаардсан нарийн асуудлыг дамжуулна.</p>
@@ -697,7 +697,7 @@ permalink: /mn/
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4DD;</span>
+                <span class="scenario-icon">{% include icon.html name="file-pen" %}</span>
                 <h3>Баримт ба тайлан үүсгэх</h3>
               </div>
               <p>Долоо хоног, сарын тайлан, төслийн явц, графиктай шинжилгээний баримтыг автоматаар гаргана. Гэрээ, саналын ноорог бичиж, баримт бүтээх хугацааг эрс багасгана.</p>
@@ -709,7 +709,7 @@ permalink: /mn/
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F517;</span>
+                <span class="scenario-icon">{% include icon.html name="link" %}</span>
                 <h3>Систем дамнасан даалгавар</h3>
               </div>
               <p>OA, ERP, CRM болон бусад системийг холбоно. Нэг байгалийн хэлний команд олон алхамт үйлдлийг эхлүүлнэ — «Өнгөрсөн долоо хоногийн үнийн саналыг Жанг руу батлуулахаар явуул» — програм хооронд үсрэхгүй.</p>
@@ -730,7 +730,7 @@ permalink: /mn/
           <div class="scenario-grid">
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F3E2;</span>
+                <span class="scenario-icon">{% include icon.html name="building" %}</span>
                 <h3>Виртуал хүлээн авагч ба хэрэглэгчийн үйлчилгээ</h3>
               </div>
               <p>7×24 зочин хүлээн авах, хэрэглэгчийн дэмжлэг, бүтээгдэхүүний танилцуулга олон хэл, олон сувгаар. Суурь үйлчилгээний ажлыг илүү хурдан, нэг стандарт, сургалтын зардалгүйгээр орлоно.</p>
@@ -742,7 +742,7 @@ permalink: /mn/
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x2705;</span>
+                <span class="scenario-icon">{% include icon.html name="check" %}</span>
                 <h3>Процессын баталгааны туслах</h3>
               </div>
               <p>Стандарт урсгалыг (чөлөө, худалдан авалт, нөхөн төлбөр, гэрээ) секундэд автоматаар батална; онцгой тохиолдлыг хүнд дамжуулна. Баталгаажуулалтыг цагаас секунд болгоно.</p>
@@ -754,7 +754,7 @@ permalink: /mn/
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4CA;</span>
+                <span class="scenario-icon">{% include icon.html name="chart" %}</span>
                 <h3>Өгөгдөл оруулах ба шалгах</h3>
               </div>
               <p>Имэйл, PDF, зураг, вэб хуудсаас бүтэцтэй өгөгдөл гаргаж оруулж, харьцуулж, шалгана — гараар оруулах алдааг арилгаж, өгөгдөл оруулагчийг илүү үнэ цэнэтэй ажилд чөлөөлнө.</p>
@@ -766,7 +766,7 @@ permalink: /mn/
             </div>
             <div class="scenario-card scenario-office">
               <div class="scenario-head">
-                <span class="scenario-icon">&#x1F4DA;</span>
+                <span class="scenario-icon">{% include icon.html name="library" %}</span>
                 <h3>Мэдлэгийн сангийн эрхлэгч</h3>
               </div>
               <p>Компанийн баримт, гарын авлага, бүтээгдэхүүний тодорхойлолтыг үргэлжлүүлэн авна. Мэдлэгийн санг шинэчилж, хуучирсан агуулгыг тэмдэглэж, засвар санал болгоно.</p>
@@ -799,7 +799,7 @@ permalink: /mn/
         <div class="tier-rank">Түвшин 1</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x1F3E2;</span>
+            <span class="tier-icon">{% include icon.html name="building" %}</span>
             <div>
               <h3 class="tier-name">Хувийн чадварын зах</h3>
               <p class="tier-sub">Байгууллагын Hub зах</p>
@@ -819,7 +819,7 @@ permalink: /mn/
         <div class="tier-rank">Түвшин 2</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x2601;&#xFE0F;</span>
+            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
             <div>
               <h3 class="tier-name">Нээлттэй чадварын зах</h3>
               <p class="tier-sub">HubCenter зах</p>
@@ -838,7 +838,7 @@ permalink: /mn/
         <div class="tier-rank">Түвшин 3</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x1F30E;</span>
+            <span class="tier-icon">{% include icon.html name="globe" %}</span>
             <div>
               <h3 class="tier-name">ClawHub</h3>
               <p class="tier-sub">Нийгэмлэгийн чадвар</p>
@@ -857,7 +857,7 @@ permalink: /mn/
         <div class="tier-rank">Түвшин 4</div>
         <div class="tier-body">
           <div class="tier-head">
-            <span class="tier-icon">&#x1F419;</span>
+            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
             <div>
               <h3 class="tier-name">GitHub</h3>
               <p class="tier-sub">Нээлттэй эхийн экосистем</p>
@@ -874,7 +874,7 @@ permalink: /mn/
     </div>
 
     <div class="capability-routing">
-      <h3 class="routing-title">&#x1F50D; Байгууллагын горимын ухаалаг чиглүүлэлт</h3>
+      <h3 class="routing-title">{% include icon.html name="search" %} Байгууллагын горимын ухаалаг чиглүүлэлт</h3>
       <p>MaClaw байгууллагын горимд байхад чадвар хайх дараалал: <strong>Хувийн зах → Нээлттэй зах → ClawHub → GitHub</strong>. Байгууллагын Hub-д нийтлэгдсэн чадвар үргэлж түрүүлнэ; гаднын эхийг хайх, турших, оруулах эсэхийг байгууллагын бодлого шийднэ.</p>
       <ul class="routing-rules">
         <li><strong>Үнэгүй чадвар</strong>: «туршаад дараа нь авах» гэж тохируулж болно — баталгаажсан чадвар байгууллагын зах руу автоматаар архивлагдана.</li>
@@ -894,28 +894,28 @@ permalink: /mn/
     <div class="buildflow-steps">
       <div class="buildflow-step">
         <div class="bf-num">01</div>
-        <div class="bf-icon">&#x1F50D;</div>
+        <div class="bf-icon">{% include icon.html name="search" %}</div>
         <h3>Олох</h3>
         <p>Админ нээлттэй зах, ClawHub, GitHub-аас тохирох Skill/MCP хайна — эсвэл ажилтан оруулах хүсэлт гаргана.</p>
       </div>
       <div class="bf-arrow">&rarr;</div>
       <div class="buildflow-step">
         <div class="bf-num">02</div>
-        <div class="bf-icon">&#x2705;</div>
+        <div class="bf-icon">{% include icon.html name="check" %}</div>
         <h3>Батлах / худалдан авах</h3>
         <p>Үнэгүй чадвар туршилт эсвэл баталгааны бодлогоор; төлбөртэй нь худалдан авалтаар — лицензийг байгууллагын Hub төвлөрүүлж барина.</p>
       </div>
       <div class="bf-arrow">&rarr;</div>
       <div class="buildflow-step">
         <div class="bf-num">03</div>
-        <div class="bf-icon">&#x1F4E6;</div>
+        <div class="bf-icon">{% include icon.html name="package" %}</div>
         <h3>Оруулах ба нийтлэх</h3>
         <p>Батлагдсан чадвар хувилбар, зөвшөөрлийн жагсаалт, эх сурвалжийн мета өгөгдөлтэйгээр хувийн зах руу орно.</p>
       </div>
       <div class="bf-arrow">&rarr;</div>
       <div class="buildflow-step">
         <div class="bf-num">04</div>
-        <div class="bf-icon">&#x1F4E4;</div>
+        <div class="bf-icon">{% include icon.html name="send" %}</div>
         <h3>Түгээх ба суулгах</h3>
         <p>Хэлтэс/үүрэг/төслөөр ажилтны MaClaw руу түгээнэ — албадан суулгах эсвэл зөвлөх, алдвал автоматаар дахин оролдоно.</p>
       </div>
@@ -936,124 +936,124 @@ permalink: /mn/
     <p class="section-subtitle">38 бүтэцтэй ажлын урсгал. Доорх нь товчлол — эрдмийн бичлэг ба хяналт «Судалгааны туслалцаа» хэсэгт</p>
     <div class="workflow-grid">
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DD;</div>
+        <div class="workflow-icon">{% include icon.html name="file-pen" %}</div>
         <h3>Тендерийн хариу</h3>
         <p>Тендерийн баримт задлах, мэргэшлийн хариу, техникийн санал, баримт бүрдүүлэлт — эхнээс нь дуустал</p>
         <span class="workflow-tag">Байгууллага</span>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DC;</div>
+        <div class="workflow-icon">{% include icon.html name="scroll" %}</div>
         <h3>Гэрээ хянах</h3>
         <p>Заалт бүрийн эрсдэл, нийцлийн шалгалт, бүх төрлийн гэрээнд засварын санал</p>
         <span class="workflow-tag">Байгууллага</span>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F50D;</div>
+        <div class="workflow-icon">{% include icon.html name="search" %}</div>
         <h3>Нягтлан шалгалт</h3>
         <p>Бизнес, санхүү, хууль, техникийн олон өнцгийн нягтлан шалгалт, бүрэн тайлантай</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4CA;</div>
+        <div class="workflow-icon">{% include icon.html name="chart" %}</div>
         <h3>Нийцлийн аудит</h3>
         <p>Журмын нийцлийн үнэлгээ, эрсдэлийн зэрэг, залруулах төлөвлөгөө</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4C4;</div>
+        <div class="workflow-icon">{% include icon.html name="file" %}</div>
         <h3>Патентийн шинжилгээ</h3>
         <p>Өмнөх техник хайх, зөрчлийн эрсдэл, патентийн стратегийн санал</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4B0;</div>
+        <div class="workflow-icon">{% include icon.html name="coins" %}</div>
         <h3>Бизнес төлөвлөгөө</h3>
         <p>Зах зээлийн шинжилгээ, санхүүгийн төсөөлөл, стратегийн баримт</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F3AF;</div>
+        <div class="workflow-icon">{% include icon.html name="target" %}</div>
         <h3>Өрсөлдөгчийн шинжилгээ</h3>
         <p>Зах зээлийн зураглал, өрсөлдөгчийн дүр, стратегийн байрлал</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4A1;</div>
+        <div class="workflow-icon">{% include icon.html name="lightbulb" %}</div>
         <h3>Инновацын төлөвлөгөө</h3>
         <p>Технологийн хандлага, инновацын боломж, R&D төлөвлөгөө</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4C5;</div>
+        <div class="workflow-icon">{% include icon.html name="calendar" %}</div>
         <h3>Арга хэмжээ төлөвлөх</h3>
         <p>Санаанаас гүйцэтгэлийн жагсаалт хүртэлх арга хэмжээний ажлын урсгал</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4BB;</div>
+        <div class="workflow-icon">{% include icon.html name="laptop" %}</div>
         <h3>Төслийн санал</h3>
         <p>Хүрээ тодорхойлох, нөөц төлөвлөх, хугацаа гаргах</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DA;</div>
+        <div class="workflow-icon">{% include icon.html name="library" %}</div>
         <h3>Судалгааны тайлан</h3>
         <p>Ном зүйн тойм, өгөгдөл нэгтгэх, эрдмийн бичлэг</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F3A8;</div>
+        <div class="workflow-icon">{% include icon.html name="palette" %}</div>
         <h3>Илтгэлийн дизайн</h3>
         <p>Слайдын бүтэц, агуулгын зохион байгуулалт, харааны дизайны чиглэл</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DA;</div>
+        <div class="workflow-icon">{% include icon.html name="library" %}</div>
         <h3>Ном зүйн тойм</h3>
         <p>Сэдэв, хайлтын стратеги, шүүлт, шинжилгээ, таны батлах нэгтгэл</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x270D;&#xFE0F;</div>
+        <div class="workflow-icon">{% include icon.html name="pen" %}</div>
         <h3>Өгүүлэл бичих</h3>
         <p>Бүтэц, ном зүй, ноорог, зураг, найруулга — баталгаажсан үе шамаар</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F9EA;</div>
+        <div class="workflow-icon">{% include icon.html name="flask" %}</div>
         <h3>Туршилтын загвар</h3>
         <p>Судалгааны асуулт, таамаглал, аргын харьцуулалт, туршилтын төлөвлөгөө</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F504;</div>
+        <div class="workflow-icon">{% include icon.html name="refresh" %}</div>
         <h3>Өгүүлэл давтан хийх</h3>
         <p>Өгүүллийг уншиж, код ба өгөгдлийг олж, суурь туршилтыг давтан хийж, тайлан бичнэ</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4B3;</div>
+        <div class="workflow-icon">{% include icon.html name="card" %}</div>
         <h3>Санхүүжилтийн өргөдөл</h3>
         <p>Таны нэрлэсэн санд зориулсан судалгааны суурь, төлөвлөгөө, өргөдөл</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F3DB;&#xFE0F;</div>
+        <div class="workflow-icon">{% include icon.html name="landmark" %}</div>
         <h3>Эрдмийн өргөдөл</h3>
         <p>Changjiang Scholar болон NSFC-ийн Онцгой залуу, Шилдэг залуу, Залуу, Ерөнхий, Түлхүүр</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F50E;</div>
+        <div class="workflow-icon">{% include icon.html name="search" %}</div>
         <h3>Эрдмийн хяналт</h3>
         <p>Харгалзах хяналтын загвар: бүрэн бүтэн байдал, амжилт, төлөвлөгөө, бичлэгийн чанар, тайлан</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4DC;</div>
+        <div class="workflow-icon">{% include icon.html name="scroll" %}</div>
         <h3>Патент мэдүүлэх</h3>
         <p>Хятадын патент ба АНУ-ын USPTO патентын өргөдлийн ажлын урсгал</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F393;</div>
+        <div class="workflow-icon">{% include icon.html name="graduation" %}</div>
         <h3>Гаокао төлөвлөлт</h3>
         <p>Оноо, сонирхол, хязгаараас их сургуулийн өргөдлийн лавлагаа</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F4BB;</div>
+        <div class="workflow-icon">{% include icon.html name="laptop" %}</div>
         <h3>Програмчлалын төсөл</h3>
         <p>MaClaw-ийн өөрийн зам: шаардлага, загвар, даалгавар, хэрэгжүүлэлт, хүлээн авалт</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x1F527;</div>
+        <div class="workflow-icon">{% include icon.html name="wrench" %}</div>
         <h3>Арчилгаа</h3>
         <p>Нөлөөллийн шинжилгээ, дахин бүтэц, баталгаажуулалт — эсвэл хяналттай ашиглалтын өөрчлөлт</p>
       </div>
       <div class="workflow-card">
-        <div class="workflow-icon">&#x2705;</div>
+        <div class="workflow-icon">{% include icon.html name="check" %}</div>
         <h3>Тендерийн баримт шалгах</h3>
         <p>Бэлэн тендерийн баримтыг шаардлагатай нь тулгаж, засварын тайлан гаргана</p>
       </div>
