@@ -1,0 +1,122 @@
+en:
+  caption: "MaClaw reviewing a master's or PhD thesis in the file companion, with the research workflows and IM channels beside the chat."
+  mode: Pro
+  workflows_label: Workflows
+  im_label: IM channels
+  companion_label: File companion
+  you: You
+  agent_name: MaClaw
+  active: "Master's / PhD thesis review"
+  workflows:
+    - Research direction planning
+    - Academic paper writing
+    - Graduation thesis outline
+    - "Master's / PhD thesis writing"
+    - Academic paper review
+    - "Master's / PhD thesis review"
+    - Assisted reading and group sharing
+    - Remote paper review
+  im:
+    - WeChat
+    - Feishu
+    - QQ
+    - Telegram
+    - Lansenger
+  chips:
+    - Chapter notes
+    - Host review
+    - LaTeX thesis
+  user: "Review this thesis in the file companion. Keep the claim, and note language and structure chapter by chapter."
+  reply: "The thesis is open in the file companion. The polish expert left chapter notes. After you share it, the host approves or ignores each note before a reply goes back to the group."
+  composer: "Ask about the next chapter"
+  file: thesis.tex
+  file_meta: "LaTeX thesis. Comments stay on this file."
+  notes:
+    - kicker: Chapter notes
+      text: "The polish expert reads language and structure. The claim stays as written."
+    - kicker: Host review
+      text: "Approve or ignore each note before the group sees a reply."
+    - kicker: Hub share
+      text: "Remote review continues in a Hub session, away from the desk."
+
+zh-cn:
+  caption: "码卡龙正在文件伴读里评审一篇硕博毕业论文，旁边是科研工作流和已绑定的即时通讯渠道。"
+  mode: 专业
+  workflows_label: 工作流
+  im_label: 即时通讯
+  companion_label: 文件伴读
+  you: 你
+  agent_name: 码卡龙
+  active: 硕博毕业论文评审
+  workflows:
+    - 研究方向制定
+    - 学术论文撰写
+    - 毕业论文框架整理
+    - 硕博毕业论文撰写
+    - 学术论文评审
+    - 硕博毕业论文评审
+    - 论文辅助阅读与群组分享
+    - 远程论文评审
+  im:
+    - 微信
+    - 飞书
+    - QQ
+    - Telegram
+    - 蓝信
+  chips:
+    - 分章批注
+    - 主持人审核
+    - LaTeX 学位论文
+  user: "把这篇学位论文放进文件伴读。不改原意，按章节看语言和结构。"
+  reply: "学位论文已在文件伴读中打开。润色专家留下了分章批注。分享之后，主持人先通过或忽略每条批注，回复才会写回给群组。"
+  composer: "接着看下一章"
+  file: thesis.tex
+  file_meta: "LaTeX 学位论文，批注留在这一份文件上。"
+  notes:
+    - kicker: 分章批注
+      text: "润色专家按章节看语言和结构，原意保持不变。"
+    - kicker: 主持人审核
+      text: "每条批注先通过或忽略，群组才看得到回复。"
+    - kicker: Hub 分享
+      text: "远程评审可以在 Hub 远程会话里，离开座位继续。"
+
+mn:
+  caption: "MaClaw файл хамтрагч дээр магистр, докторын дипломын ажлыг хянаж байна. Хажууд нь судалгааны ажлын урсгал ба IM сувгууд."
+  mode: Pro
+  workflows_label: Ажлын урсгал
+  im_label: IM сувгууд
+  companion_label: Файл хамтрагч
+  you: Та
+  agent_name: MaClaw
+  active: "Магистр, докторын ажлыг хянан магадлах"
+  workflows:
+    - Судалгааны чиглэл тодорхойлох
+    - Эрдэм шинжилгээний өгүүлэл бичих
+    - Дипломын ажлын бүтэц цэгцлэх
+    - "Магистр, докторын дипломын ажил бичих"
+    - Эрдэм шинжилгээний өгүүлэл хянан магадлах
+    - "Магистр, докторын ажлыг хянан магадлах"
+    - "Өгүүлэл уншихад туслах, бүлгээр хуваалцах"
+    - Өгүүллийг алсаас хянан магадлах
+  im:
+    - WeChat
+    - Feishu
+    - QQ
+    - Telegram
+    - Lansenger
+  chips:
+    - Бүлгийн тэмдэглэл
+    - Хөтлөгчийн хяналт
+    - LaTeX диплом
+  user: "Энэ дипломын ажлыг файл хамтрагч дээр хяна. Нэхэмжлэлийг хэвээр үлдээж, хэл ба бүтцийг бүлэг бүлгээр тэмдэглэ."
+  reply: "Дипломын ажил файл хамтрагч дээр нээлттэй. Найруулгын шинжээч бүлгийн тэмдэглэл үлдээлээ. Хуваалцсаны дараа хөтлөгч тэмдэглэл бүрийг зөвшөөрөх эсвэл үл хэрэгсэж, дараа нь хариу бүлэгт бичигдэнэ."
+  composer: "Дараагийн бүлгийг асуу"
+  file: thesis.tex
+  file_meta: "LaTeX диплом. Тэмдэглэл энэ файл дээр үлдэнэ."
+  notes:
+    - kicker: Бүлгийн тэмдэглэл
+      text: "Найруулгын шинжээч хэл ба бүтцийг уншина. Нэхэмжлэл хэвээрээ."
+    - kicker: Хөтлөгчийн хяналт
+      text: "Тэмдэглэл бүрийг зөвшөөрөх эсвэл үл хэрэгсэнэ. Дараа нь бүлэг хариуг уншина."
+    - kicker: Hub хуваалцалт
+      text: "Алсын хяналт Hub-ын алсын сесс дээр, ширээнээс хол үргэлжилнэ."

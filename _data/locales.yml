@@ -10,6 +10,8 @@ en:
   copyright: "© 2026 MaClaw. All rights reserved."
   lang_label: "EN"
   lang_switcher_label: "Language"
+  skip: "Skip to content"
+  menu: "Menu"
 zh-cn:
   install_button: "立即下载 MaClaw"
   github_button: "在 GitHub 上查看"
@@ -22,6 +24,8 @@ zh-cn:
   copyright: "© 2026 MaClaw. 保留所有权利。"
   lang_label: "中文"
   lang_switcher_label: "语言"
+  skip: "跳到正文"
+  menu: "菜单"
 mn:
   install_button: "MaClaw татах"
   github_button: "GitHub дээр үзэх"
@@ -34,3 +38,5 @@ mn:
   copyright: "© 2026 MaClaw. Бүх эрх хуулиар хамгаалагдсан."
   lang_label: "МОН"
   lang_switcher_label: "Хэл"
+  skip: "Агуулга руу очих"
+  menu: "Цэс"

@@ -1,0 +1,54 @@
+{% assign stage_lang = page.lang | default: 'en' %}
+{% assign stage = site.data.stage[stage_lang] %}
+<div class="app-window">
+  <div class="app-top">
+    <span class="app-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+    <strong>MaClaw</strong>
+    <span class="app-mode">{{ stage.mode }}</span>
+  </div>
+  <div class="app-body">
+    <div class="app-col app-nav">
+      <p class="app-kicker">{{ stage.workflows_label }}</p>
+      <ul class="app-flow">
+        {% for name in stage.workflows %}
+          <li{% if name == stage.active %} class="is-on"{% endif %}>{{ name }}</li>
+        {% endfor %}
+      </ul>
+      <p class="app-kicker">{{ stage.im_label }}</p>
+      <ul class="app-im">
+        {% for channel in stage.im %}
+          <li>{{ channel }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="app-col app-chat">
+      <h3 class="app-chat-title">{{ stage.active }}</h3>
+      <ul class="app-chips">
+        {% for chip in stage.chips %}
+          <li>{{ chip }}</li>
+        {% endfor %}
+      </ul>
+      <div class="app-msg is-you">
+        <span class="app-who">{{ stage.you }}</span>
+        <p>{{ stage.user }}</p>
+      </div>
+      <div class="app-msg is-agent">
+        <span class="app-who">{{ stage.agent_name }}</span>
+        <p>{{ stage.reply }}</p>
+      </div>
+      <div class="app-composer">{{ stage.composer }}</div>
+    </div>
+    <div class="app-col app-doc">
+      <p class="app-kicker">{{ stage.companion_label }}</p>
+      <p class="app-file">{{ stage.file }}</p>
+      <p class="app-file-meta">{{ stage.file_meta }}</p>
+      {% for note in stage.notes %}
+        <article class="app-note">
+          <h4>{{ note.kicker }}</h4>
+          <p>{{ note.text }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<p class="visually-hidden">{{ stage.caption }}</p>
