@@ -8,13 +8,17 @@ permalink: /mn/
 
 <!-- Hero Section -->
 <section class="hero-maclaw section">
-  <div class="container" style="text-align: center; padding-top: 20px;">
+  <div class="container hero-copy">
     <span class="maclaw-badge">Тоон оюуны хамтрагч · Аж ахуйн нэгж ба хувь хүн</span>
     <h1 class="hero-title">MaClaw <span class="title-en">码卡龙</span></h1>
     <p class="hero-subtitle">Өөрөө хувьсаж чаддаг агент платформ: аж ахуйн нэгжид засаглагдах AI чадварын суурь, хувь хүнд хувийн AI ажлын хамтрагч.<br/>Таныг санаж, бизнесийг тань ойлгож, аж ахуйн нэгжийн дүрмийг дагадаг.</p>
     <p class="hero-research-link"><a href="#research">Өгүүлэл ба дипломын ажлын судалгааны туслалцаа</a></p>
 
-    <!-- Download Zone -->
+  </div>
+  <figure class="hero-stage">
+    {% include product-stage.html %}
+  </figure>
+  <div class="container hero-downloads">
     <div class="download-zone">
       <div class="download-tabs" role="tablist">
         <button class="download-tab active" role="tab" aria-selected="true" data-target="dl-gui">{% include icon.html name="monitor" %} GUI програм</button>

@@ -7,12 +7,17 @@ permalink: /
 
 <!-- Hero Section -->
 <section class="hero-maclaw section">
-  <div class="container" style="text-align: center; padding-top: 20px;">
+  <div class="container hero-copy">
     <span class="maclaw-badge">Digital Intelligence Companion · Enterprise & Personal</span>
     <h1 class="hero-title">MaClaw <span class="title-en">码卡龙</span></h1>
     <p class="hero-subtitle">A self-evolving agent platform: a governable AI capability foundation for enterprises, and a personal AI work partner.<br/>It remembers you, understands your business, and follows your enterprise rules.</p>
     <p class="hero-research-link"><a href="#research">Research assistance for papers and theses</a></p>
 
+  </div>
+  <figure class="hero-stage">
+    {% include product-stage.html %}
+  </figure>
+  <div class="container hero-downloads">
     <!-- Download Zone -->
     <div class="download-zone">
       <div class="download-tabs" role="tablist">

@@ -1,0 +1,583 @@
+// Grand product-site scale. Flat bands, one accent, large type.
+// Imported last so it sits over the previous design pass.
+
+$navy: #16365c;
+$accent: #2a74ad;
+$ink: #3d5674;
+$page: #ffffff;
+$band: #f3f8fc;
+$line: #e3eef6;
+
+body.maclaw-page {
+  background: $page;
+  color: $ink;
+}
+
+.container {
+  max-width: 1120px;
+}
+
+.section {
+  padding: 128px 0;
+}
+
+.hero-maclaw {
+  overflow: visible;
+  background: $page;
+  text-align: center;
+}
+
+.hero-maclaw.section {
+  padding: 80px 0 112px;
+}
+
+.hero-copy {
+  text-align: center;
+}
+
+.maclaw-badge {
+  margin-bottom: 24px;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+  color: $accent;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  max-width: 1000px;
+  margin: 0 auto 24px;
+  font-size: clamp(48px, 7vw, 96px);
+  font-weight: 700;
+  line-height: 0.96;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+  background-image: none;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  color: $navy;
+  -webkit-text-fill-color: $navy;
+}
+
+.hero-title .title-en {
+  display: inline;
+  margin: 0;
+  font-family: Manrope, "Noto Sans SC", sans-serif;
+  font-size: inherit;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: inherit;
+  color: $accent;
+  background: none;
+  -webkit-text-fill-color: $accent;
+}
+
+.hero-subtitle {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  font-size: 20px;
+  line-height: 32px;
+  color: $ink;
+}
+
+.hero-research-link {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.hero-research-link a {
+  color: $accent;
+  border-bottom: 0;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.hero-stage {
+  width: min(1280px, calc(100% - 48px));
+  margin: 64px auto 48px;
+}
+
+.product-stage {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 28px 56px rgba(22, 54, 92, 0.14));
+}
+
+.hero-downloads {
+  text-align: center;
+}
+
+.download-zone {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.download-tabs {
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.download-tab {
+  padding: 8px 12px;
+  border: 1px solid $line;
+  border-radius: 999px;
+  background: $page;
+  color: $navy;
+  box-shadow: none;
+
+  &:hover {
+    background: $band;
+  }
+
+  &.active {
+    background: $accent;
+    border-color: $accent;
+    color: #ffffff;
+    box-shadow: none;
+  }
+}
+
+.section-title {
+  max-width: 880px;
+  margin: 0 auto 24px;
+  font-size: clamp(36px, 4.4vw, 56px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: $navy;
+  text-wrap: balance;
+}
+
+#research .section-title {
+  max-width: 960px;
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.05;
+}
+
+.section-subtitle {
+  max-width: 720px;
+  margin: 0 auto 64px;
+  font-size: 20px;
+  line-height: 32px;
+  color: $ink;
+}
+
+.education-section,
+.capability-section,
+.workflow-section,
+.quickstart-section {
+  background: $band;
+}
+
+.companion-section,
+.buildflow-section,
+.developer-section,
+.hero-maclaw {
+  background: $page;
+}
+
+.scenario-grid,
+.enterprise-grid,
+.workflow-grid,
+.developer-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 0;
+}
+
+.scenario-card,
+.enterprise-card,
+.workflow-card,
+.developer-card,
+.capability-tier,
+.buildflow-step,
+.step-item,
+.capability-routing,
+.buildflow-note {
+  background: $page;
+  border: 1px solid $line;
+  border-radius: 24px;
+  box-shadow: 0 1px 2px rgba(22, 54, 92, 0.04);
+  backdrop-filter: none;
+}
+
+.scenario-card::before {
+  content: none;
+}
+
+.scenario-card,
+.enterprise-card,
+.workflow-card,
+.developer-card {
+  padding: 40px;
+}
+
+.scenario-card .scenario-head h3,
+.enterprise-card h3,
+.workflow-card h3,
+.developer-card h3,
+.buildflow-step h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: $navy;
+}
+
+.scenario-desc,
+.enterprise-card p,
+.workflow-card p,
+.developer-card p,
+.buildflow-step p,
+.tier-desc,
+.panel-lead {
+  font-size: 18px;
+  line-height: 28px;
+  color: $ink;
+}
+
+.scenario-icon,
+.enterprise-icon,
+.tier-icon,
+.tab-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: $band;
+  border: 1px solid $line;
+  box-shadow: none;
+}
+
+.scenario-icon .icon,
+.enterprise-icon .icon,
+.workflow-icon .icon,
+.bf-icon .icon,
+.tier-icon .icon,
+.tab-icon .icon {
+  width: 28px;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.workflow-card,
+.developer-card,
+.buildflow-step {
+  text-align: left;
+}
+
+.workflow-icon,
+.bf-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: $band;
+  border: 1px solid $line;
+  box-shadow: none;
+}
+
+.workflow-tag {
+  position: static;
+  display: inline-block;
+  margin-top: 24px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: $band;
+  color: $accent;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.scenario-tag,
+.tier-tag {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: $band;
+  border: 0;
+  color: $accent;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.scenario-banner,
+.govern-banner,
+.security-banner,
+.scenario-banner-personal {
+  margin: 64px 0 32px;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: left;
+}
+
+.scenario-label,
+.govern-label,
+.security-label {
+  color: $accent;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.scenario-headline,
+.govern-headline,
+.security-headline {
+  max-width: 760px;
+  margin-top: 8px;
+  font-size: clamp(28px, 3vw, 36px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: $navy;
+  text-wrap: balance;
+}
+
+.companion-tabs {
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+}
+
+.companion-tab {
+  padding: 20px;
+  border-radius: 16px;
+  background: $page;
+  border: 1px solid $line;
+  box-shadow: none;
+
+  &.active {
+    background: $accent;
+    border-color: $accent;
+    box-shadow: none;
+  }
+}
+
+.panel-headline {
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.panel-lead {
+  max-width: 640px;
+  margin-bottom: 16px;
+}
+
+.capability-pyramid,
+.capability-routing {
+  max-width: none;
+}
+
+.capability-pyramid {
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.capability-tier .tier-name {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+}
+
+.capability-tier .tier-body {
+  padding: 32px 40px;
+}
+
+.capability-routing {
+  padding: 40px;
+  border: 1px solid $line;
+  border-left: 1px solid $line;
+}
+
+.routing-title {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+}
+
+.buildflow-steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.bf-arrow {
+  display: none;
+}
+
+.buildflow-step {
+  max-width: none;
+  min-width: 0;
+  padding: 40px;
+}
+
+.buildflow-note {
+  max-width: none;
+  padding: 32px 40px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.quickstart-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.step-item {
+  padding: 32px 24px;
+  font-size: 18px;
+  line-height: 28px;
+  color: $navy;
+}
+
+.step-num {
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: $accent;
+}
+
+.quickstart-section .container {
+  padding: 0 24px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.site-footer {
+  background: $page;
+  border-top: 1px solid $line;
+}
+
+.tagline-word,
+.tagline-word.is-on {
+  color: #16365c;
+}
+
+html[lang="zh-CN"] .hero-title,
+html[lang="zh-CN"] .section-title,
+html[lang="zh-CN"] .scenario-headline,
+html[lang="zh-CN"] .panel-headline,
+html[lang="mn"] .hero-title,
+html[lang="mn"] .section-title,
+html[lang="mn"] .scenario-headline,
+html[lang="mn"] .panel-headline,
+.hero-title .title-en {
+  letter-spacing: 0;
+}
+
+@media (max-width: 992px) {
+  .scenario-grid,
+  .enterprise-grid,
+  .workflow-grid,
+  .developer-grid,
+  .buildflow-steps,
+  .quickstart-steps,
+  .companion-tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .companion-tabnav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .companion-tab {
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section,
+  .hero-maclaw.section {
+    padding: 80px 0;
+  }
+
+  .hero-maclaw.section {
+    padding-top: 48px;
+  }
+
+  .hero-stage {
+    width: calc(100% - 32px);
+    margin: 40px auto 32px;
+  }
+
+  .hero-subtitle,
+  .section-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+
+  .scenario-card,
+  .enterprise-card,
+  .workflow-card,
+  .developer-card,
+  .buildflow-step,
+  .capability-tier .tier-body,
+  .capability-routing,
+  .buildflow-note {
+    padding: 24px;
+  }
+
+  .scenario-card .scenario-head h3,
+  .enterprise-card h3,
+  .workflow-card h3,
+  .developer-card h3,
+  .buildflow-step h3,
+  .capability-tier .tier-name {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .btn-download {
+    font-size: 12px;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-stage {
+    filter: drop-shadow(0 16px 24px rgba(22, 54, 92, 0.12));
+  }
+}
