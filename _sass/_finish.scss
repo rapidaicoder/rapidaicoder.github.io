@@ -18,19 +18,28 @@ $shadow: #16365c;
 
 body.maclaw-page {
   color: #3a5574;
-  background-color: $mist;
-  background-image:
-    radial-gradient(ellipse 70% 42% at 8% -8%, rgba(130, 185, 230, 0.28), transparent 58%),
-    radial-gradient(ellipse 55% 36% at 96% 0%, rgba(150, 200, 235, 0.22), transparent 52%),
-    radial-gradient(ellipse 40% 30% at 70% 100%, rgba(145, 195, 235, 0.16), transparent 50%);
-  background-attachment: fixed;
+  background-color: #f7fbfe;
+  background-image: none;
 }
 
 .site-header {
-  background: rgba(247, 251, 254, 0.72);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-  box-shadow: 0 10px 30px rgba($shadow, 0.04);
-  backdrop-filter: blur(16px) saturate(1.2);
+  position: sticky;
+  top: 12px;
+  z-index: 40;
+  width: fit-content;
+  max-width: calc(100% - 32px);
+  margin: 12px auto 0;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  box-shadow: 0 8px 24px rgba(22, 54, 92, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.header-container {
+  max-width: none;
+  padding: 8px 16px;
+  gap: 16px;
 }
 
 .site-logo {
@@ -51,7 +60,7 @@ body.maclaw-page {
 .capability-tier,
 .buildflow-step,
 .step-item {
-  transition: color 0.22s ease, background 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
+  transition: color 300ms cubic-bezier(0.22, 1, 0.36, 1), background-color 300ms cubic-bezier(0.22, 1, 0.36, 1), border-color 300ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 500ms cubic-bezier(0.22, 1, 0.36, 1), transform 500ms cubic-bezier(0.22, 1, 0.36, 1), opacity 300ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .lang-switcher {
@@ -78,22 +87,10 @@ body.maclaw-page {
 }
 
 .hero-maclaw {
-  background:
-    radial-gradient(540px 300px at 50% -60px, rgba(120, 180, 230, 0.42), transparent 70%),
-    radial-gradient(420px 280px at 92% 12%, rgba(155, 205, 240, 0.38), transparent 68%),
-    radial-gradient(360px 240px at 6% 22%, rgba(170, 215, 245, 0.45), transparent 70%),
-    linear-gradient(180deg, #f8fbfe 0%, #eef6fc 100%);
+  background: #f7fbfe;
 
   &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(70, 145, 200, 0.045) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(70, 145, 200, 0.045) 1px, transparent 1px);
-    background-size: 56px 56px;
-    mask-image: radial-gradient(ellipse at 50% 20%, #000 15%, transparent 72%);
-    pointer-events: none;
+    content: none;
   }
 
   .container {
@@ -111,18 +108,35 @@ body.maclaw-page {
 }
 
 .hero-title {
-  font-size: 4.25rem;
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 16px;
+  font-size: 60px;
   font-weight: 700;
-  letter-spacing: -0.045em;
-  line-height: 1.02;
-  margin-bottom: 12px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  background-image: linear-gradient(90deg, #10243f 0%, #4d6d8c 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  text-wrap: balance;
+}
+
+.hero-title .title-en {
+  background: none;
+  color: #2a74ad;
+  font-family: Manrope, "Noto Sans SC", sans-serif;
+  font-style: normal;
+  -webkit-text-fill-color: #2a74ad;
 }
 
 .hero-subtitle {
-  max-width: 640px;
-  font-size: 1.12rem;
-  line-height: 1.75;
-  color: $ink-soft;
+  max-width: 680px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3d5674;
 }
 
 .hero-research-link a {
@@ -154,7 +168,7 @@ body.maclaw-page {
   }
 
   &.active {
-    background: linear-gradient(180deg, #4a9ad4 0%, #2a74ad 100%);
+    background: #2a74ad;
     border-color: transparent;
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.28),
@@ -165,7 +179,7 @@ body.maclaw-page {
 .btn-download,
 .btn-primary {
   border: 0;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0));
+  background-image: none;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.28),
     0 8px 16px rgba($shadow, 0.14);
@@ -213,10 +227,20 @@ body.maclaw-page {
 }
 
 .section-title {
-  font-size: 2.2rem;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
-  margin-bottom: 14px;
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 16px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+#research .section-title {
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .section-subtitle {
@@ -275,7 +299,7 @@ body.maclaw-page {
 .scenario-icon,
 .tab-icon,
 .tier-icon {
-  background: linear-gradient(180deg, #ffffff 0%, #e4f2fc 100%);
+  background: #e7f3fb;
   box-shadow:
     inset 0 1px 0 #ffffff,
     0 4px 10px rgba($shadow, 0.06);
@@ -292,7 +316,7 @@ body.maclaw-page {
   align-items: center;
   justify-content: center;
   border-radius: 14px;
-  background: linear-gradient(180deg, #ffffff 0%, #e5f3fc 100%);
+  background: #e7f3fb;
   box-shadow:
     inset 0 1px 0 #ffffff,
     0 6px 14px rgba($shadow, 0.06);
@@ -306,10 +330,10 @@ body.maclaw-page {
 .scenario-banner,
 .govern-banner,
 .security-banner {
-  border-radius: 14px;
-  border-left-width: 3px;
-  background: rgba(255, 255, 255, 0.55);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border: 1px solid #cfe4f5;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(22, 54, 92, 0.06);
 }
 
 .companion-tab {
@@ -321,10 +345,8 @@ body.maclaw-page {
   }
 
   &.active {
-    background: linear-gradient(180deg, #4a9ad4 0%, #2a74ad 100%);
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.25),
-      0 12px 24px rgba($shadow, 0.16);
+    background: #2a74ad;
+    box-shadow: 0 12px 24px rgba($shadow, 0.16);
   }
 }
 
@@ -340,10 +362,9 @@ body.maclaw-page {
 }
 
 .site-footer {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(214, 236, 250, 0.9));
-  border-top: 1px solid rgba(255, 255, 255, 0.8);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  background: #e7f3fb;
+  border-top: 1px solid #cfe4f5;
+  box-shadow: none;
 }
 
 .icon {
@@ -397,17 +418,358 @@ body.maclaw-page {
   color: #ffffff;
 }
 
-@media (max-width: 640px) {
-  .hero-title {
-    font-size: 2.6rem;
+html[lang="zh-CN"] body {
+  font-family: "Noto Sans SC", Manrope, "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 24px;
+}
+
+html[lang="mn"] body {
+  font-family: Manrope, "Noto Sans SC", sans-serif;
+  line-height: 24px;
+}
+
+html[lang="zh-CN"] .hero-title,
+html[lang="zh-CN"] .section-title,
+html[lang="zh-CN"] .scenario-card h3,
+html[lang="mn"] .section-title {
+  letter-spacing: 0;
+}
+
+.section {
+  padding: 96px 0 80px;
+}
+
+.hero-maclaw.section {
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+.section-subtitle,
+.hero-subtitle,
+.panel-lead,
+.scenario-desc {
+  color: #3d5674;
+}
+
+.hero-subtitle,
+.section-subtitle {
+  text-wrap: pretty;
+}
+
+.download-zone {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 24px;
+  padding: 16px;
+}
+
+.btn-download {
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #2a74ad;
+  background-image: none;
+  box-shadow: 0 8px 16px rgba(22, 54, 92, 0.16);
+}
+
+.btn-primary:hover {
+  background-color: #215f96;
+}
+
+.btn-primary:active,
+.btn-secondary:active,
+.btn-download:active,
+.download-tab:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+.panel-cta .btn-primary,
+.quickstart-section .btn-primary {
+  min-width: 168px;
+  text-align: center;
+}
+
+.quickstart-section .container {
+  max-width: 880px;
+  padding: 48px 32px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: 1px solid #cfe4f5;
+  box-shadow: 0 16px 32px rgba(22, 54, 92, 0.08);
+}
+
+.scenario-card,
+.enterprise-card,
+.workflow-card {
+  border-radius: 16px;
+}
+
+.capability-tier,
+.buildflow-step {
+  border-radius: 16px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #2a74ad;
+  outline-offset: 3px;
+}
+
+@keyframes maclaw-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hero-maclaw .maclaw-badge,
+.hero-maclaw .hero-title,
+.hero-maclaw .hero-subtitle,
+.hero-maclaw .hero-research-link,
+.hero-maclaw .download-zone {
+  animation: maclaw-rise 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-maclaw .hero-title { animation-delay: 0.05s; }
+.hero-maclaw .hero-subtitle { animation-delay: 0.1s; }
+.hero-maclaw .hero-research-link { animation-delay: 0.14s; }
+.hero-maclaw .download-zone { animation-delay: 0.18s; }
+
+.nav-toggle {
+  display: none;
+  position: relative;
+  z-index: 50;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-toggle-box {
+  display: block;
+  width: 16px;
+  height: 12px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-toggle-box span {
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 2px;
+  border-radius: 2px;
+  background: #16365c;
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1), opacity 300ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.nav-toggle-box span:nth-child(1) { top: 0; }
+.nav-toggle-box span:nth-child(2) { top: 5px; }
+.nav-toggle-box span:nth-child(3) { top: 10px; }
+
+.site-header.is-open .nav-toggle-box span:nth-child(1) {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.site-header.is-open .nav-toggle-box span:nth-child(2) {
+  opacity: 0;
+}
+
+.site-header.is-open .nav-toggle-box span:nth-child(3) {
+  top: 5px;
+  transform: rotate(-45deg);
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  z-index: 60;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #16365c;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  transform: translateY(-48px);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+main > section.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1), transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+main > section.reveal.is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+.tagline-word {
+  color: rgba(22, 54, 92, 0.32);
+  transition: color 500ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.tagline-word.is-on {
+  color: #16365c;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    width: calc(100% - 24px);
+    max-width: none;
   }
 
-  .section-title {
-    font-size: 1.7rem;
+  .header-container {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+  }
+
+  .site-logo {
+    justify-self: start;
+  }
+
+  .lang-switcher {
+    margin-left: 0;
+    justify-self: end;
+  }
+
+  .download-tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .download-tab {
+    min-height: 40px;
+  }
+
+  .download-tab:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+  .btn-download {
+    flex: 1 1 calc(50% - 8px);
+    justify-content: center;
+    min-height: 40px;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+
+  .hero-maclaw.section {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  .quickstart-section .container {
+    padding: 32px 16px;
+    border-radius: 16px;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .site-nav {
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(247, 251, 254, 0.96);
+    backdrop-filter: blur(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms cubic-bezier(0.22, 1, 0.36, 1), visibility 300ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .site-header.is-open .site-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .site-header.is-open .nav-item {
+    animation: maclaw-rise 400ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .site-header.is-open .nav-item:nth-child(2) {
+    animation-delay: 60ms;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .nav-link {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .section-title,
+  #research .section-title {
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .download-zone {
-    padding: 16px 12px 18px;
+    padding: 16px;
   }
 }
 
@@ -421,11 +783,26 @@ body.maclaw-page {
   .btn-primary,
   .btn-secondary,
   .btn-download,
-  .companion-tab {
+  .companion-tab,
+  .hero-maclaw .maclaw-badge,
+  .hero-maclaw .hero-title,
+  .hero-maclaw .hero-subtitle,
+  .hero-maclaw .hero-research-link,
+  .hero-maclaw .download-zone {
     transition: none;
+    animation: none;
 
     &:hover {
       transform: none;
     }
+  }
+
+  main > section.reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  .tagline-word {
+    color: #16365c;
   }
 }
