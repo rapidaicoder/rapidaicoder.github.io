@@ -6,13 +6,14 @@
 @import "maclaw";
 @import "header";
 @import "footer";
+@import "finish";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f7fbfe;
+  background-color: #f3f6f8;
   color: $color-gray-700;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "DejaVu Sans", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
   margin: 0;
