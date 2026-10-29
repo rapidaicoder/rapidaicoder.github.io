@@ -107,13 +107,233 @@ body.maclaw-page {
 .hero-stage {
   width: min(1280px, calc(100% - 48px));
   margin: 64px auto 48px;
+  text-align: left;
 }
 
-.product-stage {
+.app-window {
+  background: #ffffff;
+  border: 1px solid #d7e6f2;
+  border-radius: 20px;
+  box-shadow: 0 28px 56px rgba(22, 54, 92, 0.14);
+  overflow: hidden;
+  color: $navy;
+}
+
+.app-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 16px;
+  background: #f7fbfe;
+  border-bottom: 1px solid $line;
+
+  strong {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+}
+
+.app-dots {
+  display: flex;
+  gap: 6px;
+
+  i {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #c5d7e8;
+  }
+}
+
+.app-mode {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #e7f3fb;
+  color: $accent;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.app-body {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr) 260px;
+}
+
+.app-col {
+  padding: 16px;
+}
+
+.app-nav,
+.app-chat {
+  border-right: 1px solid $line;
+}
+
+.app-kicker {
+  margin: 0 0 8px;
+  color: $accent;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.app-nav .app-kicker:not(:first-child) {
+  margin-top: 16px;
+}
+
+.app-flow,
+.app-im,
+.app-chips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  li {
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: $ink;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  li.is-on {
+    background: $accent;
+    color: #ffffff;
+  }
+}
+
+.app-im,
+.app-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  li {
+    padding: 4px 8px;
+    border: 1px solid $line;
+    border-radius: 999px;
+    background: #f3f8fc;
+    color: $navy;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+}
+
+.app-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.app-chat-title {
+  margin: 0;
+  color: $navy;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+}
+
+.app-msg {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.app-msg.is-you {
+  background: #f3f8fc;
+  color: $navy;
+}
+
+.app-msg.is-agent {
+  background: $accent;
+  color: #ffffff;
+}
+
+.app-who {
   display: block;
-  width: 100%;
-  height: auto;
-  filter: drop-shadow(0 28px 56px rgba(22, 54, 92, 0.14));
+  margin-bottom: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+}
+
+.app-msg.is-agent .app-who {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.app-composer {
+  margin-top: auto;
+  padding: 12px 14px;
+  border: 1px solid $line;
+  border-radius: 12px;
+  background: #ffffff;
+  color: $navy;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.app-file {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.app-file-meta {
+  margin: 0 0 12px;
+  color: $ink;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.app-note {
+  margin: 0 0 8px;
+  padding: 12px;
+  border: 1px solid $line;
+  border-radius: 12px;
+  background: #f7fbfe;
+
+  h4 {
+    margin: 0 0 4px;
+    color: $navy;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  p {
+    margin: 0;
+    color: $ink;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.app-note:last-child {
+  margin-bottom: 0;
 }
 
 .hero-downloads {
@@ -541,6 +761,30 @@ html[lang="mn"] .panel-headline,
     margin: 40px auto 32px;
   }
 
+  .app-body {
+    grid-template-columns: 1fr;
+  }
+
+  .app-nav,
+  .app-chat {
+    border-right: 0;
+    border-bottom: 1px solid $line;
+  }
+
+  .app-flow {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .app-flow li {
+    flex: 1 1 calc(50% - 4px);
+  }
+
+  .app-chat-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   .hero-subtitle,
   .section-subtitle {
     font-size: 16px;
@@ -576,8 +820,11 @@ html[lang="mn"] .panel-headline,
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .product-stage {
-    filter: drop-shadow(0 16px 24px rgba(22, 54, 92, 0.12));
-  }
+html[lang="zh-CN"] .app-kicker,
+html[lang="zh-CN"] .app-who,
+html[lang="mn"] .app-kicker,
+html[lang="mn"] .app-who,
+html[lang="zh-CN"] .app-chat-title {
+  letter-spacing: 0;
+  text-transform: none;
 }
