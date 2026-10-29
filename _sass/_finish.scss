@@ -1,13 +1,13 @@
 // Premium surface: muted powder blue, soft depth, restrained motion.
 
-$ink: #2c4150;
-$ink-soft: #5c6e7c;
-$mist: #f3f6f8;
-$powder: #e7eef2;
-$line: rgba(90, 114, 128, 0.18);
-$accent: #4d6f84;
-$accent-deep: #3c596b;
-$shadow: #2c4150;
+$ink: #16365c;
+$ink-soft: #5a7394;
+$mist: #f7fbfe;
+$powder: #e5f3fc;
+$line: rgba(70, 145, 200, 0.18);
+$accent: #2a74ad;
+$accent-deep: #215f96;
+$shadow: #16365c;
 
 @mixin lift($y: 3px) {
   transform: translateY(-$y);
@@ -17,17 +17,17 @@ $shadow: #2c4150;
 }
 
 body.maclaw-page {
-  color: #455664;
+  color: #3a5574;
   background-color: $mist;
   background-image:
-    radial-gradient(ellipse 70% 42% at 8% -8%, rgba(168, 186, 196, 0.28), transparent 58%),
-    radial-gradient(ellipse 55% 36% at 96% 0%, rgba(186, 202, 210, 0.22), transparent 52%),
-    radial-gradient(ellipse 40% 30% at 70% 100%, rgba(176, 194, 204, 0.16), transparent 50%);
+    radial-gradient(ellipse 70% 42% at 8% -8%, rgba(130, 185, 230, 0.28), transparent 58%),
+    radial-gradient(ellipse 55% 36% at 96% 0%, rgba(150, 200, 235, 0.22), transparent 52%),
+    radial-gradient(ellipse 40% 30% at 70% 100%, rgba(145, 195, 235, 0.16), transparent 50%);
   background-attachment: fixed;
 }
 
 .site-header {
-  background: rgba(243, 246, 248, 0.72);
+  background: rgba(247, 251, 254, 0.72);
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   box-shadow: 0 10px 30px rgba($shadow, 0.04);
   backdrop-filter: blur(16px) saturate(1.2);
@@ -79,18 +79,18 @@ body.maclaw-page {
 
 .hero-maclaw {
   background:
-    radial-gradient(540px 300px at 50% -60px, rgba(156, 180, 192, 0.42), transparent 70%),
-    radial-gradient(420px 280px at 92% 12%, rgba(188, 206, 214, 0.38), transparent 68%),
-    radial-gradient(360px 240px at 6% 22%, rgba(198, 214, 220, 0.45), transparent 70%),
-    linear-gradient(180deg, #f7f9fa 0%, #eef2f4 100%);
+    radial-gradient(540px 300px at 50% -60px, rgba(120, 180, 230, 0.42), transparent 70%),
+    radial-gradient(420px 280px at 92% 12%, rgba(155, 205, 240, 0.38), transparent 68%),
+    radial-gradient(360px 240px at 6% 22%, rgba(170, 215, 245, 0.45), transparent 70%),
+    linear-gradient(180deg, #f8fbfe 0%, #eef6fc 100%);
 
   &::before {
     content: "";
     position: absolute;
     inset: 0;
     background-image:
-      linear-gradient(rgba(90, 114, 128, 0.045) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(90, 114, 128, 0.045) 1px, transparent 1px);
+      linear-gradient(rgba(70, 145, 200, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(70, 145, 200, 0.045) 1px, transparent 1px);
     background-size: 56px 56px;
     mask-image: radial-gradient(ellipse at 50% 20%, #000 15%, transparent 72%);
     pointer-events: none;
@@ -126,7 +126,7 @@ body.maclaw-page {
 }
 
 .hero-research-link a {
-  border-bottom: 1px solid rgba(77, 111, 132, 0.35);
+  border-bottom: 1px solid rgba(42, 116, 173, 0.35);
 
   &:hover {
     border-bottom-color: $accent;
@@ -154,7 +154,7 @@ body.maclaw-page {
   }
 
   &.active {
-    background: linear-gradient(180deg, #5d8094 0%, #4d6f84 100%);
+    background: linear-gradient(180deg, #4a9ad4 0%, #2a74ad 100%);
     border-color: transparent;
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.28),
@@ -179,15 +179,15 @@ body.maclaw-page {
 }
 
 .btn-windows {
-  background-color: #4e7084;
+  background-color: #2f86c4;
 }
 
 .btn-macos {
-  background-color: #3c596b;
+  background-color: #215f96;
 }
 
 .btn-linux {
-  background-color: #56788c;
+  background-color: #3a90c8;
 }
 
 .btn-primary {
@@ -207,7 +207,7 @@ body.maclaw-page {
 
   &:hover {
     background: #ffffff;
-    border-color: rgba(77, 111, 132, 0.45);
+    border-color: rgba(42, 116, 173, 0.45);
     transform: translateY(-2px);
   }
 }
@@ -268,14 +268,14 @@ body.maclaw-page {
 .capability-tier {
   &:hover {
     @include lift;
-    border-color: rgba(77, 111, 132, 0.28);
+    border-color: rgba(42, 116, 173, 0.28);
   }
 }
 
 .scenario-icon,
 .tab-icon,
 .tier-icon {
-  background: linear-gradient(180deg, #ffffff 0%, #e6eef2 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #e4f2fc 100%);
   box-shadow:
     inset 0 1px 0 #ffffff,
     0 4px 10px rgba($shadow, 0.06);
@@ -292,7 +292,7 @@ body.maclaw-page {
   align-items: center;
   justify-content: center;
   border-radius: 14px;
-  background: linear-gradient(180deg, #ffffff 0%, #e7eef2 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #e5f3fc 100%);
   box-shadow:
     inset 0 1px 0 #ffffff,
     0 6px 14px rgba($shadow, 0.06);
@@ -321,7 +321,7 @@ body.maclaw-page {
   }
 
   &.active {
-    background: linear-gradient(180deg, #5d8094 0%, #4d6f84 100%);
+    background: linear-gradient(180deg, #4a9ad4 0%, #2a74ad 100%);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.25),
       0 12px 24px rgba($shadow, 0.16);
@@ -331,7 +331,7 @@ body.maclaw-page {
 .workflow-tag,
 .scenario-tag,
 .tier-tag {
-  background: rgba(232, 238, 242, 0.9);
+  background: rgba(214, 234, 250, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
@@ -341,7 +341,7 @@ body.maclaw-page {
 
 .site-footer {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(231, 238, 242, 0.9));
+    linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(214, 236, 250, 0.9));
   border-top: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }

@@ -2,7 +2,7 @@
 .site-header {
   background: rgba(247, 251, 254, 0.94);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #d2dee5;
+  border-bottom: 1px solid #cfe4f5;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -22,12 +22,12 @@
 .site-logo {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #2c4150;
+  color: #16365c;
   text-decoration: none;
   letter-spacing: -0.5px;
 
   &:hover {
-    color: #4d6f84;
+    color: #2a74ad;
     text-decoration: none;
   }
 }
@@ -53,7 +53,7 @@
   transition: color 0.2s ease;
 
   &:hover {
-    color: #4d6f84;
+    color: #2a74ad;
     text-decoration: none;
   }
 
@@ -82,13 +82,13 @@
   transition: all 0.2s ease;
 
   &:hover {
-    color: #4d6f84;
+    color: #2a74ad;
     text-decoration: none;
   }
 
   &.active {
-    background: #d6e2e8;
-    color: #2c4150;
+    background: #d4eaf8;
+    color: #16365c;
   }
 }
 
