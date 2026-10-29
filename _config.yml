@@ -1,7 +1,9 @@
 title: MaClaw
 email: support@maclaw.top
 description: >-
-  MaClaw: 三态智能体研发平台 - 程序员的AI编程伙伴
+  MaClaw (码卡龙) is a self-evolving agent platform: a governable AI capability
+  foundation for enterprises, a personal AI work partner, and a research
+  assistant for papers and theses.
 baseurl: ""
 url: "https://rapidaicoder.github.io"
 github_username: rapidai
@@ -15,5 +17,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom settings
-locales: ["en", "zh-cn"]
+locales: ["en", "zh-cn", "mn"]
 default_locale: "en"

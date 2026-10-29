@@ -10,7 +10,8 @@ permalink: /
   <div class="container" style="text-align: center; padding-top: 20px;">
     <span class="maclaw-badge">Digital Intelligence Companion · Enterprise & Personal</span>
     <h1 class="hero-title">MaClaw <span class="title-en">码卡龙</span></h1>
-    <p class="hero-subtitle">A governable AI capability foundation for enterprises, and a personal AI work partner for individuals.<br/>An AI that truly remembers you, understands your business, and follows your enterprise rules.</p>
+    <p class="hero-subtitle">A self-evolving agent platform: a governable AI capability foundation for enterprises, and a personal AI work partner.<br/>It remembers you, understands your business, and follows your enterprise rules.</p>
+    <p class="hero-research-link"><a href="#research">Research assistance for papers and theses</a></p>
 
     <!-- Download Zone -->
     <div class="download-zone">
@@ -34,34 +35,35 @@ permalink: /
           </a>
           <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64-u2404.AppImage" class="btn-download btn-linux" target="_blank">
             <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
-            <span class="btn-text">Linux x86_64</span>
+            <span class="btn-text">Linux x86_64 · 24.04</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-x86_64-u2204.AppImage" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.222.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.222.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux x86_64 · 22.04</span>
           </a>
           <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-aarch64-u2404.AppImage" class="btn-download btn-linux" target="_blank">
             <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
-            <span class="btn-text">Linux aarch64</span>
+            <span class="btn-text">Linux aarch64 · 24.04</span>
+          </a>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/MaClaw-aarch64-u2204.AppImage" class="btn-download btn-linux" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.222.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.222.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
+            <span class="btn-text">Linux aarch64 · 22.04</span>
           </a>
         </div>
       </div>
 
       <div id="dl-tui" class="download-panel" role="tabpanel" hidden>
         <div class="download-buttons">
-          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_amd64.exe" class="btn-download btn-windows" target="_blank">
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-windows-amd64-tui.exe" class="btn-download btn-windows" target="_blank">
             <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
-            <span class="btn-text">Windows</span>
+            <span class="btn-text">Windows AMD64</span>
           </a>
-          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_amd64_darwin" class="btn-download btn-macos" target="_blank">
-            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            <span class="btn-text">macOS AMD64</span>
-          </a>
-          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_arm64_darwin" class="btn-download btn-macos" target="_blank">
-            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            <span class="btn-text">macOS Apple Silicon</span>
-          </a>
-          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-tui_amd64_linux" class="btn-download btn-linux" target="_blank">
-            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
-            <span class="btn-text">Linux</span>
+          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/Ins-maclaw-windows-arm64-tui.exe" class="btn-download btn-windows" target="_blank">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span class="btn-text">Windows ARM64</span>
           </a>
         </div>
+        <p class="download-note">On macOS and Linux, use the GUI app or the installer, then start the terminal with <code>maclaw-tui</code>. This release publishes separate TUI installers for Windows.</p>
       </div>
 
       <div id="dl-data" class="download-panel" role="tabpanel" hidden>
@@ -73,10 +75,6 @@ permalink: /
           <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-data-srv-Universal.pkg" class="btn-download btn-macos" target="_blank">
             <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
             <span class="btn-text">macOS</span>
-          </a>
-          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclaw-data-srv_amd64_linux" class="btn-download btn-linux" target="_blank">
-            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
-            <span class="btn-text">Linux</span>
           </a>
         </div>
       </div>
@@ -90,10 +88,6 @@ permalink: /
           <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclawsrv-Universal.pkg" class="btn-download btn-macos" target="_blank">
             <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
             <span class="btn-text">macOS</span>
-          </a>
-          <a href="https://github.com/RapidAI/MaClaw/releases/latest/download/maclawsrv_amd64_linux" class="btn-download btn-linux" target="_blank">
-            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.135.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .419.062.6.187l.003.003c.234.156.386.396.429.664.044.27-.027.542-.191.756l-.002.002c-.156.202-.386.335-.639.371-.253.036-.508-.027-.715-.178l-.003-.002c-.234-.156-.386-.397-.429-.665-.044-.27.027-.542.191-.756l.002-.002c.156-.202.386-.335.639-.371.036-.005.07-.007.102-.009zm-.141 1.74c.101 0 .2.025.287.071.19.1.299.29.299.494 0 .203-.109.393-.299.493-.087.046-.186.07-.287.07-.101 0-.2-.024-.287-.07-.19-.1-.299-.29-.299-.493 0-.204.109-.394.299-.494.087-.046.186-.07.287-.07zm-1.14.576c.077 0 .153.015.224.045.22.088.36.29.36.513 0 .223-.14.425-.36.513-.071.03-.147.045-.224.045-.077 0-.153-.015-.224-.045-.22-.088-.36-.29-.36-.513 0-.223.14-.425.36-.513.071-.03.147-.045.224-.045zm1.714 1.41c.312 0 .6.166.756.436.156.27.156.602 0 .872-.156.27-.444.436-.756.436-.312 0-.6-.166-.756-.436-.156-.27-.156-.602 0-.872.156-.27.444-.436.756-.436z"/></svg>
-            <span class="btn-text">Linux</span>
           </a>
         </div>
       </div>
@@ -128,6 +122,113 @@ permalink: /
       </div>
 
     </div><!-- /.download-zone -->
+  </div>
+</section>
+
+<!-- Research assistance -->
+<section class="education-section section" id="research">
+  <div class="container">
+    <h2 class="section-title">Research assistance for real academic work</h2>
+    <p class="section-subtitle">Direction, papers, and master's or PhD theses — writing, outlines, review, group reading, and remote comments — on workflows and experts that ship with MaClaw.</p>
+    <div class="scenario-banner">
+      <span class="scenario-label">Education</span>
+      <h3 class="scenario-headline">Eight research jobs MaClaw already sits beside you for</h3>
+    </div>
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x1F9ED;</span>
+          <h3>Research direction planning</h3>
+        </div>
+        <p class="scenario-desc">Start with a literature review: define the topic, set the search, screen papers, and synthesize the gap. Grant and talent workflows then turn that gap into a research plan — the core question, feasibility, and a direction you can defend.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Literature review</span>
+          <span class="scenario-tag">Grant proposal</span>
+          <span class="scenario-tag">NSFC plans</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x270D;&#xFE0F;</span>
+          <h3>Academic paper writing</h3>
+        </div>
+        <p class="scenario-desc">The paper-writing workflow moves in phases you confirm: outline, literature, draft, figures, and polish. The paper-polish and academic-translation experts keep terminology stable. The LaTeX expert writes into your .tex template and sends you to compile preview.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Paper writing</span>
+          <span class="scenario-tag">Polish</span>
+          <span class="scenario-tag">Translation</span>
+          <span class="scenario-tag">LaTeX</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x1F4D0;</span>
+          <h3>Graduation thesis outline</h3>
+        </div>
+        <p class="scenario-desc">The outline phase of paper writing locks the chapter frame before prose is treated as final. The LaTeX expert reads the degree-thesis template — the main file and its included chapters — and keeps that structure.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Outline phase</span>
+          <span class="scenario-tag">Thesis template</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x1F393;</span>
+          <h3>Master's / PhD thesis writing</h3>
+        </div>
+        <p class="scenario-desc">Write on the degree-thesis template you already use. The LaTeX expert fills the .tex in place, chapter by chapter. The paper-writing workflow drafts the sections you confirm as you go.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">LaTeX thesis</span>
+          <span class="scenario-tag">Chapter drafts</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x1F50E;</span>
+          <h3>Academic paper review</h3>
+        </div>
+        <p class="scenario-desc">The paper-polish expert reviews academic language without changing the claim, and notes each edit. Open the PDF in the file companion to leave comments on the file. Changjiang Scholar and NSFC review workflows (Distinguished Youth, Excellent Youth, Youth, General, and Key) score completeness, achievements, the research plan, and writing quality, then write a combined report.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Polish review</span>
+          <span class="scenario-tag">Companion notes</span>
+          <span class="scenario-tag">Application review</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x1F4CB;</span>
+          <h3>Master's / PhD thesis review</h3>
+        </div>
+        <p class="scenario-desc">Load the thesis into the file companion so comments stay on that file. The polish expert reads language and structure section by section. After you share it, the host approves or ignores each note before a reply is written back for the group.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Chapter notes</span>
+          <span class="scenario-tag">Host review</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x1F4DA;</span>
+          <h3>Assisted reading and group sharing</h3>
+        </div>
+        <p class="scenario-desc">Paste an arXiv id or link. The file companion downloads the PDF into its own tab, and the chat discusses only that paper. Share it with classmates or a lab group: questions become annotations, the host approves or ignores them, and approved replies are visible to everyone on the share. Rewrites of a selection, reading notes, and paper explainers stay on your machine.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">arXiv</span>
+          <span class="scenario-tag">File companion</span>
+          <span class="scenario-tag">Group share</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">&#x1F310;</span>
+          <h3>Remote paper review</h3>
+        </div>
+        <p class="scenario-desc">Reviewers do not have to sit at the author's computer. A shared companion document goes through Hub: participants comment from their own MaClaw, the host approves, and the reply is stored on the same share. A Hub remote session lets you continue that review away from the desk.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Hub share</span>
+          <span class="scenario-tag">Remote session</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -187,7 +288,7 @@ permalink: /
                 <li>Contract review / Bid response / Due diligence workflows</li>
                 <li>One-click expense, leave and other business forms</li>
                 <li>Email drafting, meeting minutes, PPT design</li>
-                <li>Trigger anywhere via Lark / WeChat / DingTalk / Teams</li>
+                <li>Trigger anywhere via WeChat / Feishu / QQ / Telegram / Lansenger</li>
               </ul>
               <div class="scenario-tags">
                 <span class="scenario-tag">Skill</span>
@@ -244,7 +345,7 @@ permalink: /
               <ul class="scenario-features">
                 <li>MCP integration with PLC / SCADA / IoT gateways</li>
                 <li>Vision models auto-inspect equipment state and line anomalies</li>
-                <li>GoalWatch keeps tasks alive — unattended operation</li>
+                <li>Long-running goals keep tasks moving while nobody is at the console</li>
                 <li>Equipment data flows into the enterprise knowledge base</li>
               </ul>
               <div class="scenario-tags">
@@ -444,8 +545,8 @@ permalink: /
               <p class="scenario-desc">Desktop GUI automation + command-line tasks — let MaClaw drive your computer: install software, clean disks, edit configs, run scripts.</p>
               <ul class="scenario-features">
                 <li>Local CLI and background process management</li>
-                <li>Desktop GUI automation (Notepad, Excel, etc.)</li>
-                <li>Vision model identifies buttons / icons / fields</li>
+                <li>Desktop GUI automation, plus Computer Use for click, type, and scroll</li>
+                <li>Playbooks replay a successful sequence; PP-OCRv6 tiers are tiny, small, or medium</li>
                 <li>Scheduled tasks for routine operations</li>
               </ul>
               <div class="scenario-tags">
@@ -460,15 +561,15 @@ permalink: /
                 <span class="scenario-icon">&#x1F4CB;</span>
                 <h3>Workflow Templates</h3>
               </div>
-              <p class="scenario-desc">19 structured workflow templates following "requirement → design → step-by-step execution" — pause, confirm and edit at every step.</p>
+              <p class="scenario-desc">38 structured workflow templates following "requirement → design → step-by-step execution" — pause, confirm and edit at every step.</p>
               <ul class="scenario-features">
                 <li>Business plan, competitive analysis, project proposal</li>
+                <li>Paper writing, thesis outlines, academic review</li>
                 <li>Contract review, due diligence, compliance audit</li>
-                <li>Research report, PRD, software testing</li>
                 <li>Outputs auto-distilled into long-term memory</li>
               </ul>
               <div class="scenario-tags">
-                <span class="scenario-tag">19 Templates</span>
+                <span class="scenario-tag">38 Templates</span>
                 <span class="scenario-tag">Step Confirm</span>
               </div>
             </div>
@@ -497,11 +598,11 @@ permalink: /
                 <span class="scenario-icon">&#x1F52C;</span>
                 <h3>Research Assistant</h3>
               </div>
-              <p class="scenario-desc">Import papers, patents and experimental data into the knowledge base — MaClaw works with its "external brain" to do literature reviews, experiment design and paper writing.</p>
+              <p class="scenario-desc">Import papers into the knowledge base, open them in the file companion, and walk the academic workflows from a research direction to a thesis chapter. <a href="#research">Open research assistance</a>.</p>
               <ul class="scenario-features">
-                <li>Literature review: batch import, auto-extract claims</li>
-                <li>Experiment design and method comparison</li>
-                <li>Grant proposals / paper sections by structure</li>
+                <li>Literature review: topic, search, screening, synthesis</li>
+                <li>Paper writing and LaTeX degree-thesis templates</li>
+                <li>Grant proposals plus NSFC and Changjiang Scholar applications</li>
                 <li>Fact graph: entity–relation–entity triples</li>
               </ul>
               <div class="scenario-tags">
@@ -540,7 +641,8 @@ permalink: /
                 <li>BM25 + vector hybrid semantic search</li>
                 <li>Ebbinghaus forgetting curve, auto-maintained</li>
                 <li>Import any format: PDF / Word / web pages</li>
-                <li>Context Pack auto-injection during work</li>
+                <li>Session full-text search across past conversations</li>
+                <li>Images inside documents indexed after OCR or a visual description</li>
               </ul>
               <div class="scenario-tags">
                 <span class="scenario-tag">Long-term Memory</span>
@@ -559,6 +661,7 @@ permalink: /
         <div id="tab-digital-employee" class="companion-panel" role="tabpanel" hidden>
           <h3 class="panel-headline">Digital Employees — 7×24 workforce with zero salary cost</h3>
           <p class="panel-lead">Digital Employees are a new workforce model built by MaClaw for enterprises: digital avatars for existing employees, and cloud-based virtual employees that fill roles without physical hires. Together they dramatically boost operational efficiency and service coverage — without adding to the payroll.</p>
+          <p class="panel-lead">Each digital employee is a MaClawSrv instance that shares the tenant knowledge base and is scoped by role. Bind WeChat, Feishu, QQ, Telegram, or Lansenger so it appears as a coworker. Admins see online status, task history, and alerts. Work outside its scope escalates to a person, and that handoff is kept.</p>
 
           <!-- Digital Avatars -->
           <div class="scenario-banner">
@@ -721,7 +824,7 @@ permalink: /
               <p class="tier-sub">HubCenter Marketplace</p>
             </div>
           </div>
-          <p class="tier-desc">Official and commercial-partner marketplace. Free Skills install directly; paid Skills/MCPs go through enterprise procurement. Admins can bulk-import to their private market.</p>
+          <p class="tier-desc">HubCenter public market, including official SkillHub skills and commercial partners. Free Skills install directly; paid Skills and MCPs go through enterprise procurement. Admins can bulk-import into the private market.</p>
           <div class="tier-tags">
             <span class="tier-tag">Official</span>
             <span class="tier-tag">Commercial</span>
@@ -829,7 +932,7 @@ permalink: /
 <section class="workflow-section section" id="workflows">
   <div class="container">
     <h2 class="section-title">Office Workflow Templates</h2>
-    <p class="section-subtitle">19 structured workflows covering business, research, compliance and tech scenarios</p>
+    <p class="section-subtitle">38 structured workflows. Highlights below — academic writing and review are in Research assistance</p>
     <div class="workflow-grid">
       <div class="workflow-card">
         <div class="workflow-icon">&#x1F4DD;</div>
@@ -893,6 +996,66 @@ permalink: /
         <h3>Presentation Design</h3>
         <p>Slide structure, content organization, visual-design guidance</p>
       </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F4DA;</div>
+        <h3>Literature Review</h3>
+        <p>Topic, search strategy, screening, analysis, and a synthesis you confirm</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x270D;&#xFE0F;</div>
+        <h3>Paper Writing</h3>
+        <p>Outline, literature, draft, figures, and polish — one confirmed phase at a time</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F9EA;</div>
+        <h3>Experiment Design</h3>
+        <p>Research question, hypothesis, method comparison, and an experiment plan</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F504;</div>
+        <h3>Paper Reproduction</h3>
+        <p>Read the paper, locate code and data, reproduce a baseline, and write the report</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F4B3;</div>
+        <h3>Grant Proposal</h3>
+        <p>Research basis, plan, and a proposal assembled for the fund you name</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F3DB;&#xFE0F;</div>
+        <h3>Academic Applications</h3>
+        <p>Changjiang Scholar and NSFC Distinguished Youth, Excellent Youth, Youth, General, and Key</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F50E;</div>
+        <h3>Academic Review</h3>
+        <p>Matching review templates: completeness, achievements, plan, writing quality, report</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F4DC;</div>
+        <h3>Patent Filing</h3>
+        <p>China patent application and US Patent (USPTO) application workflows</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F393;</div>
+        <h3>Gaokao Planning</h3>
+        <p>College-application reference from scores, interests, and constraints</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F4BB;</div>
+        <h3>Coding Project</h3>
+        <p>MaClaw's own path: requirements, design, tasks, implementation, and acceptance</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x1F527;</div>
+        <h3>Maintenance</h3>
+        <p>Impact analysis, refactor, and verification — or a controlled ops change</p>
+      </div>
+      <div class="workflow-card">
+        <div class="workflow-icon">&#x2705;</div>
+        <h3>Bid Review</h3>
+        <p>Check a finished bid against the tender and produce a revision report</p>
+      </div>
     </div>
   </div>
 </section>
@@ -935,6 +1098,38 @@ permalink: /
         <h3>Workflow Engine</h3>
         <p>Phase-based execution, tool policies, double-confirm, persistence</p>
       </div>
+      <div class="developer-card">
+        <h3>Expert Sessions</h3>
+        <p>Paper polish, academic translation, LaTeX thesis writing, and PPT maker, with capability tiers</p>
+      </div>
+      <div class="developer-card">
+        <h3>Self-Evolution</h3>
+        <p>SkillHub search when a skill is missing, self-repair after a failure, and a nudge to save a successful run</p>
+      </div>
+      <div class="developer-card">
+        <h3>Voice</h3>
+        <p>Local SenseVoice transcription, speaker labels, meeting-minute drafts, and Kokoro speech</p>
+      </div>
+      <div class="developer-card">
+        <h3>Steering Rules</h3>
+        <p>Markdown behavior rules at user or project scope, applied again within 30 seconds of an edit</p>
+      </div>
+      <div class="developer-card">
+        <h3>Computer Use</h3>
+        <p>Accessibility and PP-OCR observation, click and type actions, and reusable playbooks</p>
+      </div>
+      <div class="developer-card">
+        <h3>Long-Running Goals</h3>
+        <p>A goal keeps advancing inside its budget until it finishes or fails, and only when you ask for one</p>
+      </div>
+      <div class="developer-card">
+        <h3>File Companion</h3>
+        <p>Open a local file or arXiv PDF beside a chat that stays on that file, then share it through Hub</p>
+      </div>
+      <div class="developer-card">
+        <h3>Desktop Pet &amp; Devices</h3>
+        <p>A text-first desktop pet with an optional wake word, plus a local device gateway and ClawMate for ESP32-S3</p>
+      </div>
     </div>
   </div>
 </section>
@@ -946,19 +1141,19 @@ permalink: /
     <div class="quickstart-steps">
       <div class="step-item">
         <span class="step-num">1</span>
-        Download & Install
+        Download &amp; install
       </div>
       <div class="step-item">
         <span class="step-num">2</span>
-        Create Account
+        Register, then pick Pro or Simple
       </div>
       <div class="step-item">
         <span class="step-num">3</span>
-        Choose Template
+        Connect an LLM provider
       </div>
       <div class="step-item">
         <span class="step-num">4</span>
-        Start Working
+        Optionally bind IM, then start
       </div>
     </div>
     <div class="hero-btns" style="display: flex; justify-content: center; gap: 20px; margin-top: 30px; flex-wrap: wrap;">

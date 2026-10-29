@@ -1,8 +1,8 @@
 // Header 现代简洁风格
 .site-header {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(247, 251, 254, 0.94);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #cfe4f5;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -12,6 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 20px;
   padding: 16px 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -20,12 +22,12 @@
 .site-logo {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #1a1a2e;
+  color: #16365c;
   text-decoration: none;
   letter-spacing: -0.5px;
 
   &:hover {
-    color: #ff6b35;
+    color: #2a74ad;
     text-decoration: none;
   }
 }
@@ -51,7 +53,7 @@
   transition: color 0.2s ease;
 
   &:hover {
-    color: #ff6b35;
+    color: #2a74ad;
     text-decoration: none;
   }
 
@@ -64,6 +66,7 @@
 .lang-switcher {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   gap: 8px;
   margin-left: 32px;
 }
@@ -75,16 +78,17 @@
   color: #6b7280;
   text-decoration: none;
   border-radius: 4px;
+  white-space: nowrap;
   transition: all 0.2s ease;
 
   &:hover {
-    color: #ff6b35;
+    color: #2a74ad;
     text-decoration: none;
   }
 
   &.active {
-    background: #f3f4f6;
-    color: #1a1a2e;
+    background: #d4eaf8;
+    color: #16365c;
   }
 }
 

@@ -2,7 +2,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     initCompanionTabs();
     initDownloadTabs();
+    initLangPreference();
 });
+
+function initLangPreference() {
+    var storageKey = 'maclaw-lang';
+    document.querySelectorAll('.lang-switcher a[data-lang]').forEach(function (link) {
+        function remember() {
+            try {
+                localStorage.setItem(storageKey, link.getAttribute('data-lang'));
+            } catch (err) {}
+        }
+        link.addEventListener('click', remember);
+        link.addEventListener('auxclick', remember);
+    });
+}
 
 function initCompanionTabs() {
     const tabs = document.querySelectorAll('.companion-tab');

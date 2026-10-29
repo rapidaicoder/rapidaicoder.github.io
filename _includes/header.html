@@ -16,19 +16,33 @@
       </ul>
     </nav>
 
-    <div class="lang-switcher">
+    <div class="lang-switcher" role="navigation" aria-label="{{ site.data.locales[lang].lang_switcher_label }}">
+      {% assign bare = page.url %}
+      {% if lang != site.default_locale %}
+        {% assign lang_prefix = '/' | append: lang %}
+        {% assign bare = bare | remove_first: lang_prefix %}
+      {% endif %}
+      {% if bare == '' or bare == nil %}
+        {% assign bare = '/' %}
+      {% endif %}
       {% for l in site.locales %}
-        {% if l == lang %}
-          <span class="lang-link active">{{ l | upcase }}</span>
+        {% if l == site.default_locale %}
+          {% assign target_url = bare %}
+        {% elsif bare == '/' %}
+          {% assign target_url = '/' | append: l | append: '/' %}
         {% else %}
-          {% if l == 'en' %}
-            {% assign target_url = page.url | replace_first: '/zh-cn/', '/' %}
-          {% else %}
-            {% assign target_url = '/zh-cn' | append: page.url %}
-          {% endif %}
-          <a href="{{ target_url | relative_url }}" class="lang-link">
-            {{ l | upcase }}
-          </a>
+          {% assign target_url = '/' | append: l | append: bare %}
+        {% endif %}
+        {% assign label = site.data.locales[l].lang_label %}
+        {% if l == 'zh-cn' %}
+          {% assign link_lang = 'zh-CN' %}
+        {% else %}
+          {% assign link_lang = l %}
+        {% endif %}
+        {% if l == lang %}
+          <span class="lang-link active" aria-current="page" lang="{{ link_lang }}">{{ label }}</span>
+        {% else %}
+          <a href="{{ target_url | relative_url }}" class="lang-link" data-lang="{{ l }}" hreflang="{{ link_lang }}" lang="{{ link_lang }}">{{ label }}</a>
         {% endif %}
       {% endfor %}
     </div>
