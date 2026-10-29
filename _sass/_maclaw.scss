@@ -198,6 +198,41 @@
   font-weight: 400;
 }
 
+.hero-research-link {
+  margin: 0 auto 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.education-section {
+  background: linear-gradient(180deg, #fff7f3 0%, #ffffff 55%);
+  border-bottom: 1px solid #f3e8e2;
+
+  .section-title {
+    font-size: 2.15rem;
+  }
+
+  .section-subtitle {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+  }
+}
+
+.download-note {
+  margin: 16px auto 0;
+  max-width: 720px;
+  color: #6b7280;
+  font-size: 0.85rem;
+  line-height: 1.6;
+
+  code {
+    font-size: 0.9em;
+    color: #1a1a2e;
+  }
+}
+
 // 企业数智能力
 .enterprise-section {
   background: #ffffff;
