@@ -10,6 +10,7 @@ permalink: /
   <div class="container hero-copy">
     <span class="maclaw-badge">Digital Intelligence Companion · Enterprise & Personal</span>
     <h1 class="hero-title">MaClaw</h1>
+    <p class="hero-slogan"><span>Capable AI for every classroom, lab and community</span></p>
     <p class="hero-subtitle">A self-evolving agent platform: a governable AI capability foundation for enterprises, and a personal AI work partner.<br/>It remembers you, understands your business, and follows your enterprise rules.</p>
     <p class="hero-research-link"><a href="#research">Research assistance for papers and theses</a></p>
 
