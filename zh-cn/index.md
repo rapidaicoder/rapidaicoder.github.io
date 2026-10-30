@@ -11,8 +11,8 @@ permalink: /zh-cn/
   <div class="container hero-copy">
     <span class="maclaw-badge">企业与个人的数智伴侣</span>
     <h1 class="hero-title">码卡龙 <span class="title-en">MaClaw</span></h1>
-    <p class="hero-slogan"><span>让好的 AI，惠及每一间教室与实验室</span></p>
-    <p class="hero-subtitle">可自进化的智能体平台：企业有可治理的 AI 能力底座，个人有专属的 AI 工作搭档<br/>让 AI 真正记住你、懂你的业务、按企业规矩办事</p>
+    <p class="hero-slogan"><span>让每个组织都拥有自己的 AI 智能体</span></p>
+    <p class="hero-subtitle">可自进化的智能体平台：企业有可治理的 AI 能力底座，个人有专属的 AI 工作搭档<br/>让 AI 真正记住你、懂你的业务、按规矩办事，从企业到高校与科研团队</p>
     <p class="hero-research-link"><a href="#research">科研助学：论文与学位论文</a></p>
 
   </div>
