@@ -828,3 +828,13 @@ html[lang="zh-CN"] .app-chat-title {
   letter-spacing: 0;
   text-transform: none;
 }
+
+/* Tighter gap between header and hero badge */
+.hero-maclaw.section {
+  padding-top: 28px;
+}
+@media (max-width: 768px) {
+  .hero-maclaw.section {
+    padding-top: 16px;
+  }
+}
