@@ -10,7 +10,7 @@ permalink: /mn/
 <section class="hero-maclaw section">
   <div class="container hero-copy">
     <span class="maclaw-badge">Тоон оюуны хамтрагч · Аж ахуйн нэгж ба хувь хүн</span>
-    <h1 class="hero-title">MaClaw <span class="title-en">码卡龙</span></h1>
+    <h1 class="hero-title">MaClaw</h1>
     <p class="hero-subtitle">Өөрөө хувьсаж чаддаг агент платформ: аж ахуйн нэгжид засаглагдах AI чадварын суурь, хувь хүнд хувийн AI ажлын хамтрагч.<br/>Таныг санаж, бизнесийг тань ойлгож, аж ахуйн нэгжийн дүрмийг дагадаг.</p>
     <p class="hero-research-link"><a href="#research">Өгүүлэл ба дипломын ажлын судалгааны туслалцаа</a></p>
 

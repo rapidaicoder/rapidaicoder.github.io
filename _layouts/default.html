@@ -41,7 +41,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="{{ site.baseurl }}/assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ site.time | date: '%s' }}">
     {% seo %}
     <script>
       (function () {
@@ -121,6 +121,6 @@
 
     {% include footer.html %}
 
-    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
