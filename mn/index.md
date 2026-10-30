@@ -12,7 +12,7 @@ permalink: /mn/
     <span class="maclaw-badge">Байгууллагын түвшний ерөнхий агент платформ</span>
     <h1 class="hero-title">MaClaw</h1>
     <p class="hero-slogan"><span>Байгууллага бүрт өөрийн хиймэл оюуны агент</span></p>
-    <p class="hero-subtitle">Өөрөө хувьсаж чаддаг агент платформ: аж ахуйн нэгжид засаглагдах AI чадварын суурь, хувь хүнд хувийн AI ажлын хамтрагч.<br/>Таныг санаж, бизнесийг тань ойлгож, дүрмийг дагадаг — аж ахуйн нэгжээс их сургууль, судалгааны баг хүртэл.</p>
+    <p class="hero-subtitle">Өөрөө хувьсаж чаддаг, байгууллагын түвшний агент платформ: байгууллагад засаглагдах AI чадварын суурь ба тоон ажилтан, гишүүн бүрт хувийн AI ажлын хамтрагч.<br/>Таныг санаж, бизнесийг тань ойлгож, дүрмийг дагадаг — аж ахуйн нэгжээс их сургууль, судалгааны баг хүртэл.</p>
     <p class="hero-research-link"><a href="#research">Салбарын шийдэл: өгүүлэл ба дипломын ажлын судалгааны туслалцаа</a></p>
 
   </div>
@@ -143,14 +143,14 @@ permalink: /mn/
         <button type="button" class="companion-tab active" role="tab" aria-selected="true" data-target="tab-enterprise">
           <span class="tab-icon">{% include icon.html name="building" %}</span>
           <span class="tab-label">
-            <span class="tab-title">Аж ахуйн нэгжийн хамтрагч</span>
+            <span class="tab-title">Байгууллагын агент</span>
             <span class="tab-desc">Засаглагдах AI чадварын суурь</span>
           </span>
         </button>
         <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-personal">
           <span class="tab-icon">{% include icon.html name="user" %}</span>
           <span class="tab-label">
-            <span class="tab-title">Хувь хүний хамтрагч</span>
+            <span class="tab-title">Хувийн агент</span>
             <span class="tab-desc">Таны хувийн AI ажлын хамтрагч</span>
           </span>
         </button>
@@ -686,6 +686,44 @@ permalink: /mn/
   </div>
 </section>
 
+<!-- Why MaClaw -->
+<section class="education-section why-section section" id="why">
+  <div class="container">
+    <h2 class="section-title">Яагаад MaClaw</h2>
+    <p class="section-subtitle">Байгууллагын түвшний агент платформ бөгөөд хоёр чиглэлд илүү гүнзгий</p>
+    <div class="scenario-grid">
+        <div class="scenario-card scenario-research">
+          <div class="scenario-head">
+            <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
+            <h3>Судалгаа ба боловсрол</h3>
+          </div>
+          <p class="scenario-desc">Их сургууль, судалгааны багт зориулсан тусгай чадвар: эрдмийн ажлын үе шат бүрт ажлын урсгал ба шинжээч бэлэн.</p>
+          <ul class="scenario-features">
+                <li>Судалгааны чиглэл төлөвлөх, эрдмийн өгүүлэл бичих</li>
+                <li>Дипломын ажлын бүтэц, магистр ба докторын ажил бичих</li>
+                <li>Өгүүлэл, дипломын ажлын хянан магадлагаа, алсын хяналт</li>
+                <li>Туслах уншлага, бүлгээр хуваалцах</li>
+          </ul>
+          <p class="hero-research-link"><a href="#research">Судалгааны туслалцааг үзэх</a></p>
+        </div>
+        <div class="scenario-card scenario-itops">
+          <div class="scenario-head">
+            <span class="scenario-icon">{% include icon.html name="terminal" %}</span>
+            <h3>Сүлжээ ба серверийн ажиллагаа</h3>
+          </div>
+          <p class="scenario-desc">Суурилуулсан SSH клиент: алсын серверт холбогдох, тушаал ажиллуулах, удирдахыг харилцан ярианаас шууд хийнэ, нэмэлт plugin шаардлагагүй.</p>
+          <ul class="scenario-features">
+                <li>Зэрэг 10 хүртэл SSH сесс</li>
+                <li>Нууц үг, түлхүүр, Agent баталгаажуулалт</li>
+                <li>Шууд гүйцэтгэл, арын даалгавар, файл илгээх ба татах</li>
+                <li>Үйлдэл бүр аудитад зориулж бүртгэгдэнэ</li>
+          </ul>
+          <p class="hero-research-link"><a href="#ops">Сүлжээний ажиллагааг үзэх</a></p>
+        </div>
+    </div>
+  </div>
+</section>
+
 <!-- Workflow Templates -->
 <section class="workflow-section section" id="workflows">
   <div class="container">
@@ -1135,6 +1173,44 @@ permalink: /mn/
           <span class="scenario-tag">Hub хуваалцалт</span>
           <span class="scenario-tag">Алсын сесс</span>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Network operations -->
+<section class="education-section ops-section section" id="ops">
+  <div class="container">
+    <h2 class="section-title">Салбарын шийдэл: сүлжээний ажиллагаа</h2>
+    <p class="section-subtitle">Суурилуулсан SSH клиентээр өдөр тутмын шалгалт, өөрчлөлт, алдаа засварыг харилцан ярианд гүйцэтгэнэ, бүгд байгууллагын засаглалын дор.</p>
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="terminal" %}</span>
+          <h3>Суурилуулсан SSH сесс</h3>
+        </div>
+        <p class="scenario-desc">Алсын серверт харилцан ярианаас холбогдоно: зэрэг 10 хүртэл сесс, нууц үг, түлхүүр эсвэл Agent баталгаажуулалт.</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="server" %}</span>
+          <h3>Алсын гүйцэтгэл ба арын даалгавар</h3>
+        </div>
+        <p class="scenario-desc">Тушаалыг шууд эсвэл арын даалгавраар ажиллуулж, илгээх, шалгах, хүлээх, зогсоох боломжтой; SSH алсын ажлын хавтас ч сонгож болно.</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="folders" %}</span>
+          <h3>Файл дамжуулалт ба эрх</h3>
+        </div>
+        <p class="scenario-desc">Файл илгээх ба татах, sudo токеныг автоматаар удирдах, Shell-ийн хариуг шалгах, дараалсан алдааны дараа автоматаар цэвэрлэх.</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="shield" %}</span>
+          <h3>Аудит ба зөвшөөрөл</h3>
+        </div>
+        <p class="scenario-desc">SSH тушаал зэрэг гол үйлдлүүд автоматаар бүртгэгдэнэ; өндөр эрсдэлтэй үйлдэлд зөвшөөрөл шаардлагатай, SSH зөвхөн хэрэгтэй үед идэвхжинэ.</p>
       </div>
     </div>
   </div>

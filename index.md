@@ -12,7 +12,7 @@ permalink: /
     <span class="maclaw-badge">Enterprise-Grade General Agent Platform</span>
     <h1 class="hero-title">MaClaw</h1>
     <p class="hero-slogan"><span>Your own AI agents, for every organization</span></p>
-    <p class="hero-subtitle">A self-evolving agent platform: a governable AI capability foundation for enterprises, and a personal AI work partner.<br/>It remembers you, understands your business, and follows your rules, from enterprises to universities and research teams.</p>
+    <p class="hero-subtitle">A self-evolving, enterprise-grade agent platform: a governable AI capability foundation and digital employees for your organization, and a personal AI work partner for every member.<br/>It remembers you, understands your business, and follows your rules, from enterprises to universities and research teams.</p>
     <p class="hero-research-link"><a href="#research">Industry solution: research assistance for papers and theses</a></p>
 
   </div>
@@ -144,14 +144,14 @@ permalink: /
         <button type="button" class="companion-tab active" role="tab" aria-selected="true" data-target="tab-enterprise">
           <span class="tab-icon">{% include icon.html name="building" %}</span>
           <span class="tab-label">
-            <span class="tab-title">Enterprise Companion</span>
+            <span class="tab-title">Enterprise Agents</span>
             <span class="tab-desc">A governable AI capability foundation</span>
           </span>
         </button>
         <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-personal">
           <span class="tab-icon">{% include icon.html name="user" %}</span>
           <span class="tab-label">
-            <span class="tab-title">Personal Companion</span>
+            <span class="tab-title">Personal Agents</span>
             <span class="tab-desc">Your private AI work partner</span>
           </span>
         </button>
@@ -687,6 +687,44 @@ permalink: /
   </div>
 </section>
 
+<!-- Why MaClaw -->
+<section class="education-section why-section section" id="why">
+  <div class="container">
+    <h2 class="section-title">Why MaClaw</h2>
+    <p class="section-subtitle">An enterprise-grade agent platform that goes further in two directions</p>
+    <div class="scenario-grid">
+        <div class="scenario-card scenario-research">
+          <div class="scenario-head">
+            <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
+            <h3>Research and Education</h3>
+          </div>
+          <p class="scenario-desc">Dedicated capabilities for universities and research teams, with workflows and experts for each stage of academic work.</p>
+          <ul class="scenario-features">
+                <li>Research direction planning and academic paper writing</li>
+                <li>Thesis outlines and master's or PhD thesis writing</li>
+                <li>Paper review, thesis review and remote review</li>
+                <li>Assisted reading with group sharing</li>
+          </ul>
+          <p class="hero-research-link"><a href="#research">Explore research assistance</a></p>
+        </div>
+        <div class="scenario-card scenario-itops">
+          <div class="scenario-head">
+            <span class="scenario-icon">{% include icon.html name="terminal" %}</span>
+            <h3>Network and Server Operations</h3>
+          </div>
+          <p class="scenario-desc">A built-in native SSH client: connect to, run commands on and manage remote servers right from the conversation, no plugin required.</p>
+          <ul class="scenario-features">
+                <li>Up to 10 concurrent SSH sessions</li>
+                <li>Password, key and agent authentication</li>
+                <li>Synchronous runs, background tasks, file upload and download</li>
+                <li>Every operation logged for audit</li>
+          </ul>
+          <p class="hero-research-link"><a href="#ops">Explore network operations</a></p>
+        </div>
+    </div>
+  </div>
+</section>
+
 <!-- Workflow Templates -->
 <section class="workflow-section section" id="workflows">
   <div class="container">
@@ -1136,6 +1174,44 @@ permalink: /
           <span class="scenario-tag">Hub share</span>
           <span class="scenario-tag">Remote session</span>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Network operations -->
+<section class="education-section ops-section section" id="ops">
+  <div class="container">
+    <h2 class="section-title">Industry Solution: Network Operations</h2>
+    <p class="section-subtitle">A built-in SSH client brings routine checks, changes and troubleshooting into the conversation, all under enterprise governance.</p>
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="terminal" %}</span>
+          <h3>Native SSH sessions</h3>
+        </div>
+        <p class="scenario-desc">Connect to remote servers from the conversation, with up to 10 concurrent sessions and password, key or agent authentication.</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="server" %}</span>
+          <h3>Remote execution and background tasks</h3>
+        </div>
+        <p class="scenario-desc">Run commands synchronously or as background tasks you can submit, check, wait on or stop; work can also target an SSH remote directory.</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="folders" %}</span>
+          <h3>File transfer and privileges</h3>
+        </div>
+        <p class="scenario-desc">Upload and download files, with automatic sudo token handling, shell responsiveness checks and cleanup after repeated failures.</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="shield" %}</span>
+          <h3>Audit and approval</h3>
+        </div>
+        <p class="scenario-desc">SSH commands and other key operations are logged automatically; high-risk operations require approval, and SSH activates only when the context calls for it.</p>
       </div>
     </div>
   </div>

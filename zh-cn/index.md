@@ -12,7 +12,7 @@ permalink: /zh-cn/
     <span class="maclaw-badge">企业级通用智能体平台</span>
     <h1 class="hero-title">码卡龙 <span class="title-en">MaClaw</span></h1>
     <p class="hero-slogan"><span>让每个组织都拥有自己的 AI 智能体</span></p>
-    <p class="hero-subtitle">可自进化的智能体平台：企业有可治理的 AI 能力底座，个人有专属的 AI 工作搭档<br/>让 AI 真正记住你、懂你的业务、按规矩办事，从企业到高校与科研团队</p>
+    <p class="hero-subtitle">可自进化的企业级智能体平台：组织有可治理的 AI 能力底座与数字员工，每位成员有专属的 AI 工作搭档<br/>让 AI 记住你、懂你的业务、按规矩办事，从企业到高校与科研团队</p>
     <p class="hero-research-link"><a href="#research">行业方案 · 科研助学：论文与学位论文</a></p>
 
   </div>
@@ -143,14 +143,14 @@ permalink: /zh-cn/
         <button type="button" class="companion-tab active" role="tab" aria-selected="true" data-target="tab-enterprise">
           <span class="tab-icon">{% include icon.html name="building" %}</span>
           <span class="tab-label">
-            <span class="tab-title">企业数智伴侣</span>
+            <span class="tab-title">企业智能体</span>
             <span class="tab-desc">可治理的 AI 能力底座</span>
           </span>
         </button>
         <button type="button" class="companion-tab" role="tab" aria-selected="false" data-target="tab-personal">
           <span class="tab-icon">{% include icon.html name="user" %}</span>
           <span class="tab-label">
-            <span class="tab-title">个人数智伴侣</span>
+            <span class="tab-title">个人智能体</span>
             <span class="tab-desc">你的私人 AI 工作搭档</span>
           </span>
         </button>
@@ -686,6 +686,44 @@ permalink: /zh-cn/
   </div>
 </section>
 
+<!-- Why MaClaw -->
+<section class="education-section why-section section" id="why">
+  <div class="container">
+    <h2 class="section-title">差异化优势</h2>
+    <p class="section-subtitle">同样是企业级智能体平台，MaClaw 在两个方向上走得更深</p>
+    <div class="scenario-grid">
+        <div class="scenario-card scenario-research">
+          <div class="scenario-head">
+            <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
+            <h3>科研与教育</h3>
+          </div>
+          <p class="scenario-desc">内置面向高校与科研团队的专属能力，从选题到答辩材料都有对应的工作流与专家。</p>
+          <ul class="scenario-features">
+                <li>研究方向规划、学术论文撰写</li>
+                <li>学位论文框架与硕博毕业论文撰写</li>
+                <li>论文评审、毕业论文评审与远程评审</li>
+                <li>辅助阅读，支持群组共享</li>
+          </ul>
+          <p class="hero-research-link"><a href="#research">查看科研助学</a></p>
+        </div>
+        <div class="scenario-card scenario-itops">
+          <div class="scenario-head">
+            <span class="scenario-icon">{% include icon.html name="terminal" %}</span>
+            <h3>网络与服务器运维</h3>
+          </div>
+          <p class="scenario-desc">原生内置 SSH 客户端，在对话里直接连接、执行和管理远程服务器，无需另装插件。</p>
+          <ul class="scenario-features">
+                <li>最多 10 个并发 SSH 会话</li>
+                <li>密码、密钥、Agent 多种认证</li>
+                <li>同步执行、后台任务与文件上传下载</li>
+                <li>操作全程记录，满足审计要求</li>
+          </ul>
+          <p class="hero-research-link"><a href="#ops">查看网络运维</a></p>
+        </div>
+    </div>
+  </div>
+</section>
+
 <!-- 工作流模板 -->
 <section class="workflow-section section" id="workflows">
   <div class="container">
@@ -1135,6 +1173,44 @@ permalink: /zh-cn/
           <span class="scenario-tag">Hub 分享</span>
           <span class="scenario-tag">远程会话</span>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Network operations -->
+<section class="education-section ops-section section" id="ops">
+  <div class="container">
+    <h2 class="section-title">行业方案 · 网络运维</h2>
+    <p class="section-subtitle">内置 SSH 客户端，把日常巡检、变更和排障放进对话里完成，全程受企业治理约束。</p>
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="terminal" %}</span>
+          <h3>原生 SSH 会话</h3>
+        </div>
+        <p class="scenario-desc">直接在对话中连接远程服务器，最多 10 个并发会话，支持密码、密钥与 Agent 认证。</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="server" %}</span>
+          <h3>远程执行与后台任务</h3>
+        </div>
+        <p class="scenario-desc">支持同步执行与后台任务，长任务可提交、查看、等待或终止；也可选择 SSH 远程工作目录。</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="folders" %}</span>
+          <h3>文件传输与权限</h3>
+        </div>
+        <p class="scenario-desc">支持文件上传下载，自动管理 sudo 令牌，检测 Shell 响应，连续失败时自动清理会话。</p>
+      </div>
+      <div class="scenario-card scenario-itops">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="shield" %}</span>
+          <h3>审计与审批</h3>
+        </div>
+        <p class="scenario-desc">SSH 命令等关键操作自动记录；高风险操作需审批，SSH 等工具按上下文按需启用。</p>
       </div>
     </div>
   </div>

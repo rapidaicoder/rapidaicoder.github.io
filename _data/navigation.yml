@@ -2,10 +2,14 @@ en:
   main:
     - title: Platform
       url: /#platform
+    - title: "Why MaClaw"
+      url: /#why
     - title: Governance
       url: /#capability-tiers
     - title: "Industry: Research"
       url: /#research
+    - title: "Operations"
+      url: /#ops
     - title: GitHub
       url: https://github.com/rapidai/maclaw
       external: true
@@ -13,10 +17,14 @@ zh-cn:
   main:
     - title: 平台
       url: /zh-cn/#platform
+    - title: "差异化"
+      url: /zh-cn/#why
     - title: 企业治理
       url: /zh-cn/#capability-tiers
     - title: 行业方案
       url: /zh-cn/#research
+    - title: "网络运维"
+      url: /zh-cn/#ops
     - title: GitHub
       url: https://github.com/rapidai/maclaw
       external: true
@@ -24,10 +32,14 @@ mn:
   main:
     - title: Платформ
       url: /mn/#platform
+    - title: "Яагаад MaClaw"
+      url: /mn/#why
     - title: Засаглал
       url: /mn/#capability-tiers
     - title: Салбарын шийдэл
       url: /mn/#research
+    - title: "Ажиллагаа"
+      url: /mn/#ops
     - title: GitHub
       url: https://github.com/rapidai/maclaw
       external: true

@@ -5,6 +5,13 @@
 {% endcomment %}
 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
 {% case include.name %}
+{% when "terminal" %}
+  <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+  <path d="M7 9l3 3-3 3M13 15h4"></path>
+{% when "server" %}
+  <rect x="3" y="4" width="18" height="7" rx="2"></rect>
+  <rect x="3" y="13" width="18" height="7" rx="2"></rect>
+  <path d="M7 7.5h.01M7 16.5h.01"></path>
 {% when "monitor" %}
   <rect x="3" y="4" width="18" height="12" rx="2"></rect>
   <path d="M8 20h8M12 16v4"></path>
