@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 码卡龙 MaClaw - 企业级通用智能体平台
-description: 码卡龙 MaClaw 是可自进化的企业级通用智能体平台：可治理的 AI 能力底座、个人 AI 工作搭档与数字员工，并以科研助学作为行业切入。
+title: "码卡龙 MaClaw - 企业级通用智能体平台"
+description: "码卡龙 MaClaw 是可自进化的企业级通用智能体平台：可治理的 AI 能力底座、个人 AI 工作搭档与数字员工，并以科研助学作为行业切入。"
 lang: zh-cn
 permalink: /zh-cn/
 ---

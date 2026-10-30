@@ -1,7 +1,7 @@
 ---
 layout: default
-title: MaClaw - The Enterprise-Grade General Agent Platform
-description: MaClaw is a self-evolving, enterprise-grade agent platform: a governable AI capability foundation, a personal AI work partner and digital employees, with research assistance as an industry focus.
+title: "MaClaw - The Enterprise-Grade General Agent Platform"
+description: "MaClaw is a self-evolving, enterprise-grade agent platform: a governable AI capability foundation, a personal AI work partner and digital employees, with research assistance as an industry focus."
 lang: en
 permalink: /
 ---
