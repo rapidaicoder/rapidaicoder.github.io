@@ -806,3 +806,34 @@ main > section.reveal.is-revealed {
     color: #16365c;
   }
 }
+
+/* Unified icon tiles: same box, centered, consistent icon size site-wide */
+.scenario-icon,
+.enterprise-icon,
+.workflow-icon,
+.bf-icon,
+.tier-icon,
+.tab-icon {
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 14px;
+  line-height: 0;
+  font-size: 0;
+}
+
+.scenario-icon .icon,
+.enterprise-icon .icon,
+.workflow-icon .icon,
+.bf-icon .icon,
+.tier-icon .icon,
+.tab-icon .icon {
+  width: 26px !important;
+  height: 26px !important;
+  margin: 0 !important;
+  display: block;
+}
