@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 码卡龙 MaClaw - 企业与个人的数智伴侣
-description: 码卡龙 MaClaw 是可自进化的智能体平台：企业可治理的 AI 能力底座，个人的 AI 工作搭档，以及论文与学位论文的科研助学。
+title: 码卡龙 MaClaw - 企业级通用智能体平台
+description: 码卡龙 MaClaw 是可自进化的企业级通用智能体平台：可治理的 AI 能力底座、个人 AI 工作搭档与数字员工，并以科研助学作为行业切入。
 lang: zh-cn
 permalink: /zh-cn/
 ---
@@ -9,11 +9,11 @@ permalink: /zh-cn/
 <!-- Hero Section -->
 <section class="hero-maclaw section">
   <div class="container hero-copy">
-    <span class="maclaw-badge">企业与个人的数智伴侣</span>
+    <span class="maclaw-badge">企业级通用智能体平台</span>
     <h1 class="hero-title">码卡龙 <span class="title-en">MaClaw</span></h1>
     <p class="hero-slogan"><span>让每个组织都拥有自己的 AI 智能体</span></p>
     <p class="hero-subtitle">可自进化的智能体平台：企业有可治理的 AI 能力底座，个人有专属的 AI 工作搭档<br/>让 AI 真正记住你、懂你的业务、按规矩办事，从企业到高校与科研团队</p>
-    <p class="hero-research-link"><a href="#research">科研助学：论文与学位论文</a></p>
+    <p class="hero-research-link"><a href="#research">行业方案 · 科研助学：论文与学位论文</a></p>
 
   </div>
   <figure class="hero-stage">
@@ -131,118 +131,11 @@ permalink: /zh-cn/
   </div>
 </section>
 
-<!-- 科研助学 -->
-<section class="education-section section" id="research">
-  <div class="container">
-    <h2 class="section-title">科研助学，陪你把论文做完</h2>
-    <p class="section-subtitle">研究方向、学术论文和硕博毕业论文的撰写、框架、评审、群组共读与远程评审，都落在 MaClaw 已有的学术工作流、专家和文件伴读上。</p>
-    <div class="scenario-banner">
-      <span class="scenario-label">教育科研</span>
-      <h3 class="scenario-headline">八件已经能交给 MaClaw 的学术工作</h3>
-    </div>
-    <div class="scenario-grid">
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
-          <h3>研究方向制定</h3>
-        </div>
-        <p class="scenario-desc">从文献综述开始：界定主题、制定检索策略、筛选文献、归纳缺口。基金与人才项目工作流再把缺口收成研究计划——核心科学问题、可行性，以及说得清的方向。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">文献综述</span>
-          <span class="scenario-tag">基金申请</span>
-          <span class="scenario-tag">国自然计划</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
-          <h3>学术论文撰写</h3>
-        </div>
-        <p class="scenario-desc">「论文写作」工作流分阶段推进：大纲、文献梳理、正文、图表、润色，每一步经你确认再往下走。论文润色专家和论文翻译专家守住术语。LaTeX 论文专家直接写进你的 .tex 模板，并提示编译预览。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">论文写作</span>
-          <span class="scenario-tag">润色</span>
-          <span class="scenario-tag">翻译</span>
-          <span class="scenario-tag">LaTeX</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
-          <h3>毕业论文框架整理</h3>
-        </div>
-        <p class="scenario-desc">论文写作的「大纲设计」阶段先把章节框架定下来，再落正文。LaTeX 论文专家会先读学位论文模板的主文件和引入的章节，沿用这套结构。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">大纲阶段</span>
-          <span class="scenario-tag">学位论文模板</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
-          <h3>硕博毕业论文撰写</h3>
-        </div>
-        <p class="scenario-desc">在你已经在用的学位论文模板上写。LaTeX 论文专家按章改写入 .tex，论文写作工作流负责需要你逐段确认的草稿。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">LaTeX 学位论文</span>
-          <span class="scenario-tag">分章草稿</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="search" %}</span>
-          <h3>学术论文评审</h3>
-        </div>
-        <p class="scenario-desc">论文润色专家在不改原意的前提下审语言，并逐处给出修改说明。把 PDF 放进文件伴读，意见就留在这篇论文上。长江学者与国自然（杰青、优青、青基、面上、重点）申请书评审工作流按完整性、成果、研究计划、撰写质量出具综合报告。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">润色审查</span>
-          <span class="scenario-tag">伴读批注</span>
-          <span class="scenario-tag">申请书评审</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
-          <h3>硕博毕业论文评审</h3>
-        </div>
-        <p class="scenario-desc">把学位论文放进文件伴读，批注留在这一份文件上。润色专家按章节看语言和结构。分享之后，主持人先通过或忽略每条批注，回复才会写回给群组看见。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">分章批注</span>
-          <span class="scenario-tag">主持人审核</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="library" %}</span>
-          <h3>论文辅助阅读与群组分享</h3>
-        </div>
-        <p class="scenario-desc">粘贴 arXiv 编号或链接，文件伴读会下载 PDF 并单独开一个标签，对话只讨论这一篇。分享给同学或课题组后，提问变成批注；主持人通过或忽略；通过的回复，所有能看到分享的人都能读到。划词改写、笔记和论文解读留在本机。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">arXiv</span>
-          <span class="scenario-tag">文件伴读</span>
-          <span class="scenario-tag">群组分享</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
-          <h3>远程论文评审</h3>
-        </div>
-        <p class="scenario-desc">评审人不必坐在作者电脑前。伴读分享走 Hub：参与者在自己的 MaClaw 里写批注，主持人审核，回复记在同一份分享上。Hub 远程会话也让你离开座位后继续这场评审。</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Hub 分享</span>
-          <span class="scenario-tag">远程会话</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- 数智伴侣 · 纵向 Tab 切换 -->
-<section class="companion-section section">
+<section class="companion-section section" id="platform">
   <div class="container">
-    <h2 class="section-title">数智伴侣 · 两种身份，一套底座</h2>
-    <p class="section-subtitle">企业级治理能力 + 个人级贴身陪伴，共享同一套记忆、知识与能力体系</p>
+    <h2 class="section-title">一个平台，三种用法</h2>
+    <p class="section-subtitle">企业、个人与数字员工共用一套记忆、知识与能力底座，按需取用</p>
 
     <div class="companion-tabs">
       <!-- 纵向 Tab 导航 -->
@@ -793,152 +686,11 @@ permalink: /zh-cn/
   </div>
 </section>
 
-<!-- 四级能力体系 -->
-<section class="capability-section section" id="capability-tiers">
-  <div class="container">
-    <h2 class="section-title">四级能力体系</h2>
-    <p class="section-subtitle">企业优先用自己审批过的能力，外部能力按企业策略受控引入</p>
-
-    <div class="capability-pyramid">
-      <div class="capability-tier tier-1">
-        <div class="tier-rank">优先级 1</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="building" %}</span>
-            <div>
-              <h3 class="tier-name">私有能力市场</h3>
-              <p class="tier-sub">Enterprise Hub Marketplace</p>
-            </div>
-          </div>
-          <p class="tier-desc">企业自建的 Skill/MCP 能力库，由管理员审批入库。企业内 MaClaw 默认优先调用，付费能力的 license 集中管理、不流出企业边界。</p>
-          <div class="tier-tags">
-            <span class="tier-tag">企业自管</span>
-            <span class="tier-tag">审批可控</span>
-            <span class="tier-tag">优先调用</span>
-            <span class="tier-tag">license 集中</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-2">
-        <div class="tier-rank">优先级 2</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
-            <div>
-              <h3 class="tier-name">公有能力市场</h3>
-              <p class="tier-sub">HubCenter Marketplace</p>
-            </div>
-          </div>
-          <p class="tier-desc">HubCenter 公有能力市场，包含官方 SkillHub 技能和商业合作伙伴。免费 Skill 可直接安装，付费 Skill/MCP 走企业采购流程。企业管理员可批量入库到自己的私有市场。</p>
-          <div class="tier-tags">
-            <span class="tier-tag">官方认证</span>
-            <span class="tier-tag">商业能力</span>
-            <span class="tier-tag">可采购可订阅</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-3">
-        <div class="tier-rank">优先级 3</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="globe" %}</span>
-            <div>
-              <h3 class="tier-name">ClawHub</h3>
-              <p class="tier-sub">社区能力源</p>
-            </div>
-          </div>
-          <p class="tier-desc">社区共建的开放能力源，免费 Skill 可低摩擦试用、快速验证。验证成功的能力可沉淀到企业私有市场，转化为企业能力资产。</p>
-          <div class="tier-tags">
-            <span class="tier-tag">社区贡献</span>
-            <span class="tier-tag">免费试用</span>
-            <span class="tier-tag">先用后沉淀</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-4">
-        <div class="tier-rank">优先级 4</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
-            <div>
-              <h3 class="tier-name">GitHub</h3>
-              <p class="tier-sub">开源生态</p>
-            </div>
-          </div>
-          <p class="tier-desc">直连 GitHub 仓库的 Skill/MCP，提供极致广度的开源生态接入。企业管理员可设置白名单，控制可引入的来源范围。</p>
-          <div class="tier-tags">
-            <span class="tier-tag">开源仓库</span>
-            <span class="tier-tag">极致广度</span>
-            <span class="tier-tag">白名单受控</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="capability-routing">
-      <h3 class="routing-title">{% include icon.html name="search" %} 企业状态下的智能路由</h3>
-      <p>当 MaClaw 进入企业状态，能力查找顺序为：<strong>私有能力市场 → 公有能力市场 → ClawHub → GitHub</strong>。企业 Hub 已发布的能力优先使用；外部来源是否允许搜索、试用与入库，由企业策略决定。</p>
-      <ul class="routing-rules">
-        <li><strong>免费能力</strong>：可配置为"先试用、后沉淀"，验证成功的能力自动归档到企业市场。</li>
-        <li><strong>付费能力</strong>：必须"先审批购买、再入库使用"，license 全程留在企业 Hub。</li>
-        <li><strong>MCP 服务</strong>：缺少 secret 时显示"需要配置"，不阻塞主流程。</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- 企业能力建设流程 -->
-<section class="buildflow-section section">
-  <div class="container">
-    <h2 class="section-title">企业能力建设流程</h2>
-    <p class="section-subtitle">四步把外部能力变成企业自有资产</p>
-
-    <div class="buildflow-steps">
-      <div class="buildflow-step">
-        <div class="bf-num">01</div>
-        <div class="bf-icon">{% include icon.html name="search" %}</div>
-        <h3>发现</h3>
-        <p>管理员在公有市场、ClawHub、GitHub 搜索匹配的 Skill/MCP，或员工提需求申请引入。</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">02</div>
-        <div class="bf-icon">{% include icon.html name="check" %}</div>
-        <h3>审批 / 采购</h3>
-        <p>免费能力按策略试用或直接审批；付费能力走采购流程，license 由企业 Hub 集中持有。</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">03</div>
-        <div class="bf-icon">{% include icon.html name="package" %}</div>
-        <h3>入库发布</h3>
-        <p>审核通过的能力进入私有能力市场，标注版本、权限白名单与来源溯源信息。</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">04</div>
-        <div class="bf-icon">{% include icon.html name="send" %}</div>
-        <h3>下发安装</h3>
-        <p>按部门/角色/项目策略下发到员工 MaClaw，强制安装或推荐使用，失败自动重试。</p>
-      </div>
-    </div>
-
-    <div class="buildflow-note">
-      <strong>双轨策略：</strong>
-      <span class="track-item"><span class="track-tag track-free">免费</span> 先用后沉淀 —— 试用验证成功的能力自动归档</span>
-      <span class="track-item"><span class="track-tag track-paid">付费</span> 先审批后使用 —— license 集中、调用受控、不流出企业边界</span>
-    </div>
-  </div>
-</section>
-
 <!-- 工作流模板 -->
 <section class="workflow-section section" id="workflows">
   <div class="container">
-    <h2 class="section-title">办公工作流模板</h2>
-    <p class="section-subtitle">38 种结构化工作流。下面是常用的一部分，学术写作与评审见「科研助学」</p>
+    <h2 class="section-title">开箱即用的工作流</h2>
+    <p class="section-subtitle">38 种结构化工作流，下面是常用的一部分；学术写作与评审见「行业方案 · 科研助学」</p>
     <div class="workflow-grid">
       <div class="workflow-card">
         <div class="workflow-icon">{% include icon.html name="file-pen" %}</div>
@@ -1067,10 +819,10 @@ permalink: /zh-cn/
 </section>
 
 <!-- 开发者能力（次要） -->
-<section class="developer-section section">
+<section class="developer-section section" id="technology">
   <div class="container">
     <h2 class="section-title">核心技术</h2>
-    <p class="section-subtitle">支撑数智伴侣的底层引擎</p>
+    <p class="section-subtitle">让智能体记得住、找得到、做得对的底层引擎</p>
     <div class="developer-grid">
       <div class="developer-card">
         <h3>记忆架构</h3>
@@ -1140,10 +892,258 @@ permalink: /zh-cn/
   </div>
 </section>
 
-<!-- 快速开始 -->
-<section class="quickstart-section section">
+<!-- 四级能力体系 -->
+<section class="capability-section section" id="capability-tiers">
   <div class="container">
-    <h2 class="section-title">快速开始</h2>
+    <h2 class="section-title">企业治理 · 四级能力体系</h2>
+    <p class="section-subtitle">企业优先用自己审批过的能力，外部能力按企业策略受控引入</p>
+
+    <div class="capability-pyramid">
+      <div class="capability-tier tier-1">
+        <div class="tier-rank">优先级 1</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="building" %}</span>
+            <div>
+              <h3 class="tier-name">私有能力市场</h3>
+              <p class="tier-sub">Enterprise Hub Marketplace</p>
+            </div>
+          </div>
+          <p class="tier-desc">企业自建的 Skill/MCP 能力库，由管理员审批入库。企业内 MaClaw 默认优先调用，付费能力的 license 集中管理、不流出企业边界。</p>
+          <div class="tier-tags">
+            <span class="tier-tag">企业自管</span>
+            <span class="tier-tag">审批可控</span>
+            <span class="tier-tag">优先调用</span>
+            <span class="tier-tag">license 集中</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-2">
+        <div class="tier-rank">优先级 2</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
+            <div>
+              <h3 class="tier-name">公有能力市场</h3>
+              <p class="tier-sub">HubCenter Marketplace</p>
+            </div>
+          </div>
+          <p class="tier-desc">HubCenter 公有能力市场，包含官方 SkillHub 技能和商业合作伙伴。免费 Skill 可直接安装，付费 Skill/MCP 走企业采购流程。企业管理员可批量入库到自己的私有市场。</p>
+          <div class="tier-tags">
+            <span class="tier-tag">官方认证</span>
+            <span class="tier-tag">商业能力</span>
+            <span class="tier-tag">可采购可订阅</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-3">
+        <div class="tier-rank">优先级 3</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="globe" %}</span>
+            <div>
+              <h3 class="tier-name">ClawHub</h3>
+              <p class="tier-sub">社区能力源</p>
+            </div>
+          </div>
+          <p class="tier-desc">社区共建的开放能力源，免费 Skill 可低摩擦试用、快速验证。验证成功的能力可沉淀到企业私有市场，转化为企业能力资产。</p>
+          <div class="tier-tags">
+            <span class="tier-tag">社区贡献</span>
+            <span class="tier-tag">免费试用</span>
+            <span class="tier-tag">先用后沉淀</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-4">
+        <div class="tier-rank">优先级 4</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
+            <div>
+              <h3 class="tier-name">GitHub</h3>
+              <p class="tier-sub">开源生态</p>
+            </div>
+          </div>
+          <p class="tier-desc">直连 GitHub 仓库的 Skill/MCP，提供极致广度的开源生态接入。企业管理员可设置白名单，控制可引入的来源范围。</p>
+          <div class="tier-tags">
+            <span class="tier-tag">开源仓库</span>
+            <span class="tier-tag">极致广度</span>
+            <span class="tier-tag">白名单受控</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="capability-routing">
+      <h3 class="routing-title">{% include icon.html name="search" %} 企业状态下的智能路由</h3>
+      <p>当 MaClaw 进入企业状态，能力查找顺序为：<strong>私有能力市场 → 公有能力市场 → ClawHub → GitHub</strong>。企业 Hub 已发布的能力优先使用；外部来源是否允许搜索、试用与入库，由企业策略决定。</p>
+      <ul class="routing-rules">
+        <li><strong>免费能力</strong>：可配置为"先试用、后沉淀"，验证成功的能力自动归档到企业市场。</li>
+        <li><strong>付费能力</strong>：必须"先审批购买、再入库使用"，license 全程留在企业 Hub。</li>
+        <li><strong>MCP 服务</strong>：缺少 secret 时显示"需要配置"，不阻塞主流程。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 企业治理 · 能力建设流程 -->
+<section class="buildflow-section section" id="governance">
+  <div class="container">
+    <h2 class="section-title">企业治理 · 能力建设流程</h2>
+    <p class="section-subtitle">四步把外部能力变成企业自有资产</p>
+
+    <div class="buildflow-steps">
+      <div class="buildflow-step">
+        <div class="bf-num">01</div>
+        <div class="bf-icon">{% include icon.html name="search" %}</div>
+        <h3>发现</h3>
+        <p>管理员在公有市场、ClawHub、GitHub 搜索匹配的 Skill/MCP，或员工提需求申请引入。</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">02</div>
+        <div class="bf-icon">{% include icon.html name="check" %}</div>
+        <h3>审批 / 采购</h3>
+        <p>免费能力按策略试用或直接审批；付费能力走采购流程，license 由企业 Hub 集中持有。</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">03</div>
+        <div class="bf-icon">{% include icon.html name="package" %}</div>
+        <h3>入库发布</h3>
+        <p>审核通过的能力进入私有能力市场，标注版本、权限白名单与来源溯源信息。</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">04</div>
+        <div class="bf-icon">{% include icon.html name="send" %}</div>
+        <h3>下发安装</h3>
+        <p>按部门/角色/项目策略下发到员工 MaClaw，强制安装或推荐使用，失败自动重试。</p>
+      </div>
+    </div>
+
+    <div class="buildflow-note">
+      <strong>双轨策略：</strong>
+      <span class="track-item"><span class="track-tag track-free">免费</span> 先用后沉淀 —— 试用验证成功的能力自动归档</span>
+      <span class="track-item"><span class="track-tag track-paid">付费</span> 先审批后使用 —— license 集中、调用受控、不流出企业边界</span>
+    </div>
+  </div>
+</section>
+
+<!-- 科研助学 -->
+<section class="education-section section" id="research">
+  <div class="container">
+    <h2 class="section-title">行业方案 · 科研助学</h2>
+    <p class="section-subtitle">研究方向、学术论文和硕博毕业论文的撰写、框架、评审、群组共读与远程评审，都落在 MaClaw 已有的学术工作流、专家和文件伴读上。</p>
+    <div class="scenario-banner">
+      <span class="scenario-label">教育科研</span>
+      <h3 class="scenario-headline">八件已经能交给 MaClaw 的学术工作</h3>
+    </div>
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
+          <h3>研究方向制定</h3>
+        </div>
+        <p class="scenario-desc">从文献综述开始：界定主题、制定检索策略、筛选文献、归纳缺口。基金与人才项目工作流再把缺口收成研究计划——核心科学问题、可行性，以及说得清的方向。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">文献综述</span>
+          <span class="scenario-tag">基金申请</span>
+          <span class="scenario-tag">国自然计划</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
+          <h3>学术论文撰写</h3>
+        </div>
+        <p class="scenario-desc">「论文写作」工作流分阶段推进：大纲、文献梳理、正文、图表、润色，每一步经你确认再往下走。论文润色专家和论文翻译专家守住术语。LaTeX 论文专家直接写进你的 .tex 模板，并提示编译预览。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">论文写作</span>
+          <span class="scenario-tag">润色</span>
+          <span class="scenario-tag">翻译</span>
+          <span class="scenario-tag">LaTeX</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
+          <h3>毕业论文框架整理</h3>
+        </div>
+        <p class="scenario-desc">论文写作的「大纲设计」阶段先把章节框架定下来，再落正文。LaTeX 论文专家会先读学位论文模板的主文件和引入的章节，沿用这套结构。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">大纲阶段</span>
+          <span class="scenario-tag">学位论文模板</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
+          <h3>硕博毕业论文撰写</h3>
+        </div>
+        <p class="scenario-desc">在你已经在用的学位论文模板上写。LaTeX 论文专家按章改写入 .tex，论文写作工作流负责需要你逐段确认的草稿。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">LaTeX 学位论文</span>
+          <span class="scenario-tag">分章草稿</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="search" %}</span>
+          <h3>学术论文评审</h3>
+        </div>
+        <p class="scenario-desc">论文润色专家在不改原意的前提下审语言，并逐处给出修改说明。把 PDF 放进文件伴读，意见就留在这篇论文上。长江学者与国自然（杰青、优青、青基、面上、重点）申请书评审工作流按完整性、成果、研究计划、撰写质量出具综合报告。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">润色审查</span>
+          <span class="scenario-tag">伴读批注</span>
+          <span class="scenario-tag">申请书评审</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
+          <h3>硕博毕业论文评审</h3>
+        </div>
+        <p class="scenario-desc">把学位论文放进文件伴读，批注留在这一份文件上。润色专家按章节看语言和结构。分享之后，主持人先通过或忽略每条批注，回复才会写回给群组看见。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">分章批注</span>
+          <span class="scenario-tag">主持人审核</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="library" %}</span>
+          <h3>论文辅助阅读与群组分享</h3>
+        </div>
+        <p class="scenario-desc">粘贴 arXiv 编号或链接，文件伴读会下载 PDF 并单独开一个标签，对话只讨论这一篇。分享给同学或课题组后，提问变成批注；主持人通过或忽略；通过的回复，所有能看到分享的人都能读到。划词改写、笔记和论文解读留在本机。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">arXiv</span>
+          <span class="scenario-tag">文件伴读</span>
+          <span class="scenario-tag">群组分享</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
+          <h3>远程论文评审</h3>
+        </div>
+        <p class="scenario-desc">评审人不必坐在作者电脑前。伴读分享走 Hub：参与者在自己的 MaClaw 里写批注，主持人审核，回复记在同一份分享上。Hub 远程会话也让你离开座位后继续这场评审。</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Hub 分享</span>
+          <span class="scenario-tag">远程会话</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 快速开始 -->
+<section class="quickstart-section section" id="get-started">
+  <div class="container">
+    <h2 class="section-title">下载与部署</h2>
     <div class="quickstart-steps">
       <div class="step-item">
         <span class="step-num">1</span>

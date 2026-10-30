@@ -1,7 +1,7 @@
 ---
 layout: default
-title: MaClaw - Аж ахуйн нэгж ба хувь хүний тоон оюуны хамтрагч
-description: MaClaw бол өөрөө хувьсаж чаддаг агент платформ. Аж ахуйн нэгжид засаглагдах AI чадварын суурь, хувь хүнд AI ажлын хамтрагч, өгүүлэл ба дипломын ажлын судалгааны туслах.
+title: MaClaw - Байгууллагын түвшний ерөнхий агент платформ
+description: MaClaw бол өөрөө хувьсаж чаддаг, байгууллагын түвшний ерөнхий агент платформ: засаглагдах AI чадварын суурь, хувь хүний AI хамтрагч, тоон ажилтан, мөн салбарын шийдэл болох судалгааны туслалцаа.
 lang: mn
 permalink: /mn/
 ---
@@ -9,11 +9,11 @@ permalink: /mn/
 <!-- Hero Section -->
 <section class="hero-maclaw section">
   <div class="container hero-copy">
-    <span class="maclaw-badge">Тоон оюуны хамтрагч · Аж ахуйн нэгж ба хувь хүн</span>
+    <span class="maclaw-badge">Байгууллагын түвшний ерөнхий агент платформ</span>
     <h1 class="hero-title">MaClaw</h1>
     <p class="hero-slogan"><span>Байгууллага бүрт өөрийн хиймэл оюуны агент</span></p>
     <p class="hero-subtitle">Өөрөө хувьсаж чаддаг агент платформ: аж ахуйн нэгжид засаглагдах AI чадварын суурь, хувь хүнд хувийн AI ажлын хамтрагч.<br/>Таныг санаж, бизнесийг тань ойлгож, дүрмийг дагадаг — аж ахуйн нэгжээс их сургууль, судалгааны баг хүртэл.</p>
-    <p class="hero-research-link"><a href="#research">Өгүүлэл ба дипломын ажлын судалгааны туслалцаа</a></p>
+    <p class="hero-research-link"><a href="#research">Салбарын шийдэл: өгүүлэл ба дипломын ажлын судалгааны туслалцаа</a></p>
 
   </div>
   <figure class="hero-stage">
@@ -131,118 +131,11 @@ permalink: /mn/
   </div>
 </section>
 
-<!-- Research assistance -->
-<section class="education-section section" id="research">
-  <div class="container">
-    <h2 class="section-title">Бодит эрдэм шинжилгээний ажилд зориулсан судалгааны туслалцаа</h2>
-    <p class="section-subtitle">Чиглэл, өгүүлэл, магистр ба докторын дипломын ажил — бичих, бүтэц, хянан магадлагаа, бүлгээр унших, алсын сэтгэгдэл — MaClaw-д бэлэн байгаа ажлын урсгал ба шинжээч дээр.</p>
-    <div class="scenario-banner">
-      <span class="scenario-label">Боловсрол</span>
-      <h3 class="scenario-headline">MaClaw таны хажууд аль хэдийн хийж чаддаг найман судалгааны ажил</h3>
-    </div>
-    <div class="scenario-grid">
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
-          <h3>Судалгааны чиглэл тодорхойлох</h3>
-        </div>
-        <p class="scenario-desc">Ном зүйн тоймоос эхэлнэ: сэдвийг зааглаж, хайлтыг тохируулж, өгүүллүүдийг шүүж, хоосон зайг нэгтгэнэ. Санхүүжилт ба авьяастны ажлын урсгал тэр зайг судалгааны төлөвлөгөө болгоно — гол асуулт, боломж, хамгаалж чадах чиглэл.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Ном зүйн тойм</span>
-          <span class="scenario-tag">Санхүүжилтийн өргөдөл</span>
-          <span class="scenario-tag">NSFC төлөвлөгөө</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
-          <h3>Эрдэм шинжилгээний өгүүлэл бичих</h3>
-        </div>
-        <p class="scenario-desc">Өгүүлэл бичих ажлын урсгал таны баталгаажуулсан үе шатаар явна: бүтэц, ном зүй, ноорог, зураг, хялбар найруулга. Өгүүлэл найруулах ба эрдмийн орчуулгын шинжээч нэр томьёог тогтвортой байлгана. LaTeX шинжээч таны .tex загвар луу бичиж, эмхэтгэн урьдчилан харахыг заана.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Өгүүлэл бичих</span>
-          <span class="scenario-tag">Найруулга</span>
-          <span class="scenario-tag">Орчуулга</span>
-          <span class="scenario-tag">LaTeX</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
-          <h3>Дипломын ажлын бүтэц цэгцлэх</h3>
-        </div>
-        <p class="scenario-desc">Өгүүлэл бичих ажлын бүтцийн үе шат эх бичвэрийг эцсийнх гэж үзэхээс өмнө бүлгийн хүрээг түгжинэ. LaTeX шинжээч дипломын загварын үндсэн файл ба оруулсан бүлгүүдийг уншаад тэр бүтцийг хэвээр үлдээнэ.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Бүтцийн үе</span>
-          <span class="scenario-tag">Дипломын загвар</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
-          <h3>Магистр, докторын дипломын ажил бичих</h3>
-        </div>
-        <p class="scenario-desc">Таны аль хэдийн ашигладаг дипломын загвар дээр бичнэ. LaTeX шинжээч .tex файлыг бүлэг бүлгээр нь байранд нь бөглөнө. Өгүүлэл бичих ажлын урсгал таны баталгаажуулах хэсгүүдийн нооргийг гаргана.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">LaTeX диплом</span>
-          <span class="scenario-tag">Бүлгийн ноорог</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="search" %}</span>
-          <h3>Эрдэм шинжилгээний өгүүлэл хянан магадлах</h3>
-        </div>
-        <p class="scenario-desc">Өгүүлэл найруулах шинжээч нэхэмжлэлийг өөрчлөхгүйгээр эрдмийн хэлийг хянаж, засвар бүрт тэмдэглэл үлдээнэ. PDF-ээ файл хамтрагч дээр нээгээд тэмдэглэлээ файл дээр үлдээнэ. Changjiang Scholar болон NSFC-ийн хяналтын ажлын урсгал (Онцгой залуу, Шилдэг залуу, Залуу, Ерөнхий, Түлхүүр) бүрэн бүтэн байдал, амжилт, судалгааны төлөвлөгөө, бичлэгийн чанарыг үнэлээд нэгдсэн тайлан бичнэ.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Найруулгын хяналт</span>
-          <span class="scenario-tag">Хамтрагчийн тэмдэглэл</span>
-          <span class="scenario-tag">Өргөдлийн хяналт</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
-          <h3>Магистр, докторын ажлыг хянан магадлах</h3>
-        </div>
-        <p class="scenario-desc">Дипломын ажлыг файл хамтрагч руу ачаалж, тэмдэглэл тухайн файл дээр үлдэнэ. Найруулгын шинжээч хэл ба бүтцийг хэсэг хэсгээр уншина. Хуваалцсаны дараа хөтлөгч тэмдэглэл бүрийг зөвшөөрөх эсвэл үл хэрэгсэх бөгөөд дараа нь хариу бүлэгт бичигдэнэ.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Бүлгийн тэмдэглэл</span>
-          <span class="scenario-tag">Хөтлөгчийн хяналт</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="library" %}</span>
-          <h3>Өгүүлэл уншихад туслах, бүлгээр хуваалцах</h3>
-        </div>
-        <p class="scenario-desc">arXiv дугаар эсвэл холбоос наана. Файл хамтрагч PDF-ээ өөрийн таб руу татаж, чат зөвхөн тэр өгүүллийг хэлэлцэнэ. Ангийнхан эсвэл лабораторийн бүлэгтээ хуваалцана: асуулт тэмдэглэл болж, хөтлөгч зөвшөөрөх эсвэл үл хэрэгсэнэ, зөвшөөрсөн хариуг хуваалцалт харж буй хүн бүр уншина. Сонгосон хэсгийн дахин бичилт, уншлагын тэмдэглэл, өгүүллийн тайлбар таны машин дээр үлдэнэ.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">arXiv</span>
-          <span class="scenario-tag">Файл хамтрагч</span>
-          <span class="scenario-tag">Бүлгийн хуваалцалт</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
-          <h3>Өгүүллийг алсаас хянан магадлах</h3>
-        </div>
-        <p class="scenario-desc">Хянагч зохиогчийн компьютер дээр суух албагүй. Хуваалцсан хамтрагч баримт Hub-аар явна: оролцогч өөрийн MaClaw дээрээс тэмдэглэл бичнэ, хөтлөгч зөвшөөрнө, хариу нь тухайн хуваалцалт дээр хадгалагдана. Hub-ын алсын сесс энэ хяналтыг ширээнээс хол үргэлжлүүлнэ.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Hub хуваалцалт</span>
-          <span class="scenario-tag">Алсын сесс</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Companion · Vertical Tabs -->
-<section class="companion-section section">
+<section class="companion-section section" id="platform">
   <div class="container">
-    <h2 class="section-title">Тоон хамтрагч · Хоёр дүр, нэг суурь</h2>
-    <p class="section-subtitle">Аж ахуйн нэгжийн засаглал + хувь хүний хамтрал, нэг санах ой, мэдлэг, чадварын систем</p>
+    <h2 class="section-title">Нэг платформ, гурван хэрэглээ</h2>
+    <p class="section-subtitle">Байгууллага, хувь хүн, тоон ажилтан нэг санах ой, мэдлэг, чадварын суурийг хуваалцана</p>
 
     <div class="companion-tabs">
       <!-- Vertical Tab Navigation -->
@@ -793,152 +686,11 @@ permalink: /mn/
   </div>
 </section>
 
-<!-- 4-Tier Capability System -->
-<section class="capability-section section" id="capability-tiers">
-  <div class="container">
-    <h2 class="section-title">4 түвшний чадварын систем</h2>
-    <p class="section-subtitle">Байгууллага өөрийн баталсан чадварыг түрүүлнэ; гаднын эх сурвалж бодлогоор орно</p>
-
-    <div class="capability-pyramid">
-      <div class="capability-tier tier-1">
-        <div class="tier-rank">Түвшин 1</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="building" %}</span>
-            <div>
-              <h3 class="tier-name">Хувийн чадварын зах</h3>
-              <p class="tier-sub">Байгууллагын Hub зах</p>
-            </div>
-          </div>
-          <p class="tier-desc">Админы хянасан, байгууллага бүтээсэн Skill/MCP сан. Ажилтны MaClaw эдгээрийг анхдагчаар түрүүлж дуудна; төлбөртэй лиценз төвлөрч, байгууллагын хилээс гарахгүй.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Өөрөө удирдах</span>
-            <span class="tier-tag">Баталгаагаар нэвтрэх</span>
-            <span class="tier-tag">Хамгийн түрүүнд</span>
-            <span class="tier-tag">Төвлөрсөн лиценз</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-2">
-        <div class="tier-rank">Түвшин 2</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
-            <div>
-              <h3 class="tier-name">Нээлттэй чадварын зах</h3>
-              <p class="tier-sub">HubCenter зах</p>
-            </div>
-          </div>
-          <p class="tier-desc">HubCenter-ийн нээлттэй зах, албан ёсны SkillHub ур чадвар ба худалдааны түншүүдтэй. Үнэгүй Skill шууд сууна; төлбөртэй Skill ба MCP байгууллагын худалдан авалтаар орно. Админ хувийн зах руу бөөнөөр оруулж болно.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Албан ёсны</span>
-            <span class="tier-tag">Худалдааны</span>
-            <span class="tier-tag">Худалдан авах / захиалах</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-3">
-        <div class="tier-rank">Түвшин 3</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="globe" %}</span>
-            <div>
-              <h3 class="tier-name">ClawHub</h3>
-              <p class="tier-sub">Нийгэмлэгийн чадвар</p>
-            </div>
-          </div>
-          <p class="tier-desc">Нийгэмлэгийн нээлттэй чадварын эх. Үнэгүй Skill-ийг бага саадтай туршина; баталгаажсан нь байгууллагын хувийн зах руу хөрөнгө болж орно.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Нийгэмлэг</span>
-            <span class="tier-tag">Үнэгүй туршилт</span>
-            <span class="tier-tag">Туршаад дараа нь авах</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-4">
-        <div class="tier-rank">Түвшин 4</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
-            <div>
-              <h3 class="tier-name">GitHub</h3>
-              <p class="tier-sub">Нээлттэй эхийн экосистем</p>
-            </div>
-          </div>
-          <p class="tier-desc">GitHub репозиторын Skill/MCP хамгийн өргөн хүрээ өгнө. Админ зөвшөөрөгдсөн эх сурвалжийг цагаан жагсаалтаар хянана.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Нээлттэй эх</span>
-            <span class="tier-tag">Хамгийн өргөн</span>
-            <span class="tier-tag">Цагаан жагсаалт</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="capability-routing">
-      <h3 class="routing-title">{% include icon.html name="search" %} Байгууллагын горимын ухаалаг чиглүүлэлт</h3>
-      <p>MaClaw байгууллагын горимд байхад чадвар хайх дараалал: <strong>Хувийн зах → Нээлттэй зах → ClawHub → GitHub</strong>. Байгууллагын Hub-д нийтлэгдсэн чадвар үргэлж түрүүлнэ; гаднын эхийг хайх, турших, оруулах эсэхийг байгууллагын бодлого шийднэ.</p>
-      <ul class="routing-rules">
-        <li><strong>Үнэгүй чадвар</strong>: «туршаад дараа нь авах» гэж тохируулж болно — баталгаажсан чадвар байгууллагын зах руу автоматаар архивлагдана.</li>
-        <li><strong>Төлбөртэй чадвар</strong>: «эхлээд баталж худалдаж аваад, дараа нь нээх» ёстой — лиценз бүхэлдээ байгууллагын Hub-д үлдэнэ.</li>
-        <li><strong>MCP үйлчилгээ</strong>: нууц дутуу бол төлөв «тохиргоо хэрэгтэй» гэж харуулж, үндсэн урсгалыг хаахгүй.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- Enterprise Capability Build Process -->
-<section class="buildflow-section section">
-  <div class="container">
-    <h2 class="section-title">Байгууллагын чадвар бүтээх процесс</h2>
-    <p class="section-subtitle">Гаднын чадварыг байгууллагын хөрөнгө болгох дөрвөн алхам</p>
-
-    <div class="buildflow-steps">
-      <div class="buildflow-step">
-        <div class="bf-num">01</div>
-        <div class="bf-icon">{% include icon.html name="search" %}</div>
-        <h3>Олох</h3>
-        <p>Админ нээлттэй зах, ClawHub, GitHub-аас тохирох Skill/MCP хайна — эсвэл ажилтан оруулах хүсэлт гаргана.</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">02</div>
-        <div class="bf-icon">{% include icon.html name="check" %}</div>
-        <h3>Батлах / худалдан авах</h3>
-        <p>Үнэгүй чадвар туршилт эсвэл баталгааны бодлогоор; төлбөртэй нь худалдан авалтаар — лицензийг байгууллагын Hub төвлөрүүлж барина.</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">03</div>
-        <div class="bf-icon">{% include icon.html name="package" %}</div>
-        <h3>Оруулах ба нийтлэх</h3>
-        <p>Батлагдсан чадвар хувилбар, зөвшөөрлийн жагсаалт, эх сурвалжийн мета өгөгдөлтэйгээр хувийн зах руу орно.</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">04</div>
-        <div class="bf-icon">{% include icon.html name="send" %}</div>
-        <h3>Түгээх ба суулгах</h3>
-        <p>Хэлтэс/үүрэг/төслөөр ажилтны MaClaw руу түгээнэ — албадан суулгах эсвэл зөвлөх, алдвал автоматаар дахин оролдоно.</p>
-      </div>
-    </div>
-
-    <div class="buildflow-note">
-      <strong>Хоёр замын бодлого:</strong>
-      <span class="track-item"><span class="track-tag track-free">Үнэгүй</span> Туршаад дараа нь авах — баталгаажсан чадвар байгууллагын зах руу автоматаар архивлагдана</span>
-      <span class="track-item"><span class="track-tag track-paid">Төлбөртэй</span> Батлаад дараа нь ашиглах — лиценз төвлөрсөн, дуудлага хяналттай, байгууллагын хилээс гарахгүй</span>
-    </div>
-  </div>
-</section>
-
 <!-- Workflow Templates -->
 <section class="workflow-section section" id="workflows">
   <div class="container">
-    <h2 class="section-title">Оффисын ажлын урсгалын загвар</h2>
-    <p class="section-subtitle">38 бүтэцтэй ажлын урсгал. Доорх нь товчлол — эрдмийн бичлэг ба хяналт «Судалгааны туслалцаа» хэсэгт</p>
+    <h2 class="section-title">Бэлэн ажлын урсгалууд</h2>
+    <p class="section-subtitle">38 бүтэцтэй ажлын урсгал. Доорх нь товчлол; эрдмийн бичлэг ба хяналт «Салбарын шийдэл: судалгаа» хэсэгт</p>
     <div class="workflow-grid">
       <div class="workflow-card">
         <div class="workflow-icon">{% include icon.html name="file-pen" %}</div>
@@ -1067,10 +819,10 @@ permalink: /mn/
 </section>
 
 <!-- Core Technology (Developer-oriented) -->
-<section class="developer-section section">
+<section class="developer-section section" id="technology">
   <div class="container">
     <h2 class="section-title">Үндсэн технологи</h2>
-    <p class="section-subtitle">Тоон хамтрагчийг тэжээдэг хөдөлгүүрүүд</p>
+    <p class="section-subtitle">Агентыг санах, хайх, зөв гүйцэтгэхэд тусалдаг хөдөлгүүрүүд</p>
     <div class="developer-grid">
       <div class="developer-card">
         <h3>Санах ойн архитектур</h3>
@@ -1140,10 +892,258 @@ permalink: /mn/
   </div>
 </section>
 
-<!-- Quick Start -->
-<section class="quickstart-section section">
+<!-- 4-Tier Capability System -->
+<section class="capability-section section" id="capability-tiers">
   <div class="container">
-    <h2 class="section-title">Хурдан эхлэх</h2>
+    <h2 class="section-title">Засаглал: 4 түвшний чадварын систем</h2>
+    <p class="section-subtitle">Байгууллага өөрийн баталсан чадварыг түрүүлнэ; гаднын эх сурвалж бодлогоор орно</p>
+
+    <div class="capability-pyramid">
+      <div class="capability-tier tier-1">
+        <div class="tier-rank">Түвшин 1</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="building" %}</span>
+            <div>
+              <h3 class="tier-name">Хувийн чадварын зах</h3>
+              <p class="tier-sub">Байгууллагын Hub зах</p>
+            </div>
+          </div>
+          <p class="tier-desc">Админы хянасан, байгууллага бүтээсэн Skill/MCP сан. Ажилтны MaClaw эдгээрийг анхдагчаар түрүүлж дуудна; төлбөртэй лиценз төвлөрч, байгууллагын хилээс гарахгүй.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Өөрөө удирдах</span>
+            <span class="tier-tag">Баталгаагаар нэвтрэх</span>
+            <span class="tier-tag">Хамгийн түрүүнд</span>
+            <span class="tier-tag">Төвлөрсөн лиценз</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-2">
+        <div class="tier-rank">Түвшин 2</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
+            <div>
+              <h3 class="tier-name">Нээлттэй чадварын зах</h3>
+              <p class="tier-sub">HubCenter зах</p>
+            </div>
+          </div>
+          <p class="tier-desc">HubCenter-ийн нээлттэй зах, албан ёсны SkillHub ур чадвар ба худалдааны түншүүдтэй. Үнэгүй Skill шууд сууна; төлбөртэй Skill ба MCP байгууллагын худалдан авалтаар орно. Админ хувийн зах руу бөөнөөр оруулж болно.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Албан ёсны</span>
+            <span class="tier-tag">Худалдааны</span>
+            <span class="tier-tag">Худалдан авах / захиалах</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-3">
+        <div class="tier-rank">Түвшин 3</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="globe" %}</span>
+            <div>
+              <h3 class="tier-name">ClawHub</h3>
+              <p class="tier-sub">Нийгэмлэгийн чадвар</p>
+            </div>
+          </div>
+          <p class="tier-desc">Нийгэмлэгийн нээлттэй чадварын эх. Үнэгүй Skill-ийг бага саадтай туршина; баталгаажсан нь байгууллагын хувийн зах руу хөрөнгө болж орно.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Нийгэмлэг</span>
+            <span class="tier-tag">Үнэгүй туршилт</span>
+            <span class="tier-tag">Туршаад дараа нь авах</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-4">
+        <div class="tier-rank">Түвшин 4</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
+            <div>
+              <h3 class="tier-name">GitHub</h3>
+              <p class="tier-sub">Нээлттэй эхийн экосистем</p>
+            </div>
+          </div>
+          <p class="tier-desc">GitHub репозиторын Skill/MCP хамгийн өргөн хүрээ өгнө. Админ зөвшөөрөгдсөн эх сурвалжийг цагаан жагсаалтаар хянана.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Нээлттэй эх</span>
+            <span class="tier-tag">Хамгийн өргөн</span>
+            <span class="tier-tag">Цагаан жагсаалт</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="capability-routing">
+      <h3 class="routing-title">{% include icon.html name="search" %} Байгууллагын горимын ухаалаг чиглүүлэлт</h3>
+      <p>MaClaw байгууллагын горимд байхад чадвар хайх дараалал: <strong>Хувийн зах → Нээлттэй зах → ClawHub → GitHub</strong>. Байгууллагын Hub-д нийтлэгдсэн чадвар үргэлж түрүүлнэ; гаднын эхийг хайх, турших, оруулах эсэхийг байгууллагын бодлого шийднэ.</p>
+      <ul class="routing-rules">
+        <li><strong>Үнэгүй чадвар</strong>: «туршаад дараа нь авах» гэж тохируулж болно — баталгаажсан чадвар байгууллагын зах руу автоматаар архивлагдана.</li>
+        <li><strong>Төлбөртэй чадвар</strong>: «эхлээд баталж худалдаж аваад, дараа нь нээх» ёстой — лиценз бүхэлдээ байгууллагын Hub-д үлдэнэ.</li>
+        <li><strong>MCP үйлчилгээ</strong>: нууц дутуу бол төлөв «тохиргоо хэрэгтэй» гэж харуулж, үндсэн урсгалыг хаахгүй.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Enterprise Capability Build Process -->
+<section class="buildflow-section section" id="governance">
+  <div class="container">
+    <h2 class="section-title">Засаглал: чадвар бүтээх процесс</h2>
+    <p class="section-subtitle">Гаднын чадварыг байгууллагын хөрөнгө болгох дөрвөн алхам</p>
+
+    <div class="buildflow-steps">
+      <div class="buildflow-step">
+        <div class="bf-num">01</div>
+        <div class="bf-icon">{% include icon.html name="search" %}</div>
+        <h3>Олох</h3>
+        <p>Админ нээлттэй зах, ClawHub, GitHub-аас тохирох Skill/MCP хайна — эсвэл ажилтан оруулах хүсэлт гаргана.</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">02</div>
+        <div class="bf-icon">{% include icon.html name="check" %}</div>
+        <h3>Батлах / худалдан авах</h3>
+        <p>Үнэгүй чадвар туршилт эсвэл баталгааны бодлогоор; төлбөртэй нь худалдан авалтаар — лицензийг байгууллагын Hub төвлөрүүлж барина.</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">03</div>
+        <div class="bf-icon">{% include icon.html name="package" %}</div>
+        <h3>Оруулах ба нийтлэх</h3>
+        <p>Батлагдсан чадвар хувилбар, зөвшөөрлийн жагсаалт, эх сурвалжийн мета өгөгдөлтэйгээр хувийн зах руу орно.</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">04</div>
+        <div class="bf-icon">{% include icon.html name="send" %}</div>
+        <h3>Түгээх ба суулгах</h3>
+        <p>Хэлтэс/үүрэг/төслөөр ажилтны MaClaw руу түгээнэ — албадан суулгах эсвэл зөвлөх, алдвал автоматаар дахин оролдоно.</p>
+      </div>
+    </div>
+
+    <div class="buildflow-note">
+      <strong>Хоёр замын бодлого:</strong>
+      <span class="track-item"><span class="track-tag track-free">Үнэгүй</span> Туршаад дараа нь авах — баталгаажсан чадвар байгууллагын зах руу автоматаар архивлагдана</span>
+      <span class="track-item"><span class="track-tag track-paid">Төлбөртэй</span> Батлаад дараа нь ашиглах — лиценз төвлөрсөн, дуудлага хяналттай, байгууллагын хилээс гарахгүй</span>
+    </div>
+  </div>
+</section>
+
+<!-- Research assistance -->
+<section class="education-section section" id="research">
+  <div class="container">
+    <h2 class="section-title">Салбарын шийдэл: судалгааны туслалцаа</h2>
+    <p class="section-subtitle">Чиглэл, өгүүлэл, магистр ба докторын дипломын ажил — бичих, бүтэц, хянан магадлагаа, бүлгээр унших, алсын сэтгэгдэл — MaClaw-д бэлэн байгаа ажлын урсгал ба шинжээч дээр.</p>
+    <div class="scenario-banner">
+      <span class="scenario-label">Боловсрол</span>
+      <h3 class="scenario-headline">MaClaw таны хажууд аль хэдийн хийж чаддаг найман судалгааны ажил</h3>
+    </div>
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
+          <h3>Судалгааны чиглэл тодорхойлох</h3>
+        </div>
+        <p class="scenario-desc">Ном зүйн тоймоос эхэлнэ: сэдвийг зааглаж, хайлтыг тохируулж, өгүүллүүдийг шүүж, хоосон зайг нэгтгэнэ. Санхүүжилт ба авьяастны ажлын урсгал тэр зайг судалгааны төлөвлөгөө болгоно — гол асуулт, боломж, хамгаалж чадах чиглэл.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Ном зүйн тойм</span>
+          <span class="scenario-tag">Санхүүжилтийн өргөдөл</span>
+          <span class="scenario-tag">NSFC төлөвлөгөө</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
+          <h3>Эрдэм шинжилгээний өгүүлэл бичих</h3>
+        </div>
+        <p class="scenario-desc">Өгүүлэл бичих ажлын урсгал таны баталгаажуулсан үе шатаар явна: бүтэц, ном зүй, ноорог, зураг, хялбар найруулга. Өгүүлэл найруулах ба эрдмийн орчуулгын шинжээч нэр томьёог тогтвортой байлгана. LaTeX шинжээч таны .tex загвар луу бичиж, эмхэтгэн урьдчилан харахыг заана.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Өгүүлэл бичих</span>
+          <span class="scenario-tag">Найруулга</span>
+          <span class="scenario-tag">Орчуулга</span>
+          <span class="scenario-tag">LaTeX</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
+          <h3>Дипломын ажлын бүтэц цэгцлэх</h3>
+        </div>
+        <p class="scenario-desc">Өгүүлэл бичих ажлын бүтцийн үе шат эх бичвэрийг эцсийнх гэж үзэхээс өмнө бүлгийн хүрээг түгжинэ. LaTeX шинжээч дипломын загварын үндсэн файл ба оруулсан бүлгүүдийг уншаад тэр бүтцийг хэвээр үлдээнэ.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Бүтцийн үе</span>
+          <span class="scenario-tag">Дипломын загвар</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
+          <h3>Магистр, докторын дипломын ажил бичих</h3>
+        </div>
+        <p class="scenario-desc">Таны аль хэдийн ашигладаг дипломын загвар дээр бичнэ. LaTeX шинжээч .tex файлыг бүлэг бүлгээр нь байранд нь бөглөнө. Өгүүлэл бичих ажлын урсгал таны баталгаажуулах хэсгүүдийн нооргийг гаргана.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">LaTeX диплом</span>
+          <span class="scenario-tag">Бүлгийн ноорог</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="search" %}</span>
+          <h3>Эрдэм шинжилгээний өгүүлэл хянан магадлах</h3>
+        </div>
+        <p class="scenario-desc">Өгүүлэл найруулах шинжээч нэхэмжлэлийг өөрчлөхгүйгээр эрдмийн хэлийг хянаж, засвар бүрт тэмдэглэл үлдээнэ. PDF-ээ файл хамтрагч дээр нээгээд тэмдэглэлээ файл дээр үлдээнэ. Changjiang Scholar болон NSFC-ийн хяналтын ажлын урсгал (Онцгой залуу, Шилдэг залуу, Залуу, Ерөнхий, Түлхүүр) бүрэн бүтэн байдал, амжилт, судалгааны төлөвлөгөө, бичлэгийн чанарыг үнэлээд нэгдсэн тайлан бичнэ.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Найруулгын хяналт</span>
+          <span class="scenario-tag">Хамтрагчийн тэмдэглэл</span>
+          <span class="scenario-tag">Өргөдлийн хяналт</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
+          <h3>Магистр, докторын ажлыг хянан магадлах</h3>
+        </div>
+        <p class="scenario-desc">Дипломын ажлыг файл хамтрагч руу ачаалж, тэмдэглэл тухайн файл дээр үлдэнэ. Найруулгын шинжээч хэл ба бүтцийг хэсэг хэсгээр уншина. Хуваалцсаны дараа хөтлөгч тэмдэглэл бүрийг зөвшөөрөх эсвэл үл хэрэгсэх бөгөөд дараа нь хариу бүлэгт бичигдэнэ.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Бүлгийн тэмдэглэл</span>
+          <span class="scenario-tag">Хөтлөгчийн хяналт</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="library" %}</span>
+          <h3>Өгүүлэл уншихад туслах, бүлгээр хуваалцах</h3>
+        </div>
+        <p class="scenario-desc">arXiv дугаар эсвэл холбоос наана. Файл хамтрагч PDF-ээ өөрийн таб руу татаж, чат зөвхөн тэр өгүүллийг хэлэлцэнэ. Ангийнхан эсвэл лабораторийн бүлэгтээ хуваалцана: асуулт тэмдэглэл болж, хөтлөгч зөвшөөрөх эсвэл үл хэрэгсэнэ, зөвшөөрсөн хариуг хуваалцалт харж буй хүн бүр уншина. Сонгосон хэсгийн дахин бичилт, уншлагын тэмдэглэл, өгүүллийн тайлбар таны машин дээр үлдэнэ.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">arXiv</span>
+          <span class="scenario-tag">Файл хамтрагч</span>
+          <span class="scenario-tag">Бүлгийн хуваалцалт</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
+          <h3>Өгүүллийг алсаас хянан магадлах</h3>
+        </div>
+        <p class="scenario-desc">Хянагч зохиогчийн компьютер дээр суух албагүй. Хуваалцсан хамтрагч баримт Hub-аар явна: оролцогч өөрийн MaClaw дээрээс тэмдэглэл бичнэ, хөтлөгч зөвшөөрнө, хариу нь тухайн хуваалцалт дээр хадгалагдана. Hub-ын алсын сесс энэ хяналтыг ширээнээс хол үргэлжлүүлнэ.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Hub хуваалцалт</span>
+          <span class="scenario-tag">Алсын сесс</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Start -->
+<section class="quickstart-section section" id="get-started">
+  <div class="container">
+    <h2 class="section-title">Татах ба нэвтрүүлэх</h2>
     <div class="quickstart-steps">
       <div class="step-item">
         <span class="step-num">1</span>

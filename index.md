@@ -1,6 +1,7 @@
 ---
 layout: default
-title: MaClaw - The Digital Intelligence Companion for Enterprises and Individuals
+title: MaClaw - The Enterprise-Grade General Agent Platform
+description: MaClaw is a self-evolving, enterprise-grade agent platform: a governable AI capability foundation, a personal AI work partner and digital employees, with research assistance as an industry focus.
 lang: en
 permalink: /
 ---
@@ -8,11 +9,11 @@ permalink: /
 <!-- Hero Section -->
 <section class="hero-maclaw section">
   <div class="container hero-copy">
-    <span class="maclaw-badge">Digital Intelligence Companion · Enterprise & Personal</span>
+    <span class="maclaw-badge">Enterprise-Grade General Agent Platform</span>
     <h1 class="hero-title">MaClaw</h1>
     <p class="hero-slogan"><span>Your own AI agents, for every organization</span></p>
     <p class="hero-subtitle">A self-evolving agent platform: a governable AI capability foundation for enterprises, and a personal AI work partner.<br/>It remembers you, understands your business, and follows your rules, from enterprises to universities and research teams.</p>
-    <p class="hero-research-link"><a href="#research">Research assistance for papers and theses</a></p>
+    <p class="hero-research-link"><a href="#research">Industry solution: research assistance for papers and theses</a></p>
 
   </div>
   <figure class="hero-stage">
@@ -131,118 +132,11 @@ permalink: /
   </div>
 </section>
 
-<!-- Research assistance -->
-<section class="education-section section" id="research">
-  <div class="container">
-    <h2 class="section-title">Research assistance for real academic work</h2>
-    <p class="section-subtitle">Direction, papers, and master's or PhD theses — writing, outlines, review, group reading, and remote comments — on workflows and experts that ship with MaClaw.</p>
-    <div class="scenario-banner">
-      <span class="scenario-label">Education</span>
-      <h3 class="scenario-headline">Eight research jobs MaClaw already sits beside you for</h3>
-    </div>
-    <div class="scenario-grid">
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
-          <h3>Research direction planning</h3>
-        </div>
-        <p class="scenario-desc">Start with a literature review: define the topic, set the search, screen papers, and synthesize the gap. Grant and talent workflows then turn that gap into a research plan — the core question, feasibility, and a direction you can defend.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Literature review</span>
-          <span class="scenario-tag">Grant proposal</span>
-          <span class="scenario-tag">NSFC plans</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
-          <h3>Academic paper writing</h3>
-        </div>
-        <p class="scenario-desc">The paper-writing workflow moves in phases you confirm: outline, literature, draft, figures, and polish. The paper-polish and academic-translation experts keep terminology stable. The LaTeX expert writes into your .tex template and sends you to compile preview.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Paper writing</span>
-          <span class="scenario-tag">Polish</span>
-          <span class="scenario-tag">Translation</span>
-          <span class="scenario-tag">LaTeX</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
-          <h3>Graduation thesis outline</h3>
-        </div>
-        <p class="scenario-desc">The outline phase of paper writing locks the chapter frame before prose is treated as final. The LaTeX expert reads the degree-thesis template — the main file and its included chapters — and keeps that structure.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Outline phase</span>
-          <span class="scenario-tag">Thesis template</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
-          <h3>Master's / PhD thesis writing</h3>
-        </div>
-        <p class="scenario-desc">Write on the degree-thesis template you already use. The LaTeX expert fills the .tex in place, chapter by chapter. The paper-writing workflow drafts the sections you confirm as you go.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">LaTeX thesis</span>
-          <span class="scenario-tag">Chapter drafts</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="search" %}</span>
-          <h3>Academic paper review</h3>
-        </div>
-        <p class="scenario-desc">The paper-polish expert reviews academic language without changing the claim, and notes each edit. Open the PDF in the file companion to leave comments on the file. Changjiang Scholar and NSFC review workflows (Distinguished Youth, Excellent Youth, Youth, General, and Key) score completeness, achievements, the research plan, and writing quality, then write a combined report.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Polish review</span>
-          <span class="scenario-tag">Companion notes</span>
-          <span class="scenario-tag">Application review</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
-          <h3>Master's / PhD thesis review</h3>
-        </div>
-        <p class="scenario-desc">Load the thesis into the file companion so comments stay on that file. The polish expert reads language and structure section by section. After you share it, the host approves or ignores each note before a reply is written back for the group.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Chapter notes</span>
-          <span class="scenario-tag">Host review</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="library" %}</span>
-          <h3>Assisted reading and group sharing</h3>
-        </div>
-        <p class="scenario-desc">Paste an arXiv id or link. The file companion downloads the PDF into its own tab, and the chat discusses only that paper. Share it with classmates or a lab group: questions become annotations, the host approves or ignores them, and approved replies are visible to everyone on the share. Rewrites of a selection, reading notes, and paper explainers stay on your machine.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">arXiv</span>
-          <span class="scenario-tag">File companion</span>
-          <span class="scenario-tag">Group share</span>
-        </div>
-      </div>
-      <div class="scenario-card scenario-research">
-        <div class="scenario-head">
-          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
-          <h3>Remote paper review</h3>
-        </div>
-        <p class="scenario-desc">Reviewers do not have to sit at the author's computer. A shared companion document goes through Hub: participants comment from their own MaClaw, the host approves, and the reply is stored on the same share. A Hub remote session lets you continue that review away from the desk.</p>
-        <div class="scenario-tags">
-          <span class="scenario-tag">Hub share</span>
-          <span class="scenario-tag">Remote session</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Companion · Vertical Tabs -->
-<section class="companion-section section">
+<section class="companion-section section" id="platform">
   <div class="container">
-    <h2 class="section-title">Digital Companion · Two Identities, One Foundation</h2>
-    <p class="section-subtitle">Enterprise-grade governance + Personal-grade companionship, sharing the same memory, knowledge and capability system</p>
+    <h2 class="section-title">One Platform, Three Ways to Use It</h2>
+    <p class="section-subtitle">Enterprises, individuals and digital employees share one foundation of memory, knowledge and capabilities</p>
 
     <div class="companion-tabs">
       <!-- Vertical Tab Navigation -->
@@ -793,152 +687,11 @@ permalink: /
   </div>
 </section>
 
-<!-- 4-Tier Capability System -->
-<section class="capability-section section" id="capability-tiers">
-  <div class="container">
-    <h2 class="section-title">4-Tier Capability System</h2>
-    <p class="section-subtitle">Enterprises prefer their own approved capabilities; external sources are introduced under enterprise policy</p>
-
-    <div class="capability-pyramid">
-      <div class="capability-tier tier-1">
-        <div class="tier-rank">Priority 1</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="building" %}</span>
-            <div>
-              <h3 class="tier-name">Private Capability Market</h3>
-              <p class="tier-sub">Enterprise Hub Marketplace</p>
-            </div>
-          </div>
-          <p class="tier-desc">Enterprise-built Skill/MCP library curated by admins. Employees' MaClaw calls these first by default; licenses for paid capabilities are centrally held and never leave enterprise boundaries.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Self-managed</span>
-            <span class="tier-tag">Approval-gated</span>
-            <span class="tier-tag">Top priority</span>
-            <span class="tier-tag">Centralized license</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-2">
-        <div class="tier-rank">Priority 2</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
-            <div>
-              <h3 class="tier-name">Public Capability Market</h3>
-              <p class="tier-sub">HubCenter Marketplace</p>
-            </div>
-          </div>
-          <p class="tier-desc">HubCenter public market, including official SkillHub skills and commercial partners. Free Skills install directly; paid Skills and MCPs go through enterprise procurement. Admins can bulk-import into the private market.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Official</span>
-            <span class="tier-tag">Commercial</span>
-            <span class="tier-tag">Purchase / Subscribe</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-3">
-        <div class="tier-rank">Priority 3</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="globe" %}</span>
-            <div>
-              <h3 class="tier-name">ClawHub</h3>
-              <p class="tier-sub">Community capabilities</p>
-            </div>
-          </div>
-          <p class="tier-desc">Open community-built capability source. Free Skills can be tried with low friction; validated ones get promoted into the enterprise private market as enterprise assets.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Community</span>
-            <span class="tier-tag">Free Trial</span>
-            <span class="tier-tag">Try-then-Adopt</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="capability-tier tier-4">
-        <div class="tier-rank">Priority 4</div>
-        <div class="tier-body">
-          <div class="tier-head">
-            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
-            <div>
-              <h3 class="tier-name">GitHub</h3>
-              <p class="tier-sub">Open-source ecosystem</p>
-            </div>
-          </div>
-          <p class="tier-desc">Direct GitHub-repo Skills/MCPs offer the broadest reach. Enterprise admins can whitelist allowed sources to control what gets pulled in.</p>
-          <div class="tier-tags">
-            <span class="tier-tag">Open Source</span>
-            <span class="tier-tag">Maximum Breadth</span>
-            <span class="tier-tag">Allowlisted</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="capability-routing">
-      <h3 class="routing-title">{% include icon.html name="search" %} Smart Routing in Enterprise Mode</h3>
-      <p>When MaClaw is in enterprise mode, capability lookup order is: <strong>Private Market → Public Market → ClawHub → GitHub</strong>. Capabilities published in the enterprise Hub always win; whether external sources can be searched, trialed or imported is decided by enterprise policy.</p>
-      <ul class="routing-rules">
-        <li><strong>Free capabilities</strong>: configurable as "trial-then-adopt" — validated capabilities are auto-archived into the enterprise market.</li>
-        <li><strong>Paid capabilities</strong>: must be "approved and purchased, then made available" — license stays in the enterprise Hub throughout.</li>
-        <li><strong>MCP services</strong>: when a secret is missing, status shows "needs configuration" without blocking the main flow.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- Enterprise Capability Build Process -->
-<section class="buildflow-section section">
-  <div class="container">
-    <h2 class="section-title">Enterprise Capability Build Process</h2>
-    <p class="section-subtitle">Four steps to turn external capabilities into enterprise-owned assets</p>
-
-    <div class="buildflow-steps">
-      <div class="buildflow-step">
-        <div class="bf-num">01</div>
-        <div class="bf-icon">{% include icon.html name="search" %}</div>
-        <h3>Discover</h3>
-        <p>Admins search public market, ClawHub, GitHub for matching Skills/MCPs — or employees raise an intake request.</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">02</div>
-        <div class="bf-icon">{% include icon.html name="check" %}</div>
-        <h3>Approve / Purchase</h3>
-        <p>Free capabilities follow trial or approval policy; paid ones go through procurement — license centrally held by the enterprise Hub.</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">03</div>
-        <div class="bf-icon">{% include icon.html name="package" %}</div>
-        <h3>Intake & Publish</h3>
-        <p>Approved capabilities enter the private market with version, permission allowlist and source-provenance metadata.</p>
-      </div>
-      <div class="bf-arrow">&rarr;</div>
-      <div class="buildflow-step">
-        <div class="bf-num">04</div>
-        <div class="bf-icon">{% include icon.html name="send" %}</div>
-        <h3>Deploy & Install</h3>
-        <p>Push to employees' MaClaw by department/role/project — force-install or recommend, with auto-retry on failure.</p>
-      </div>
-    </div>
-
-    <div class="buildflow-note">
-      <strong>Dual-track policy:</strong>
-      <span class="track-item"><span class="track-tag track-free">Free</span> Trial-then-adopt — validated capabilities auto-archived to the enterprise market</span>
-      <span class="track-item"><span class="track-tag track-paid">Paid</span> Approve-then-use — license centralized, invocation controlled, never leaves enterprise boundary</span>
-    </div>
-  </div>
-</section>
-
 <!-- Workflow Templates -->
 <section class="workflow-section section" id="workflows">
   <div class="container">
-    <h2 class="section-title">Office Workflow Templates</h2>
-    <p class="section-subtitle">38 structured workflows. Highlights below — academic writing and review are in Research assistance</p>
+    <h2 class="section-title">Ready-to-Use Workflows</h2>
+    <p class="section-subtitle">38 structured workflows. Highlights below; academic writing and review are under Industry Solution: Research</p>
     <div class="workflow-grid">
       <div class="workflow-card">
         <div class="workflow-icon">{% include icon.html name="file-pen" %}</div>
@@ -1067,10 +820,10 @@ permalink: /
 </section>
 
 <!-- Core Technology (Developer-oriented) -->
-<section class="developer-section section">
+<section class="developer-section section" id="technology">
   <div class="container">
     <h2 class="section-title">Core Technology</h2>
-    <p class="section-subtitle">The engines that power the Digital Companion</p>
+    <p class="section-subtitle">The engines that help agents remember, retrieve and act correctly</p>
     <div class="developer-grid">
       <div class="developer-card">
         <h3>Memory Architecture</h3>
@@ -1140,10 +893,258 @@ permalink: /
   </div>
 </section>
 
-<!-- Quick Start -->
-<section class="quickstart-section section">
+<!-- 4-Tier Capability System -->
+<section class="capability-section section" id="capability-tiers">
   <div class="container">
-    <h2 class="section-title">Quick Start</h2>
+    <h2 class="section-title">Governance: 4-Tier Capability System</h2>
+    <p class="section-subtitle">Enterprises prefer their own approved capabilities; external sources are introduced under enterprise policy</p>
+
+    <div class="capability-pyramid">
+      <div class="capability-tier tier-1">
+        <div class="tier-rank">Priority 1</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="building" %}</span>
+            <div>
+              <h3 class="tier-name">Private Capability Market</h3>
+              <p class="tier-sub">Enterprise Hub Marketplace</p>
+            </div>
+          </div>
+          <p class="tier-desc">Enterprise-built Skill/MCP library curated by admins. Employees' MaClaw calls these first by default; licenses for paid capabilities are centrally held and never leave enterprise boundaries.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Self-managed</span>
+            <span class="tier-tag">Approval-gated</span>
+            <span class="tier-tag">Top priority</span>
+            <span class="tier-tag">Centralized license</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-2">
+        <div class="tier-rank">Priority 2</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="cloud" %}</span>
+            <div>
+              <h3 class="tier-name">Public Capability Market</h3>
+              <p class="tier-sub">HubCenter Marketplace</p>
+            </div>
+          </div>
+          <p class="tier-desc">HubCenter public market, including official SkillHub skills and commercial partners. Free Skills install directly; paid Skills and MCPs go through enterprise procurement. Admins can bulk-import into the private market.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Official</span>
+            <span class="tier-tag">Commercial</span>
+            <span class="tier-tag">Purchase / Subscribe</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-3">
+        <div class="tier-rank">Priority 3</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="globe" %}</span>
+            <div>
+              <h3 class="tier-name">ClawHub</h3>
+              <p class="tier-sub">Community capabilities</p>
+            </div>
+          </div>
+          <p class="tier-desc">Open community-built capability source. Free Skills can be tried with low friction; validated ones get promoted into the enterprise private market as enterprise assets.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Community</span>
+            <span class="tier-tag">Free Trial</span>
+            <span class="tier-tag">Try-then-Adopt</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-tier tier-4">
+        <div class="tier-rank">Priority 4</div>
+        <div class="tier-body">
+          <div class="tier-head">
+            <span class="tier-icon">{% include icon.html name="git-branch" %}</span>
+            <div>
+              <h3 class="tier-name">GitHub</h3>
+              <p class="tier-sub">Open-source ecosystem</p>
+            </div>
+          </div>
+          <p class="tier-desc">Direct GitHub-repo Skills/MCPs offer the broadest reach. Enterprise admins can whitelist allowed sources to control what gets pulled in.</p>
+          <div class="tier-tags">
+            <span class="tier-tag">Open Source</span>
+            <span class="tier-tag">Maximum Breadth</span>
+            <span class="tier-tag">Allowlisted</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="capability-routing">
+      <h3 class="routing-title">{% include icon.html name="search" %} Smart Routing in Enterprise Mode</h3>
+      <p>When MaClaw is in enterprise mode, capability lookup order is: <strong>Private Market → Public Market → ClawHub → GitHub</strong>. Capabilities published in the enterprise Hub always win; whether external sources can be searched, trialed or imported is decided by enterprise policy.</p>
+      <ul class="routing-rules">
+        <li><strong>Free capabilities</strong>: configurable as "trial-then-adopt" — validated capabilities are auto-archived into the enterprise market.</li>
+        <li><strong>Paid capabilities</strong>: must be "approved and purchased, then made available" — license stays in the enterprise Hub throughout.</li>
+        <li><strong>MCP services</strong>: when a secret is missing, status shows "needs configuration" without blocking the main flow.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Governance: Capability Build Process -->
+<section class="buildflow-section section" id="governance">
+  <div class="container">
+    <h2 class="section-title">Governance: Capability Build Process</h2>
+    <p class="section-subtitle">Four steps to turn external capabilities into enterprise-owned assets</p>
+
+    <div class="buildflow-steps">
+      <div class="buildflow-step">
+        <div class="bf-num">01</div>
+        <div class="bf-icon">{% include icon.html name="search" %}</div>
+        <h3>Discover</h3>
+        <p>Admins search public market, ClawHub, GitHub for matching Skills/MCPs — or employees raise an intake request.</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">02</div>
+        <div class="bf-icon">{% include icon.html name="check" %}</div>
+        <h3>Approve / Purchase</h3>
+        <p>Free capabilities follow trial or approval policy; paid ones go through procurement — license centrally held by the enterprise Hub.</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">03</div>
+        <div class="bf-icon">{% include icon.html name="package" %}</div>
+        <h3>Intake & Publish</h3>
+        <p>Approved capabilities enter the private market with version, permission allowlist and source-provenance metadata.</p>
+      </div>
+      <div class="bf-arrow">&rarr;</div>
+      <div class="buildflow-step">
+        <div class="bf-num">04</div>
+        <div class="bf-icon">{% include icon.html name="send" %}</div>
+        <h3>Deploy & Install</h3>
+        <p>Push to employees' MaClaw by department/role/project — force-install or recommend, with auto-retry on failure.</p>
+      </div>
+    </div>
+
+    <div class="buildflow-note">
+      <strong>Dual-track policy:</strong>
+      <span class="track-item"><span class="track-tag track-free">Free</span> Trial-then-adopt — validated capabilities auto-archived to the enterprise market</span>
+      <span class="track-item"><span class="track-tag track-paid">Paid</span> Approve-then-use — license centralized, invocation controlled, never leaves enterprise boundary</span>
+    </div>
+  </div>
+</section>
+
+<!-- Research assistance -->
+<section class="education-section section" id="research">
+  <div class="container">
+    <h2 class="section-title">Industry Solution: Research Assistance</h2>
+    <p class="section-subtitle">Direction, papers, and master's or PhD theses — writing, outlines, review, group reading, and remote comments — on workflows and experts that ship with MaClaw.</p>
+    <div class="scenario-banner">
+      <span class="scenario-label">Education</span>
+      <h3 class="scenario-headline">Eight research jobs MaClaw already sits beside you for</h3>
+    </div>
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="compass" %}</span>
+          <h3>Research direction planning</h3>
+        </div>
+        <p class="scenario-desc">Start with a literature review: define the topic, set the search, screen papers, and synthesize the gap. Grant and talent workflows then turn that gap into a research plan — the core question, feasibility, and a direction you can defend.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Literature review</span>
+          <span class="scenario-tag">Grant proposal</span>
+          <span class="scenario-tag">NSFC plans</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="pen" %}</span>
+          <h3>Academic paper writing</h3>
+        </div>
+        <p class="scenario-desc">The paper-writing workflow moves in phases you confirm: outline, literature, draft, figures, and polish. The paper-polish and academic-translation experts keep terminology stable. The LaTeX expert writes into your .tex template and sends you to compile preview.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Paper writing</span>
+          <span class="scenario-tag">Polish</span>
+          <span class="scenario-tag">Translation</span>
+          <span class="scenario-tag">LaTeX</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="ruler" %}</span>
+          <h3>Graduation thesis outline</h3>
+        </div>
+        <p class="scenario-desc">The outline phase of paper writing locks the chapter frame before prose is treated as final. The LaTeX expert reads the degree-thesis template — the main file and its included chapters — and keeps that structure.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Outline phase</span>
+          <span class="scenario-tag">Thesis template</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="graduation" %}</span>
+          <h3>Master's / PhD thesis writing</h3>
+        </div>
+        <p class="scenario-desc">Write on the degree-thesis template you already use. The LaTeX expert fills the .tex in place, chapter by chapter. The paper-writing workflow drafts the sections you confirm as you go.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">LaTeX thesis</span>
+          <span class="scenario-tag">Chapter drafts</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="search" %}</span>
+          <h3>Academic paper review</h3>
+        </div>
+        <p class="scenario-desc">The paper-polish expert reviews academic language without changing the claim, and notes each edit. Open the PDF in the file companion to leave comments on the file. Changjiang Scholar and NSFC review workflows (Distinguished Youth, Excellent Youth, Youth, General, and Key) score completeness, achievements, the research plan, and writing quality, then write a combined report.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Polish review</span>
+          <span class="scenario-tag">Companion notes</span>
+          <span class="scenario-tag">Application review</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="clipboard" %}</span>
+          <h3>Master's / PhD thesis review</h3>
+        </div>
+        <p class="scenario-desc">Load the thesis into the file companion so comments stay on that file. The polish expert reads language and structure section by section. After you share it, the host approves or ignores each note before a reply is written back for the group.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Chapter notes</span>
+          <span class="scenario-tag">Host review</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="library" %}</span>
+          <h3>Assisted reading and group sharing</h3>
+        </div>
+        <p class="scenario-desc">Paste an arXiv id or link. The file companion downloads the PDF into its own tab, and the chat discusses only that paper. Share it with classmates or a lab group: questions become annotations, the host approves or ignores them, and approved replies are visible to everyone on the share. Rewrites of a selection, reading notes, and paper explainers stay on your machine.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">arXiv</span>
+          <span class="scenario-tag">File companion</span>
+          <span class="scenario-tag">Group share</span>
+        </div>
+      </div>
+      <div class="scenario-card scenario-research">
+        <div class="scenario-head">
+          <span class="scenario-icon">{% include icon.html name="globe" %}</span>
+          <h3>Remote paper review</h3>
+        </div>
+        <p class="scenario-desc">Reviewers do not have to sit at the author's computer. A shared companion document goes through Hub: participants comment from their own MaClaw, the host approves, and the reply is stored on the same share. A Hub remote session lets you continue that review away from the desk.</p>
+        <div class="scenario-tags">
+          <span class="scenario-tag">Hub share</span>
+          <span class="scenario-tag">Remote session</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Start -->
+<section class="quickstart-section section" id="get-started">
+  <div class="container">
+    <h2 class="section-title">Download and Deploy</h2>
     <div class="quickstart-steps">
       <div class="step-item">
         <span class="step-num">1</span>
